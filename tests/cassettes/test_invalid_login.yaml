@@ -28,7 +28,7 @@ interactions:
         text/javascript\" src=\"//use.typekit.net/vyg1evw.js\"></script>\n  <script\
         \ type=\"text/javascript\">try{Typekit.load();}catch(e){}</script>\n\n  <meta\
         \ name=\"csrf-param\" content=\"authenticity_token\" />\n<meta name=\"csrf-token\"\
-        \ content=\"7/CCQzeXWXcOAz6ybwKnAMTEbVHHBqmExrLoa6paiN9DFxROXAo1Vx7napC3kejTaBOaRaNP0EvU3tkCGE6g3Q==\"\
+        \ content=\"M/X145M14qtnVgasE/FlyOsdn3eAveJ83ls4RUue0VFjXG4XmjNSreyZ3bn8RH7n7R7qGZyNocz0cBsSV68q8Q==\"\
         \ />\n  <link rel=\"stylesheet\" media=\"screen\" href=\"/assets/application-d81bcd21e87689dde6eeff5e9bdc83d0cdf7cd126e16c70d689865707c315e47.css\"\
         \ />\n  <script src=\"/assets/application-df746dd666ff7f87458ee54d1548a98e689b3d64c4fe1c4ed9c67561e37f215a.js\"\
         ></script>\n\n</head>\n<body>\n\n<div class=\"container\">\n\n  <div id=\"\
@@ -37,7 +37,7 @@ interactions:
         \ to continue.</p>\n\n    <form role=\"form\" class=\"new_user\" id=\"new_user\"\
         \ action=\"/users/sign_in\" accept-charset=\"UTF-8\" method=\"post\"><input\
         \ name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input type=\"hidden\"\
-        \ name=\"authenticity_token\" value=\"9i4CDzYP0xsXdYg9XVA4l+MFi4Mxpki5ki1modgQLohayZQCXZK/OweR3B+Fw3dET9J8l1XvMXaAQVfIagQGig==\"\
+        \ name=\"authenticity_token\" value=\"+6OOnN1kKzWNiD1qv5aw3CiorNDwnsJpomVFK2R0YsurChVo1GKbMwZH5n9QI6vzLqvZvuyugdmITmZ8eEWZaw==\"\
         \ />\n        \n\n        \n        \n        <div id=\"flash_alert\" class=\"\
         alert alert-danger\">Invalid email or password.</div>\n\n        <div class=\"\
         form-group\">\n          <input autofocus=\"autofocus\" class=\"form-control\
@@ -61,11 +61,11 @@ interactions:
       Cache-Control: ['max-age=0, private, must-revalidate']
       Connection: [keep-alive]
       Content-Type: [text/html; charset=utf-8]
-      Date: ['Thu, 11 Oct 2018 15:45:11 GMT']
-      ETag: [W/"df3d1fd3a9f7a13ec351a58d0d9e60e4"]
+      Date: ['Thu, 11 Oct 2018 16:45:31 GMT']
+      ETag: [W/"6e42b7e2d59414167e0c61353464cf16"]
       Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
-      Set-Cookie: [XSRF-TOKEN=2FSJZ%2Ft1NkPBnx5aIlE%2BeevbfyYetjyfMBqhOVpmlK90sx9qkOhaY9F7Snj6wnGqRwyIMnr%2FRVAidpBQ6HK8rQ%3D%3D;
-          path=/, _social_session=MTFrYVlpeCtFZGpvZTdyUWNuL3JhRkdpMmlZR2U4UjdYUzFPSEJ5TnBXN0Z0L2lSMWk2aFlqU1ZydVAzNTFWSkcvMDA3dWMwaEdhTXhQYTlzRmRLdG1FNm9zb05XVWIrRTZyMlE5T1JkanhGMi8yS1E2Nk9NUktpZE5uN2FBbXRFejNvdzJwb3A1UzB6TURLWmFGMWdaOVM1cWlFZkIraHU3c0dadWJ1bGY2bFJjUmJyQXNnZTZkZlpGV1lZYURTLS0vWm5OU3JaN1JIOTB4azk4NVlQMWRnPT0%3D--26148d2589abefe3e5fe5ebff3010a286268bb2b;
+      Set-Cookie: [XSRF-TOKEN=OgBeVVHPej6sBpAxmZ1mtPxpFR1M4Q1949aUUHpSjoxqqcWhWMnKOCfJSyR2KH2b%2Bmpgc1DRTs3J%2FbcHZmN1LA%3D%3D;
+          path=/, _social_session=UEk2VXI4MWtuL0E3MHljc21ZdW5wZTJhQ28vdG9mQzNjWjFVbkxYLzBQOVVRajhqWG9MT2x2bjdaTCtxNllWWjUzSlh2STc3b2JSL2dNVFA0WWxBVGV4RVI5dHhnbVdwMmhVMlhablJ6UWdId2dRVjlxdGVIRlgwQWFQT2pIVllHRVNZWFZ2d0RvckNBd3BPcTlpdGpYVzQwNjVoZjAvM01wMjgyd2Y2L1BRbFlmRi85SW9oWWU2ekx1NmpOei9QLS0yZWorenR5NWNKNlRaYkhTK0dtdHF3PT0%3D--2c018804776ebc87d71c4e48a3fa0ce4f639ee36;
           path=/; HttpOnly]
       Status: [200 OK]
       Strict-Transport-Security: [max-age=15768000]
@@ -73,8 +73,8 @@ interactions:
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
       X-Powered-By: [Phusion Passenger 5.3.2]
-      X-Request-Id: [0fa0b9af-a511-4531-843b-396bd821361f]
-      X-Runtime: ['0.100019']
+      X-Request-Id: [8919f267-96e7-4436-935b-559a3abbe27e]
+      X-Runtime: ['0.098820']
       X-XSS-Protection: [1; mode=block]
     status: {code: 200, message: OK}
 version: 1

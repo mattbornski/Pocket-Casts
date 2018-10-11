@@ -12,11 +12,11 @@ interactions:
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [text/html; charset=utf-8]
-      Date: ['Thu, 11 Oct 2018 15:45:21 GMT']
+      Date: ['Thu, 11 Oct 2018 16:45:41 GMT']
       Location: ['https://play.pocketcasts.com/']
       Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
-      Set-Cookie: [XSRF-TOKEN=rRg6Bvx8xYzWFxWaNz%2FIREZfV8p6JEgT%2FBLdOgDey9RDpLNJJ1SpAA4mT64Nyjlboco496VvISuAUVdr7Y84UA%3D%3D;
-          path=/, _social_session=a3hVN2dFWkp3REF2Rm85S05zajJwNVFORFAxenhSY0hjY0JHVmJtWFF4T3JBZlFpa0FXUHc4MVFxdHdWdTk4U3NoWnh1TWZPOGd5cVVCdzB3a3ZMcjdVNlpyUjlVTWVjVk82VDNaY1EzOHE4YzVJWUZZc2g3SVVKcjVYMnU3bFZ1VjVjeUlsZ2xESkRRKzFIR1ZZTnJhUEt0aGJERUwwZ0Q3eHdSek50Mi9YSTlKZUwyRGRGZWVZc3Bua1ZaRDNLLS1Xd05DVVVwL2d0Tjk1QnpBbitlUlJRPT0%3D--b8e16d787e74513039d3f09af005d9e09ea86a3a;
+      Set-Cookie: [XSRF-TOKEN=hbrFrDo%2FUKNiWJKDs5ZeegePPjI3AAyK%2FtOV5x1O8DM7RFC%2FSk%2F8jO%2F7bUdTG5bnQgVVoVxxcqYj0BL3%2FN6WhA%3D%3D;
+          path=/, _social_session=OVJCTlJYMGM3Y1pTT3lhUHFtVDNRRkhoSU0ralR2ZFAxYkNxbm5uWUxibTcwaGpTYjJOV2RNMkVwMngyOWlyS2xaTDVJMk1LcGlLUzc0RFNPbmg3WHRIQy9yNzEzZGJEUHp2V2djOXB4cnI4ZWVudWRmOUYzOVNCd2pTYzlPRUxZTTVCL0YwS1YwVEhNT0xzaC9zQmlseU1FdFAyaExlVHluNUkxRkhOd3l0YmF6dmN6MWpOWGlGVU0xMytqMTlZLS0rVUpwdW15N05LbUdnY2V6NmpaczFnPT0%3D--da37bf2e6bccbb52c5eb1af7ab0b13e69855da53;
           path=/; HttpOnly]
       Status: [302 Found]
       Strict-Transport-Security: [max-age=15768000]
@@ -24,15 +24,15 @@ interactions:
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
       X-Powered-By: [Phusion Passenger 5.3.2]
-      X-Request-Id: [06402519-79c9-4635-9fe8-60f50338e3c0]
-      X-Runtime: ['0.095903']
+      X-Request-Id: [10998124-ad60-4566-86b7-1dab63bc46df]
+      X-Runtime: ['0.090853']
       X-XSS-Protection: [1; mode=block]
     status: {code: 302, message: Found}
 - request:
     body: null
     headers:
-      Cookie: [XSRF-TOKEN=rRg6Bvx8xYzWFxWaNz%2FIREZfV8p6JEgT%2FBLdOgDey9RDpLNJJ1SpAA4mT64Nyjlboco496VvISuAUVdr7Y84UA%3D%3D;
-          _social_session=a3hVN2dFWkp3REF2Rm85S05zajJwNVFORFAxenhSY0hjY0JHVmJtWFF4T3JBZlFpa0FXUHc4MVFxdHdWdTk4U3NoWnh1TWZPOGd5cVVCdzB3a3ZMcjdVNlpyUjlVTWVjVk82VDNaY1EzOHE4YzVJWUZZc2g3SVVKcjVYMnU3bFZ1VjVjeUlsZ2xESkRRKzFIR1ZZTnJhUEt0aGJERUwwZ0Q3eHdSek50Mi9YSTlKZUwyRGRGZWVZc3Bua1ZaRDNLLS1Xd05DVVVwL2d0Tjk1QnpBbitlUlJRPT0%3D--b8e16d787e74513039d3f09af005d9e09ea86a3a]
+      Cookie: [XSRF-TOKEN=hbrFrDo%2FUKNiWJKDs5ZeegePPjI3AAyK%2FtOV5x1O8DM7RFC%2FSk%2F8jO%2F7bUdTG5bnQgVVoVxxcqYj0BL3%2FN6WhA%3D%3D;
+          _social_session=OVJCTlJYMGM3Y1pTT3lhUHFtVDNRRkhoSU0ralR2ZFAxYkNxbm5uWUxibTcwaGpTYjJOV2RNMkVwMngyOWlyS2xaTDVJMk1LcGlLUzc0RFNPbmg3WHRIQy9yNzEzZGJEUHp2V2djOXB4cnI4ZWVudWRmOUYzOVNCd2pTYzlPRUxZTTVCL0YwS1YwVEhNT0xzaC9zQmlseU1FdFAyaExlVHluNUkxRkhOd3l0YmF6dmN6MWpOWGlGVU0xMytqMTlZLS0rVUpwdW15N05LbUdnY2V6NmpaczFnPT0%3D--da37bf2e6bccbb52c5eb1af7ab0b13e69855da53]
     method: GET
     uri: https://play.pocketcasts.com/
   response:
@@ -41,11 +41,11 @@ interactions:
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [text/html; charset=utf-8]
-      Date: ['Thu, 11 Oct 2018 15:45:21 GMT']
+      Date: ['Thu, 11 Oct 2018 16:45:41 GMT']
       Location: ['https://play.pocketcasts.com/web/podcasts/index']
       Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
-      Set-Cookie: [XSRF-TOKEN=3N%2BLvVTO8Bvr%2FOlRgetxnj2RY1PWjx%2Fzg2SWT2xN4pIU2FA3dTjoeN6Nx55yQ2FUFhJeQAk5yG9VBmbPSHvyZg%3D%3D;
-          path=/, _social_session=cXUyNWJqVWxtVy93UkxFRDJkMXh3V29GZ2ZUL2xaK2xQQ2ErZUZ2Nm1xM2h2czNZZWVoWXJnRkhYVlRsdnREdlkwcGxDR0srYmo4aSthbVY2Mm1JRER6NUhqL3A1OTNPbU5OWmk3SUw0TkwxSE1XcngwYlRmSmNsWEE4TWZmM1RINWl4V3dFc2V2YTdvWFNXZWEydE43QWtQT0hrTmdRTjNFSnp6UU9wazk3anE5L0c3dHMrKzZrTmltSk1WTXEyajArdXgzaU9IN0RtekM0WlVMWkdyQU5MV293WmVBcytsYlFtV1ZhaXZkSjVIUnZ4amZqMWE2TElPVmQ4bTkrNUNZVnRIWXFuUWRNVVczNDdqNTFJaHc9PS0tZi9MeG9lWER4dlB4dFMzM1M4UFRkQT09--3ae551ce0780b830d5e59dc4f86b25aaab41fc37;
+      Set-Cookie: [XSRF-TOKEN=GXGFeicvojjlKNBE75EW%2FfI1M%2B0wNWdhzDV4q3qEBStczgGqSVs9ejxH5ObCXHPjr%2Bms971GSwqKOZm7BQURXw%3D%3D;
+          path=/, _social_session=U2dnejc1bTVVZGtCWmdPazVFOXkzZnRRWkt0ZWVGMXVOUEtjRHgyRzN5Z2UvVW5jcXpWZnZLK1VFUmhEenB0UUZTdDJQbHJ1VVJTUTczNG1nL2h2bHp4emNaUnN4aVZWVTlhZ0RNMEZqYlVwTlBiNVdseFRjZUUya3NnUmx0SDBQMnFZYlhSLzk1TTlvdXNrd0gvejdDZVE2SldZRWhPbUZweEVKY3B6MGFuZ0NiWG50U1R4UnVSRklMY2VNTFJVVVowbjRlZ0xFb1hwNkw4aDZTWFR6SlBiTzdrcHJReFRPZWlleFdqSS82QWthWXU5aEhURlNyWXR1TFhUUzVKSFpOVmx1c1ZnSEtwcVlDZ1piNGtrR3c9PS0tandVWEYxbXhvanRJa0cxbm1QbW9yZz09--eb404e37bbdbdbbe782155dda05a234d1de05d42;
           path=/; HttpOnly]
       Status: [302 Found]
       Strict-Transport-Security: [max-age=15768000]
@@ -53,15 +53,15 @@ interactions:
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
       X-Powered-By: [Phusion Passenger 5.3.2]
-      X-Request-Id: [dfd84409-ae9e-4145-8127-b2d65850b2a3]
-      X-Runtime: ['0.012916']
+      X-Request-Id: [c422b3c1-123f-4af3-ae04-a602e3b56cac]
+      X-Runtime: ['0.006983']
       X-XSS-Protection: [1; mode=block]
     status: {code: 302, message: Found}
 - request:
     body: null
     headers:
-      Cookie: [XSRF-TOKEN=3N%2BLvVTO8Bvr%2FOlRgetxnj2RY1PWjx%2Fzg2SWT2xN4pIU2FA3dTjoeN6Nx55yQ2FUFhJeQAk5yG9VBmbPSHvyZg%3D%3D;
-          _social_session=cXUyNWJqVWxtVy93UkxFRDJkMXh3V29GZ2ZUL2xaK2xQQ2ErZUZ2Nm1xM2h2czNZZWVoWXJnRkhYVlRsdnREdlkwcGxDR0srYmo4aSthbVY2Mm1JRER6NUhqL3A1OTNPbU5OWmk3SUw0TkwxSE1XcngwYlRmSmNsWEE4TWZmM1RINWl4V3dFc2V2YTdvWFNXZWEydE43QWtQT0hrTmdRTjNFSnp6UU9wazk3anE5L0c3dHMrKzZrTmltSk1WTXEyajArdXgzaU9IN0RtekM0WlVMWkdyQU5MV293WmVBcytsYlFtV1ZhaXZkSjVIUnZ4amZqMWE2TElPVmQ4bTkrNUNZVnRIWXFuUWRNVVczNDdqNTFJaHc9PS0tZi9MeG9lWER4dlB4dFMzM1M4UFRkQT09--3ae551ce0780b830d5e59dc4f86b25aaab41fc37]
+      Cookie: [XSRF-TOKEN=GXGFeicvojjlKNBE75EW%2FfI1M%2B0wNWdhzDV4q3qEBStczgGqSVs9ejxH5ObCXHPjr%2Bms971GSwqKOZm7BQURXw%3D%3D;
+          _social_session=U2dnejc1bTVVZGtCWmdPazVFOXkzZnRRWkt0ZWVGMXVOUEtjRHgyRzN5Z2UvVW5jcXpWZnZLK1VFUmhEenB0UUZTdDJQbHJ1VVJTUTczNG1nL2h2bHp4emNaUnN4aVZWVTlhZ0RNMEZqYlVwTlBiNVdseFRjZUUya3NnUmx0SDBQMnFZYlhSLzk1TTlvdXNrd0gvejdDZVE2SldZRWhPbUZweEVKY3B6MGFuZ0NiWG50U1R4UnVSRklMY2VNTFJVVVowbjRlZ0xFb1hwNkw4aDZTWFR6SlBiTzdrcHJReFRPZWlleFdqSS82QWthWXU5aEhURlNyWXR1TFhUUzVKSFpOVmx1c1ZnSEtwcVlDZ1piNGtrR3c9PS0tandVWEYxbXhvanRJa0cxbm1QbW9yZz09--eb404e37bbdbdbbe782155dda05a234d1de05d42]
     method: GET
     uri: https://play.pocketcasts.com/web/podcasts/index
   response:
@@ -83,10 +83,10 @@ interactions:
         /assets/safaripin-77e9d90e5b601140255b449546876dd4a9ff421ac23483b2d14536ba65b8b7b7.svg\"\
         \ color=\"#F44336\" />\n  <title>Pocket Casts</title>\n  <meta name=\"csrf-param\"\
         \ content=\"authenticity_token\" />\n<meta name=\"csrf-token\" content=\"\
-        jXGQFomy1StBT368aKNDhlf7IIaPfWIls/rLndGUGBJFdkucqETNSHQ+UHObC1NMfHgdlVDLtbllmDsd9aII5g==\"\
+        mb4Dv8A6rPjmhsW3eBhwpNc96/M+lenIHsAK22xpHvLcAYdvrk4zuj/p8RVV1RW6iuF06bPmxaNYzOvLE+gKhg==\"\
         \ />\n  <script>\n      var SHOW_WELCOME = false;\n      var USER_PODCASTS_UUIDS\
-        \ = [];\n      var USER_EMAIL = 'matt+pocketcasts@bornski.com';\n      var\
-        \ CHECKOUT_URL = 'https://pay.paddle.com/checkout/495004?passthrough=664486&quantity_variable=0&guest_email=matt%2Bpocketcasts%40bornski.com';\n\
+        \ = ['8b503540-25d2-0134-2f17-737688e4d168'];\n      var USER_EMAIL = 'matt+pocketcasts@bornski.com';\n\
+        \      var CHECKOUT_URL = 'https://pay.paddle.com/checkout/495004?passthrough=664486&quantity_variable=0&guest_email=matt%2Bpocketcasts%40bornski.com';\n\
         \      var APP_VERSION_CODE = 5;\n      var PAID = true;\n  </script>\n  <script\
         \ type=\"text/javascript\" src=\"https://www.gstatic.com/cv/js/sender/v1/cast_sender.js\"\
         ></script>\n  <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/icon?family=Material+Icons\"\
@@ -166,11 +166,11 @@ interactions:
       Cache-Control: ['max-age=0, private, must-revalidate']
       Connection: [keep-alive]
       Content-Type: [text/html; charset=utf-8]
-      Date: ['Thu, 11 Oct 2018 15:45:21 GMT']
-      ETag: [W/"48afa340976d1ad7fbabd68a6eded22f"]
+      Date: ['Thu, 11 Oct 2018 16:45:41 GMT']
+      ETag: [W/"b7924afe0423ff16724e6efe15cd3739"]
       Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
-      Set-Cookie: [XSRF-TOKEN=oaTSY740hNrUIQyCl5InmBUw9FlSfc50uAoq5YqoSH9pownpn8KcueFQIk1kOjdSPrPJSo3LGehuaNplrp5Yiw%3D%3D;
-          path=/, _social_session=Mjd1bWMxejd2OWlyVzlNL01XWWhsSTd6Rzd6ZGdZRDdaMUVMUFRlejZrbTJ6cmtmelhIU0tqV1J6cGVBaU5MVWo4T0t2RkZnRld5VjFTR25nWnd6L01FSGxDMnNEQmphdzRNRXBMZ0Z3Vjg2QndqNXlaUXhMdkwveTFTWlJnMjlkY0FkblQ3TFRrV3lQc1AyNkVONy8rcG5JbThRTFpub25QL1g1MVNwMldZOFdrUHpZcDU1TzJYdEdBbmorU1lmakg3TGgySFAzVFM5MDdaaFBpTC9Ec0orb0kwZWJHaE51ekZGakozdElMU1VRSytMVDhwZStpMmhUQ0ZPS3p2aHNiQTBjSUZpWGJ5b2NVR09yTHRxYlE9PS0ta3ZXL0J5YlVpd05NWkc4aUdtSCtEUT09--1029959bb839d617e44d26d48f30c9367472ac21;
+      Set-Cookie: [XSRF-TOKEN=XN9MjCqHXXZraw7IlWh8ZzrFj9zxZpBgIhJ692uok8oZYMhcRPPCNLIEOmq4pRl5ZxkQxnwVvAtkHpvnFCmHvg%3D%3D;
+          path=/, _social_session=SWNlZXR3N2JXVkFQaUx0S0YvR3FmaWtNRURjZjc5K1JiWUFZMXRENmJBUGwrTWtjZXhKZnZmMUxxeFFxbDlTRWR3ckpHUGI2c0xzYWIvWW0vU254bFNtSE5OWlV3bmhER1UvNUxuS29FdFNpYVl4YmJwbVpWSlM1UmpqRVFZV3lUczExb3U1Qm14Y0VWTDhVM29DaStJTjRhK3Y3Vkp1aWVwVlZUSmFuNTJpUGk3R2VHV3l3dXR0U2RXd2szdXJ6RnFCeWZSc25RYW5KQjZEZFJ5VUJUOEc0eXBQR1NRSUs2clQ5QjFibEUvaG9pUlArR1FHRVBTdSs3UEdOOHQxdGlGcjhBbzZXK1FzOWhiS0FDUGNlQ2c9PS0tUFphejZtTThwVzZGS1Y2WWJoMC9ydz09--36f59c1c597f99b241e3e035317f6622f2740ea5;
           path=/; HttpOnly]
       Status: [200 OK]
       Strict-Transport-Security: [max-age=15768000]
@@ -178,16 +178,16 @@ interactions:
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
       X-Powered-By: [Phusion Passenger 5.3.2]
-      X-Request-Id: [5f9af301-4334-4ecf-87de-05f7a3f69ef8]
-      X-Runtime: ['0.017581']
+      X-Request-Id: [cdb8a177-802e-4592-9b53-341ab6ed0b54]
+      X-Runtime: ['0.012943']
       X-XSS-Protection: [1; mode=block]
     status: {code: 200, message: OK}
 - request:
     body: null
     headers:
       Content-Length: ['0']
-      Cookie: [XSRF-TOKEN=oaTSY740hNrUIQyCl5InmBUw9FlSfc50uAoq5YqoSH9pownpn8KcueFQIk1kOjdSPrPJSo3LGehuaNplrp5Yiw%3D%3D;
-          _social_session=Mjd1bWMxejd2OWlyVzlNL01XWWhsSTd6Rzd6ZGdZRDdaMUVMUFRlejZrbTJ6cmtmelhIU0tqV1J6cGVBaU5MVWo4T0t2RkZnRld5VjFTR25nWnd6L01FSGxDMnNEQmphdzRNRXBMZ0Z3Vjg2QndqNXlaUXhMdkwveTFTWlJnMjlkY0FkblQ3TFRrV3lQc1AyNkVONy8rcG5JbThRTFpub25QL1g1MVNwMldZOFdrUHpZcDU1TzJYdEdBbmorU1lmakg3TGgySFAzVFM5MDdaaFBpTC9Ec0orb0kwZWJHaE51ekZGakozdElMU1VRSytMVDhwZStpMmhUQ0ZPS3p2aHNiQTBjSUZpWGJ5b2NVR09yTHRxYlE9PS0ta3ZXL0J5YlVpd05NWkc4aUdtSCtEUT09--1029959bb839d617e44d26d48f30c9367472ac21]
+      Cookie: [XSRF-TOKEN=XN9MjCqHXXZraw7IlWh8ZzrFj9zxZpBgIhJ692uok8oZYMhcRPPCNLIEOmq4pRl5ZxkQxnwVvAtkHpvnFCmHvg%3D%3D;
+          _social_session=SWNlZXR3N2JXVkFQaUx0S0YvR3FmaWtNRURjZjc5K1JiWUFZMXRENmJBUGwrTWtjZXhKZnZmMUxxeFFxbDlTRWR3ckpHUGI2c0xzYWIvWW0vU254bFNtSE5OWlV3bmhER1UvNUxuS29FdFNpYVl4YmJwbVpWSlM1UmpqRVFZV3lUczExb3U1Qm14Y0VWTDhVM29DaStJTjRhK3Y3Vkp1aWVwVlZUSmFuNTJpUGk3R2VHV3l3dXR0U2RXd2szdXJ6RnFCeWZSc25RYW5KQjZEZFJ5VUJUOEc0eXBQR1NRSUs2clQ5QjFibEUvaG9pUlArR1FHRVBTdSs3UEdOOHQxdGlGcjhBbzZXK1FzOWhiS0FDUGNlQ2c9PS0tUFphejZtTThwVzZGS1Y2WWJoMC9ydz09--36f59c1c597f99b241e3e035317f6622f2740ea5]
     method: POST
     uri: https://play.pocketcasts.com/web/episodes/starred_episodes.json
   response:
@@ -196,11 +196,11 @@ interactions:
       Cache-Control: ['max-age=0, private, must-revalidate']
       Connection: [keep-alive]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Thu, 11 Oct 2018 15:45:21 GMT']
+      Date: ['Thu, 11 Oct 2018 16:45:41 GMT']
       ETag: [W/"d052fedf717554b22e0e63d7db9b7ab9"]
       Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
-      Set-Cookie: [XSRF-TOKEN=i57EvRvNakTk06CrQx%2Fmyz1L7roiCHi8n8sM%2FCy%2B2%2BdDmR83OjtyJ9GijmSwt%2FYBFsjTqf2%2BryBJqfx8CIjLEw%3D%3D;
-          path=/, _social_session=bzd5NkpVQXFPUGJMczQzSFlWNE1ZYXdkREYzT3dBWXl5YnlJOWRBdUVxTUl4WDJSaG9wMnJvb1NUQ3FvRFVZZDVTazR3ZjkzWW11eXIvcXhWblUvLzdiZHFWTmw0Rnk4S2hsUEJjYTFwV1NWdFNKTzM1cFNYdlRIVXJTL2RmVU1xSVlaM2p3ZVRCbk52RHg4b2RZR216WG1XZTB1Z3F3cU5zNHlMSWJZeXRuV2FrUi9vZkdEazdpbDhXQVZjRW1UM0VqQngxYjRGU2NVbEd1c1E3WmhoektQVnVqZEd5aEhmM05NVE15ZWtHVGdTMTNHV1ZxR1lTQVAwblJRNHl5RmJnMW5uSUI2cGgrRWJlM3I0YVBaTnc9PS0tdDZGRFZiR1FCUE5DZ2xzTU83WFJCZz09--55e669803886491413f2a50f20eb1f7cf1961298;
+      Set-Cookie: [XSRF-TOKEN=yo914kJkb9Oxm8KXKDvfeQB5HlQKIYfRQAnfrtSLsMCPMPEyLBDwkWj09jUF9rpnXaWBTodSq7oGBT6%2BqwqktA%3D%3D;
+          path=/, _social_session=UVJIMUlUc3I1ZjV2YWNtdWlFamEwRTdSTjdCY3I4b3lnYnZNekN4cmxBd1ByelR4U2U3eHh3eGRNSVdoMHFOaFdkZHBiWGF1eXpXNlRZQUZpcG9KanRqVnlBWE93c2ZOckkyRjZhYUE0TjdwRXZEa0c2WkRqL2NhSkZaTnArS0NzdzY2SjRMYkQzSTh2UG9OZDN5cTVCaFcwdGExdTRkQytQUGhRUkc4OGoxVVNrVXowWkVNVzNyNVhvbUFuZlRkZjJ6RVA4c2FMNEIyVGx2bE1IaHNZS0F4VkQ3ckIrcWlJRjZPNnc5bEVCRC9nY0tJZFhUamFNWDg3ZVd4dGQvYjZSN01iZzdDTzJNSG5pYjBpdE93dmc9PS0tOHJDV2gyd01XcTRwUnl5N2gzU2Fsdz09--f6d64d94cecf111f11d68a27d0ad9137ce34564b;
           path=/; HttpOnly]
       Status: [200 OK]
       Strict-Transport-Security: [max-age=15768000]
@@ -208,8 +208,8 @@ interactions:
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
       X-Powered-By: [Phusion Passenger 5.3.2]
-      X-Request-Id: [c2870d9b-7772-43f8-b33d-7b123b92ea68]
-      X-Runtime: ['0.012636']
+      X-Request-Id: [9c6d80ee-bab3-407a-86c5-596efa424532]
+      X-Runtime: ['0.014125']
       X-XSS-Protection: [1; mode=block]
     status: {code: 200, message: OK}
 version: 1
