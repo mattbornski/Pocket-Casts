@@ -1,0 +1,521 @@
+interactions:
+- request:
+    body: '%5Buser%5Demail=REDACTED@USERNAME.COM&%5Buser%5Dpassword=REDACTED_PASSWORD'
+    headers:
+      Content-Length: ['100']
+      Content-Type: [application/x-www-form-urlencoded]
+    method: POST
+    uri: https://play.pocketcasts.com/users/sign_in
+  response:
+    body: {string: '<html><body>You are being <a href="https://play.pocketcasts.com/">redirected</a>.</body></html>'}
+    headers:
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Type: [text/html; charset=utf-8]
+      Date: ['Thu, 11 Oct 2018 15:45:13 GMT']
+      Location: ['https://play.pocketcasts.com/']
+      Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
+      Set-Cookie: [XSRF-TOKEN=IJVgI60QldCTOx%2BObUDiyZh4SJZHNxAp7y6aoECTqG03DMcydM40zZiXsfdeLhZ5jWQFbARORP8nVBKOZ%2Bv27Q%3D%3D;
+          path=/, _social_session=alExN0FUTnE5SmdHVjFUZ09KVVBLMkJFOU8zdEphRURsL3l1cmJGYmswSVR0MUxVRXd5OERFRFl3aWkwMTg2a2xqNndVTEoxNmRiR3FXb1lLRlZ0ZllzVjk0MmRjcU0xdldjcTdtRnVRTGhYOUQ1RGNVazdleVYwSUhvZVVSdWU2SUFoeVZ0a1RFTTh4YjR4THVPQWZNVUdiQXNDVEdLcEdtVHJhWCtoRVp4N1IyMHA2L3FPZmxqNmcwNnAzUVlRLS13bzFWRFY5U21BSlZRWTU5eUx4b0hBPT0%3D--00ae28a24d386a5e9cf6dde3aa5069e22d193e8f;
+          path=/; HttpOnly]
+      Status: [302 Found]
+      Strict-Transport-Security: [max-age=15768000]
+      Transfer-Encoding: [chunked]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Powered-By: [Phusion Passenger 5.3.2]
+      X-Request-Id: [02f1f8f5-94d8-443c-af5e-158e6e037bc3]
+      X-Runtime: ['0.091269']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 302, message: Found}
+- request:
+    body: null
+    headers:
+      Cookie: [XSRF-TOKEN=IJVgI60QldCTOx%2BObUDiyZh4SJZHNxAp7y6aoECTqG03DMcydM40zZiXsfdeLhZ5jWQFbARORP8nVBKOZ%2Bv27Q%3D%3D;
+          _social_session=alExN0FUTnE5SmdHVjFUZ09KVVBLMkJFOU8zdEphRURsL3l1cmJGYmswSVR0MUxVRXd5OERFRFl3aWkwMTg2a2xqNndVTEoxNmRiR3FXb1lLRlZ0ZllzVjk0MmRjcU0xdldjcTdtRnVRTGhYOUQ1RGNVazdleVYwSUhvZVVSdWU2SUFoeVZ0a1RFTTh4YjR4THVPQWZNVUdiQXNDVEdLcEdtVHJhWCtoRVp4N1IyMHA2L3FPZmxqNmcwNnAzUVlRLS13bzFWRFY5U21BSlZRWTU5eUx4b0hBPT0%3D--00ae28a24d386a5e9cf6dde3aa5069e22d193e8f]
+    method: GET
+    uri: https://play.pocketcasts.com/
+  response:
+    body: {string: '<html><body>You are being <a href="https://play.pocketcasts.com/web/podcasts/index">redirected</a>.</body></html>'}
+    headers:
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Type: [text/html; charset=utf-8]
+      Date: ['Thu, 11 Oct 2018 15:45:13 GMT']
+      Location: ['https://play.pocketcasts.com/web/podcasts/index']
+      Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
+      Set-Cookie: [XSRF-TOKEN=W61p26T0CY3wCk8O%2FynXvPOB9ZgAH76dBZQzVYpThh9BZzxJ9T5XDpHV%2FZZWBrUqLBXE2wRZG8WrXB5T5vvP8Q%3D%3D;
+          path=/, _social_session=aWhlbURNemJDR093U1Y5c3pJMzJBZmo2WHd6dlk5K0lRTVM4c1EwVkJ0WmdjbUk5WWxpMjBtMDNpcDQvOUZhTkMrSEFBSkNjQ1hFTGJLU0JSaWVwUVFiQXhjaC9wazdGRHpURWFKcGd1NytnSlpDdDVxYVZtanFtV0pSNU0xOGpRN0hpK2pLeHZmM2pKSmRiWkVHakF2WVdKYWFjMndlNzJzWnp2V3JaQmZDU1JCWDEySjRsUnAyUi9Xc1F0VkM2Si90ZjQxeHIrSjc1QXo5V3J6MlZPTzJSdjdBRjVNeG5xNy9HNFZsaDIvWFRHbjl3UnAwb1plYWxhYjd2RWZLaGN5NVhDQ3ZFemVjVjdEZmhHRzVzV2c9PS0tY0ViNXZDV0RrUUhlcTZadWVpMzBwQT09--1346ee00559bb5558a82739deea1dec5d09165be;
+          path=/; HttpOnly]
+      Status: [302 Found]
+      Strict-Transport-Security: [max-age=15768000]
+      Transfer-Encoding: [chunked]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Powered-By: [Phusion Passenger 5.3.2]
+      X-Request-Id: [d858aaf4-85ed-4084-8451-0b9d39783e9e]
+      X-Runtime: ['0.007796']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 302, message: Found}
+- request:
+    body: null
+    headers:
+      Cookie: [XSRF-TOKEN=W61p26T0CY3wCk8O%2FynXvPOB9ZgAH76dBZQzVYpThh9BZzxJ9T5XDpHV%2FZZWBrUqLBXE2wRZG8WrXB5T5vvP8Q%3D%3D;
+          _social_session=aWhlbURNemJDR093U1Y5c3pJMzJBZmo2WHd6dlk5K0lRTVM4c1EwVkJ0WmdjbUk5WWxpMjBtMDNpcDQvOUZhTkMrSEFBSkNjQ1hFTGJLU0JSaWVwUVFiQXhjaC9wazdGRHpURWFKcGd1NytnSlpDdDVxYVZtanFtV0pSNU0xOGpRN0hpK2pLeHZmM2pKSmRiWkVHakF2WVdKYWFjMndlNzJzWnp2V3JaQmZDU1JCWDEySjRsUnAyUi9Xc1F0VkM2Si90ZjQxeHIrSjc1QXo5V3J6MlZPTzJSdjdBRjVNeG5xNy9HNFZsaDIvWFRHbjl3UnAwb1plYWxhYjd2RWZLaGN5NVhDQ3ZFemVjVjdEZmhHRzVzV2c9PS0tY0ViNXZDV0RrUUhlcTZadWVpMzBwQT09--1346ee00559bb5558a82739deea1dec5d09165be]
+    method: GET
+    uri: https://play.pocketcasts.com/web/podcasts/index
+  response:
+    body: {string: "<!DOCTYPE html>\n<html lang=\"en\" ng-app=\"pocketcasts\" data-framework=\"\
+        angularjs\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"description\"\
+        \ content=\"Listen to your favorite podcasts in your browser.\">\n  <meta\
+        \ http-equiv=\"X-UA-Compatible\" content=\"IE=Edge,chrome=1\">\n  <link rel=\"\
+        apple-touch-icon-precomposed\" sizes=\"76x76\" href=\"/assets/favicon-76-de30edd979b7827f9c99a26f8a2ab216a47f551a7f7d17fd5217be92f09dbd45.png\"\
+        \ />\n<link rel=\"apple-touch-icon-precomposed\" sizes=\"152x152\" href=\"\
+        /assets/favicon-152-cd0973f2271554c96bd75b6aea59fc97e39c6d61632e8d2be7f6447f4a0e7c38.png\"\
+        \ />\n<link rel=\"icon\" href=\"/favicon.ico\" type=\"image/x-icon\" />\n\
+        <link rel=\"shortcut icon\" href=\"/favicon.ico\" type=\"image/x-icon\" />\n\
+        <link rel=\"icon\" href=\"/assets/favicon-16-7769e4435e769f09418d01b4cbf69b4254e051d99774f2f9f21def8d3ff03d96.png\"\
+        \ type=\"image/png\" sizes=\"16x16\" />\n<link rel=\"icon\" href=\"/assets/favicon-32-08267f5f61d1e5fa04dd2eda2b615e2483a97642e1ee50bc489d00122ce32157.png\"\
+        \ type=\"image/png\" sizes=\"32x32\" />\n<link rel=\"icon\" href=\"/assets/favicon-96-8e7eacb5a6957b117116dcf7f428e8be82c4d93a43c4aab7dd5f398a5e1c4066.png\"\
+        \ type=\"image/png\" sizes=\"96x96\" />\n<link rel=\"icon\" href=\"/assets/favicon-128-e3d59ddc5117a7efa170693d9299c01883d102f1c62c81b08bcbb55bd7152b0b.png\"\
+        \ type=\"image/png\" sizes=\"128x128\" />\n<link rel=\"icon\" href=\"/assets/favicon-196-764eabc609dde7fb5e746b11ba934c5e3f21115e2fad01477f038b21d66b023b.png\"\
+        \ type=\"image/png\" sizes=\"196x196\" />\n<link rel=\"mask-icon\" href=\"\
+        /assets/safaripin-77e9d90e5b601140255b449546876dd4a9ff421ac23483b2d14536ba65b8b7b7.svg\"\
+        \ color=\"#F44336\" />\n  <title>Pocket Casts</title>\n  <meta name=\"csrf-param\"\
+        \ content=\"authenticity_token\" />\n<meta name=\"csrf-token\" content=\"\
+        PuFIcSrDfUoKpuAci+VXG7v9aH3e/8Ud+wAf14YoiU8kKx3jewkjyWt5UoQiyjWNZGlZPtq5YEVVyDLR6oDAoQ==\"\
+        \ />\n  <script>\n      var SHOW_WELCOME = false;\n      var USER_PODCASTS_UUIDS\
+        \ = [];\n      var USER_EMAIL = 'matt+pocketcasts@bornski.com';\n      var\
+        \ CHECKOUT_URL = 'https://pay.paddle.com/checkout/495004?passthrough=664486&quantity_variable=0&guest_email=matt%2Bpocketcasts%40bornski.com';\n\
+        \      var APP_VERSION_CODE = 5;\n      var PAID = true;\n  </script>\n  <script\
+        \ type=\"text/javascript\" src=\"https://www.gstatic.com/cv/js/sender/v1/cast_sender.js\"\
+        ></script>\n  <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/icon?family=Material+Icons\"\
+        \ />\n  <script>\n      (function(d) {\n          var config = {\n       \
+        \       kitId: 'vyg1evw',\n              scriptTimeout: 3000,\n          \
+        \    async: true\n          },\n          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\\\
+        bwf-loading\\b/g,\"\")+\" wf-inactive\";},config.scriptTimeout),tk=d.createElement(\"\
+        script\"),f=false,s=d.getElementsByTagName(\"script\")[0],a;h.className+=\"\
+        \ wf-loading\";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!=\"\
+        complete\"&&a!=\"loaded\")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)\n\
+        \      })(document);\n  </script>\n  <link rel=\"stylesheet\" media=\"screen\"\
+        \ href=\"/assets/web-a05e3547792605a7b04bdfb40fe7448b9cdfbc633f2e20f2c415105366041637.css\"\
+        \ />\n  <script src=\"/assets/web-f76346a069d4f91ab409ec89d4334fca2d30d8b2ddfa5c430e7fd0934279f017.js\"\
+        ></script>\n  \n</head>\n<body ng-app=\"pocketcasts\" ng-controller=\"AppController\
+        \ as app\" ng-class=\"{audio_player_open: isAudioPlayerOpen(), show_notes_open:\
+        \ isShowNotesOpen(), paid: showNotice}\" data-ng-init=\"init()\">\n\n<div\
+        \ id=\"beta_banner\">\n  <span>Want to help us test a brand new beta version?\
+        \ Try it out here. It's great. Honestly!</span> <a href=\"https://playbeta.pocketcasts.com/web/\"\
+        \ target=\"_blank\">https://playbeta.pocketcasts.com</a>\n</div>\n<div id=\"\
+        header\">\n  <div id=\"header_logo\"><img width=\"30px\" height=\"30px\" style=\"\
+        width:31px;height:30px;\" src=\"/assets/logo-47947269f4551323d79393902f7a087c1495219309c46f005b91f41d72d19270.png\"\
+        \ alt=\"Logo\" /></div>\n  <div id=\"header_links\">\n    <div class=\"search_panel\"\
+        \ ng-class=\"{search_open: isSearchOpen}\" ng-controller=\"SearchController\"\
+        >\n      <div id=\"search_add_button\" ng-click=\"openCloseSearch()\"><div\
+        \ class=\"add_image\"></div></div>\n      <div id=\"search_input\"\n     \
+        \      data-angucomplete-alt=\"\"\n           data-placeholder=\"Search for\
+        \ podcast\"\n           data-pause=\"1000\"\n           data-selected-object=\"\
+        resultSelected\"\n           data-remote-url=\"/web/podcasts/search.json?term=\"\
+        \n           data-remote-url-data-field=\"podcasts\"\n           data-remote-url-response-formatter=\"\
+        formatSearchResponse\"\n           data-search-fields=\"title\"\n        \
+        \   data-title-field=\"title\"\n           data-description-field=\"author\"\
+        \n           data-image-field=\"discover_thumbnail_url\"\n           data-clear-selected=\"\
+        true\"\n           data-text-searching=\"Searching for podcasts...\"\n   \
+        \        data-text-no-results=\"No podcasts found.\"\n           data-input-class=\"\
+        form-control form-control-small\"></div>\n    </div>\n\n    <div class=\"\
+        dropdown\"><a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"\
+        ><div class=\"settings_cog\"></div></a>\n      <ul class=\"dropdown-menu dropdown-menu-right\"\
+        \ role=\"menu\">\n\n\n        <li><a href=\"https://play.pocketcasts.com/account\"\
+        \ target=\"_blank\">Account</a></li>\n        <li><a ng-click=\"openFaq()\"\
+        >FAQ</a></li>\n        <li><a ng-click=\"openReleaseNotes()\">Release Notes</a></li>\n\
+        \n        <li class=\"divider\"></li>\n\n        <li><a rel=\"nofollow\" data-method=\"\
+        delete\" href=\"/users/sign_out\">Sign Out</a></li>\n      </ul>\n    </div>\n\
+        \  </div>\n\n\n</div>\n\n<div id=\"main\" ui-view=\"\"></div>\n\n\n\n<div\
+        \ data-settings-dialog=\"\"></div>\n\n<div id=\"loading_dialog_bg\" style=\"\
+        display:none\">\n\n  <div id=\"loading_dialog\">\n    <div id=\"loading_errored\"\
+        >\n      <h1>Failed To Add Podcast</h1>\n      <p id=\"loadding_error_message\"\
+        >Ak! Something went wrong. Please email us with the feed URL at <a href=\"\
+        mailto:support@shiftyjelly.com\">support@shiftyjelly.com</a>.</p>\n    </div>\n\
+        \    <div id=\"loading_in_progress\">\n        <h1>Adding Podcast</h1>\n\n\
+        \        <p>You can continue to use Pocket Casts,<br/>your new subscription\
+        \ will appear in a moment.</p>\n\n        <svg height=\"80\" width=\"80\"\
+        >\n          <path d=\"M75,40 A35,35 0 1,0 40,75\" fill=\"none\" stroke=\"\
+        #F44336s\" stroke-width=\"10\">\n            <animateTransform attributeType=\"\
+        xml\"\n                attributeName=\"transform\"\n                type=\"\
+        rotate\"\n                from=\"0 40 40\"\n                to=\"360 40 40\"\
+        \n                dur=\"1.5s\"\n                repeatCount=\"indefinite\"\
+        />\n          </path>\n          <path d=\"M62,40 A22,22 0 1,0 40,62\" fill=\"\
+        none\" stroke=\"#F44336\" stroke-width=\"8\" >\n            <animateTransform\
+        \ attributeType=\"xml\"\n              attributeName=\"transform\"\n     \
+        \         type=\"rotate\"\n              from=\"0 40 40\"\n              to=\"\
+        360 40 40\"\n              dur=\"1s\"\n              repeatCount=\"indefinite\"\
+        />\n          </path>\n        </svg>\n\n        <p>Loading Feed...</p>\n\n\
+        \    </div>\n\n  </div>\n</div>\n\n<div id=\"players\" ng-controller=\"PlayerController\"\
+        \ ng-show=\"mediaPlayer.episode != null\" class=\"ng-hide\">\n    <div data-player-audio=\"\
+        \"></div>\n    <div data-player-video=\"\"></div>\n</div>\n\n<div id=\"episode_more_list\"\
+        \ style=\"display:none;\">\n  <ul class=\"list-group\">\n    <li class=\"\
+        list-group-item\">Play Next</li>\n    <li class=\"list-group-item\">Add to\
+        \ Queue</li>\n    <li class=\"list-group-item\">Mark as Played</li>\n    <li\
+        \ class=\"list-group-item\">Mark as Unplayed</li>\n    <li class=\"list-group-item\"\
+        >Share Episode</li>\n  </ul>\n</div>\n\n<script>\n    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n\
+        \        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n\
+        \            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n\
+        \    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\
+        \n    ga('create', 'UA-44126141-2', 'auto');\n    ga('send', 'pageview');\n\
+        </script>\n\n</body>\n</html>\n\n"}
+    headers:
+      Cache-Control: ['max-age=0, private, must-revalidate']
+      Connection: [keep-alive]
+      Content-Type: [text/html; charset=utf-8]
+      Date: ['Thu, 11 Oct 2018 15:45:14 GMT']
+      ETag: [W/"8cd4f3c230b84e62b96c42d3adf92ae0"]
+      Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
+      Set-Cookie: [XSRF-TOKEN=FHpaGz8LLiqqiHr7D2ys%2Bv%2BUpEl%2B3A7R9w0vlYnmslkOsA%2BJbsFwqctXyGOmQ85sIACVCnqaq4lZxQKT5U77tw%3D%3D;
+          path=/, _social_session=c2p2QW1KYnQwM2ZtYnQ4MkZBR3Jxczd5TW1uYS95dFUraHZ1M3VUamhIQnR3aERSK3BVM0EwTUNUaFBKaW40TmRnSE9mVzR6Yi9PN3AvMEx1bU9qb3VmZWFqWmJyYWFoaEEzY2V6TE9vL25NdUk4b3RFMUIrQ1pSdU5ZcUhEbHhYbFFmVVJOSjgvaW1tZG5lNDJJZThxVklqeThnODcvblZrM2ZkMmVETkoyejE2UERENlB6VFhMZlREbXE0RzdEUFNDaVc0cE9qZnVPMU1YaDdxOCtaL0ZldG5oRGNhNlltTDNYeXBHbzJLV2o4Yzg4NFlaaHV1bG9IWitIYmhhQTR0Nzl0QjZZQXl6R2hXdXpvY0JCbEE9PS0tRDU4ZzJubCs3akR3VkR4WElTZ2FYQT09--dd1ee3dd2d42eabb8c032e1e86ef014006bc50de;
+          path=/; HttpOnly]
+      Status: [200 OK]
+      Strict-Transport-Security: [max-age=15768000]
+      Transfer-Encoding: [chunked]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Powered-By: [Phusion Passenger 5.3.2]
+      X-Request-Id: [2d4f6fbd-5952-46ce-946f-73f83436e18e]
+      X-Runtime: ['0.015189']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://static.pocketcasts.com/discover/json/featured.json
+  response:
+    body: {string: "{\"status\":\"ok\",\"result\":{\"podcasts\":[{\"uuid\":\"fde30310-a945-0136-7b93-27f978dac4db\"\
+        ,\"url\":\"\",\"title\":\"Short Stuff\",\"description\":\"A bite-sized edition\
+        \ of the Stuff You Should Know podcast that fans have grown to love, 10-12\
+        \ minute episodes about the most interesting things in the world around us.\"\
+        ,\"thumbnail_url\":\"http://static.megaphone.fm/podcasts/9aaec3a0-c651-11e8-944d-0fe32fd33af8/image/uploads_2F1538491034293-uq8w4w2zx7-3f6d080f4673876077b6915aaeb03c9c_2FShortStuffLogo-FINAL-3000x3000.png\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"HowStuffWorks\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/680/fde30310-a945-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"91686360-6c8a-0136-4e66-69745d675bc7\",\"url\":\"http://wbur.org/lastseen\"\
+        ,\"title\":\"Last Seen\",\"description\":\"It remains the most valuable \u2014\
+        \ and confounding \u2014 art heist in history: 13 artworks stolen from Boston\u2019\
+        s Isabella Stewart Gardner Museum. Twenty-eight years later, not a single\
+        \ piece in a haul worth half a billion dollars has surfaced. The art, and\
+        \ the thieves who made off with it, remain at large. With first-ever interviews,\
+        \ unprecedented access, and more than a year of investigative reporting, \\\
+        \"Last Seen\\\" takes us into the biggest unsolved art heist in history. A\
+        \ joint production from WBUR and The Boston Globe.\",\"thumbnail_url\":\"\
+        https://d279m997dpfwgl.cloudfront.net/wp/2018/07/lastseen-album-art-3000.jpg\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-us\",\"author\":\"WBUR \\u0026 The Boston Globe\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/340/91686360-6c8a-0136-4e66-69745d675bc7.jpg\"\
+        },{\"uuid\":\"400dbcb0-a32e-0136-7b93-27f978dac4db\",\"url\":\"https://www.gimletmedia.com/without-fail\"\
+        ,\"title\":\"Without Fail\",\"description\":\"Candid conversations with entrepreneurs,\
+        \ artists, athletes, visionaries of all kinds\u2014about their successes,\
+        \ and their failures, and what they learned from both. Hosted by Alex Blumberg,\
+        \ from Gimlet Media.\",\"thumbnail_url\":\"http://static.megaphone.fm/podcasts/d22ed5b2-6f4a-11e8-b45b-fb2855bd55bd/image/uploads_2F1537892049842-8j2s89sh64h-b0cd4927cf5202e16a21843aa32e784a_2F20171026_WithoutFail-exp22.png\"\
+        ,\"category\":\"Society \\u0026 Culture\\nBusiness\\nTechnology\",\"media_type\"\
+        :\"Audio\",\"language\":\"en\",\"author\":\"Gimlet\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/340/400dbcb0-a32e-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"1a177af0-9754-0136-7b93-27f978dac4db\",\"url\":\"https://art19.com/shows/the-dream\"\
+        ,\"title\":\"The Dream\",\"description\":\"What if we told you that with zero\
+        \ experience and only a few hundred dollars down, this podcast could change\
+        \ your life? Well, we\u2019d be lying. This season on The Dream, Jane Marie\
+        \ dives into the world of pyramid schemes, multi-level marketing, and all\
+        \ the other businesses that require their members to recruit their nearest\
+        \ and dearest in hopes of a commission. Join us as we trace the path of get-rich\
+        \ schemes from Jane\u2019s roots in rural Michigan all the way to the White\
+        \ House.\_\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/a6/a7/6c/cd/a6a76ccd-a2e0-4e16-8abf-146dd243e66a/c10dae99525acf3ded407c0b3f273db2c71ec671b365b1347209e47aebd660fc98a709b8f45fffb5c8a09a8b9fc3272c75283b8f135f92b431f9d239ffc3d487.jpeg\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Little Everywhere \\u0026 Stitcher\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/340/1a177af0-9754-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"bc2dbb00-9cd7-0136-7b93-27f978dac4db\",\"url\":\"https://www.thecitypodcast.com/\"\
+        ,\"title\":\"The City\",\"description\":\"The City tells true stories of how\
+        \ power works in urban America. Season 1 begins in Chicago, 1990.Winter is\
+        \ turning into spring, and in Chicago, that means construction season. After\
+        \ years of disinvestment, highways are rebuilt, old buildings demolished,\
+        \ new skyscrapers erected. All that rubble has to go somewhere, and its destination\
+        \ isn\u2019t a landfill\u2014it\u2019s a pair of vacant lots in a black, working-class\
+        \ neighborhood called North Lawndale. The man behind this operation is a white\
+        \ guy sporting a Cosby sweater and underworld connections. What follows is\
+        \ a tour de force through Chicago\u2019s underbelly: Aldermen get indicted.\
+        \ An FBI investigation goes awry. A community\u2019s resilience is tested\u2014\
+        all unfolding under the spectre of racism in America.Learn more and explore\
+        \ the dumps in North Lawndale via augmented reality at thecitypodcast.com\"\
+        ,\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/eb/62/c7/0e/eb62c70e-b8e6-42cd-9736-a501fb535f9c/18791660688edf8a0b06653581c80f0b56ea779fe89a7906ee965568a4c173edf98e00c91c60e773dd9233c25ecf5f18be7594927b10a0cea83f4bf3e3f60fdb.jpeg\"\
+        ,\"category\":\"News \\u0026 Politics\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"USA TODAY | Wondery\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/bc2dbb00-9cd7-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"5187afb0-2f73-0136-c267-7d73a919276a\",\"url\":\"https://castingcallshow.com/\"\
+        ,\"title\":\"Casting Call\",\"description\":\"Casting Call is like a Hollywood\
+        \ singing competition, but for people who are pros at audio interviews and\
+        \ non-fiction storytelling. On the show, an esteemed panel of judges will\
+        \ join host Jonathan Goldstein to vet submissions from aspiring podcast hosts\
+        \ across the country, and select three finalists to travel to Gimlet HQ to\
+        \ make a pilot of their show. One talented hopeful will have their pilot turned\
+        \ into a mini-series, produced by Gimlet, and maybe even get a Squarespace\
+        \ sponsorship of their own -- the pinnacle of podcast fame.\\n\\nAll of the\
+        \ glory and the drama of the competition will be documented for listeners\
+        \ to hear. Expect a behind-the-scenes look at the weird and wonderful world\
+        \ of podcasting. You\u2019ll learn what makes a good host and how entertaining\
+        \ shows get made when Casting Call officially launches in September.\",\"\
+        thumbnail_url\":\"http://static.megaphone.fm/podcasts/67702c20-47f5-11e8-a67a-13c2bff5d6fa/image/uploads_2F1524597872475-91gmrtw1krt-35ebc870b31f8ad571a3734bf90e7628_2FCastingCall_Final.png\"\
+        ,\"category\":\"Society \\u0026 Culture\\nPersonal Journals\\nArts\",\"media_type\"\
+        :\"Audio\",\"language\":\"en\",\"author\":\"Squarespace / Gimlet Creative\"\
+        ,\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/5187afb0-2f73-0136-c267-7d73a919276a.jpg\"\
+        },{\"uuid\":\"02c025d0-9456-0136-7b92-27f978dac4db\",\"url\":\"https://twit.tv/shows/valley-of-genius\"\
+        ,\"title\":\"Valley of Genius (MP3)\",\"description\":\"Ripped from the pages\
+        \ of Adam Fisher's uncensored history of Silicon Valley, Valley of Genius\
+        \ features the hackers, founders, and freaks who made Silicon Valley boom,\
+        \ in their own words. Drawn from over 200 interviews with the brightest stars\
+        \ and hidden heroes of technology, Valley of Genius is required listening\
+        \ for history buffs, tech lovers, and anyone interested in the innovation,\
+        \ betrayal, and magic of Silicon Valley.   \\n\\nNew episodes are posted every\
+        \ Monday.\",\"thumbnail_url\":\"https://elroycdn.twit.tv/sites/default/files/styles/twit_album_art_2048x2048/public/images/shows/valley_of_genius/album_art/audio/vog_2048x2048.jpg?itok=AN9H5O9Y\"\
+        ,\"category\":\"Arts\\nLiterature\\nSociety \\u0026 Culture\\nPersonal Journals\\\
+        nSociety \\u0026 Culture\\nHistory\\nTechnology\\nTech News\",\"media_type\"\
+        :\"Audio\",\"language\":\"en-US\",\"author\":\"TWiT\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/340/02c025d0-9456-0136-7b92-27f978dac4db.jpg\"\
+        },{\"uuid\":\"838a18c0-575a-0134-cf69-7b84bf375f4c\",\"url\":\"https://art19.com/shows/wrongful-conviction-with-jason-flom\"\
+        ,\"title\":\"Wrongful Conviction with Jason Flom\",\"description\":\"Based\
+        \ on the files of the lawyers who freed them, Wrongful Conviction features\
+        \ interviews with men and women who have spent decades in prison for crimes\
+        \ they did not commit \u2013 some of them had even been sentenced to death.\_\
+        These are their stories.\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/bb/bc/39/d7/bbbc39d7-f890-4851-be61-4e86cdc0cbc4/48382fdbcb31cd44b71591caa3b382ef159dc9ffa6f040203679099c6d0d543e31969acbe697c56f91ed515e810bf4763ef060fc4fde4102edc25443340c91a5.jpeg\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-us\",\"author\":\"Jason Flom | reVolver Podcasts\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/340/838a18c0-575a-0134-cf69-7b84bf375f4c.jpg\"\
+        },{\"uuid\":\"9d7b3a60-71ca-0136-7b8d-27f978dac4db\",\"url\":\"https://www.kcrw.com/news-culture/shows/bodies\"\
+        ,\"title\":\"Bodies\",\"description\":\"\u201CWhat\u2019s wrong with me?\u201D\
+        \ Each episode of this documentary series begins as a medical mystery. But\
+        \ once you peel back the layers, more questions emerge.\",\"thumbnail_url\"\
+        :\"https://www.kcrw.com/news-culture/shows/bodies/@@images/96479437-4a13-41f1-9fc3-600f057a3d1f.png\"\
+        ,\"category\":\"Health\",\"media_type\":\"Audio\",\"language\":\"en-us\",\"\
+        author\":\"KCRW, Allison Behringer\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/9d7b3a60-71ca-0136-7b8d-27f978dac4db.jpg\"\
+        },{\"uuid\":\"233aaac0-8aa1-0136-7b90-27f978dac4db\",\"url\":\"https://www.wbez.org/shows/16-shots/55c63c72-d518-4ad9-b5dc-dd0d841d79a7\"\
+        ,\"title\":\"16 Shots\",\"description\":\"In October of 2014, a white police\
+        \ officer fatally shot a black teenager on the streets of Chicago. The shooting\
+        \ of Laquan McDonald was captured on video, and sparked outrage across the\
+        \ city. Chicago's top cop was fired, the local state\u2019s attorney was voted\
+        \ out, and the feds were sent in to investigate the culture at the police\
+        \ department. Now, the police officer at the center of the shooting, Jason\
+        \ Van Dyke, will stand trial for murder. WBEZ and the Chicago Tribune look\
+        \ at how Van Dyke and McDonald intersected that night nearly four years ago,\
+        \ the alleged cover-up of the shooting, and examine the long history of friction\
+        \ between African-Americans and the Chicago Police Department. And we\u2019\
+        ll follow the trial \u2014 bringing you insight, context, and analysis.\"\
+        ,\"thumbnail_url\":\"https://wbez-assets.s3.amazonaws.com/podcast-images/16-shots-logo-01.png\"\
+        ,\"category\":\"News \\u0026 Politics\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-US\",\"author\":\"WBEZ \\u0026 the Chicago Tribune\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/340/233aaac0-8aa1-0136-7b90-27f978dac4db.jpg\"\
+        },{\"uuid\":\"4622ea40-7bdf-0136-7b90-27f978dac4db\",\"url\":\"https://www.cbc.ca/radio/podcasts/the-shadows/\"\
+        ,\"title\":\"The Shadows\",\"description\":\"Kaitlin Prest, creator and host\
+        \ of the Prix-Italia winner The Heart, presents the first audio fiction from\
+        \ CBC Podcasts. The Shadows is a story about the anatomy of a relationship:\
+        \ a crush, a choice, a resentment and an end. Coming September 2018.\",\"\
+        thumbnail_url\":\"https://www.cbc.ca/radio/podcasts/images/promo-theshadows-1400x1400.jpg\"\
+        ,\"category\":\"Arts\",\"media_type\":\"Audio\",\"language\":\"en-ca\",\"\
+        author\":\"CBC Podcasts\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/4622ea40-7bdf-0136-7b90-27f978dac4db.jpg\"\
+        },{\"uuid\":\"65f25c00-41cb-0136-fa7c-0fe84b59566d\",\"url\":\"http://www.everythingisalive.com/\"\
+        ,\"title\":\"Everything is Alive\",\"description\":\"Everything is Alive is\
+        \ an unscripted interview show in which all the subjects are inanimate objects.\
+        \ In each episode, a different thing tells us its life story--and everything\
+        \ it says is true.\",\"thumbnail_url\":\"https://f.prxu.org/143/images/bba41d30-5f70-45a9-9bde-392c4dc9e400/Everything_is_Alive_300pxs.jpg\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-us\",\"author\":\"Radiotopia\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/65f25c00-41cb-0136-fa7c-0fe84b59566d.jpg\"\
+        },{\"uuid\":\"a85e9880-c563-0134-10da-25324e2a541d\",\"url\":\"http://www.pewtrusts.org/afterthefact\"\
+        ,\"title\":\"After the Fact\",\"description\":\"After the Fact is a podcast\
+        \ from The Pew Charitable Trusts that explores the facts, numbers, and trends\
+        \ shaping our world. Each monthly episode will focus on a topic and data point\
+        \ from one of Pew\u2019s research areas in environmental conservation, governmental\
+        \ policies, or health care in the United States. The host will expand on the\
+        \ data\u2019s relevance through discussions with guests and experts to invigorate\
+        \ our national conversation, inform audiences, and offer solutions to challenges.\"\
+        ,\"thumbnail_url\":\"http://static.libsyn.com/p/assets/b/c/8/1/bc81ec5d79def373/aft-logo-3000x3000-green3.png\"\
+        ,\"category\":\"News \\u0026 Politics\\nGovernment \\u0026 Organizations\\\
+        nNon-Profit\\nEducation\",\"media_type\":\"Audio\",\"language\":\"en\",\"\
+        author\":\"The Pew Charitable Trusts\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/a85e9880-c563-0134-10da-25324e2a541d.jpg\"\
+        },{\"uuid\":\"aa5db5c0-49a8-0134-ebda-0d50f522381b\",\"url\":\"https://anchor.fm/dissect\"\
+        ,\"title\":\"Dissect\",\"description\":\"Learn more about the albums you love\
+        \ with Dissect, a serialized music podcast from Cole Cuchna \\u0026 Spotify\
+        \ Studios. Each season we pick one album, forensically dissecting one song\
+        \ per episode. Line-by-line, note-by-note, we learn more about the human experience\
+        \ through some of the greatest music ever made.\\n\\nS3: Blonde by Frank Ocean\\\
+        nS2: MBDTF by Kanye West\\nS1: To Pimp a Butterfly by Kendrick Lamar\",\"\
+        thumbnail_url\":\"https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_nologo/762582/762582-1535403200981-982a95230aabb.jpg\"\
+        ,\"category\":\"Music\\nArts\\nDesign\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-US\",\"author\":\"Cole Cuchna | Spotify\",\"thumbnail_url_small\":\"\
+        https://static2.pocketcasts.com/discover/images/340/aa5db5c0-49a8-0134-ebda-0d50f522381b.jpg\"\
+        },{\"uuid\":\"5332cb50-6cc8-0136-4e67-69745d675bc7\",\"url\":\"https://art19.com/shows/i-survivor\"\
+        ,\"title\":\"I, Survivor\",\"description\":\"Women get assaulted. Women get\
+        \ attacked. Women get harassed, manipulated, intimidated, but women are survivors.\
+        \ Time and time again, she persists, even against all odds. Hosts Jenna Brister\
+        \ and Wagatwe Wanjuki share their stories, and those of the men and women\
+        \ who fought back, who won, and who live rising above the trauma of their\
+        \ experiences.\_\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/96/b2/fb/1e/96b2fb1e-3239-4a0f-a11d-6dc26eb247e8/6f0e450fc51924f5882cfdf674a8f66828a51ba82059eda84de3bd21aadf2805c5ca41500b4e0a6f9e5a571a7ec74f9e17660fd0af9275423fdf84c3e0895445.jpeg\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Wondery\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/5332cb50-6cc8-0136-4e67-69745d675bc7.jpg\"\
+        },{\"uuid\":\"e070ac10-711e-0136-7b8d-27f978dac4db\",\"url\":\"http://nike.com/ntcpro\"\
+        ,\"title\":\"TRAINED\",\"description\":\"Through years of research and working\
+        \ with the world's best athletes - Nike has learned greatness isn't born,\
+        \ it's trained. This podcast explores the cutting-edge of holistic fitness\
+        \ to help make you a better trainer and athlete. Listen to conversations with\
+        \ industry experts and discover the latest innovations, insights, and trends\
+        \ making the biggest impact on the training world.\",\"thumbnail_url\":\"\
+        https://media.simplecast.com/podcast/image/5861/1531964311-artwork.jpg\",\"\
+        category\":\"Health\\nFitness \\u0026 Nutrition\\nSports \\u0026 Recreation\\\
+        nSociety \\u0026 Culture\",\"media_type\":\"Audio\",\"language\":\"en\",\"\
+        author\":\"Nike\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/e070ac10-711e-0136-7b8d-27f978dac4db.jpg\"\
+        },{\"uuid\":\"d4742620-76ed-0136-7b8e-27f978dac4db\",\"url\":\"https://twitter.com/Film4?lang=en\"\
+        ,\"title\":\"Ghibliotheque - A Podcast About Studio Ghibli\",\"description\"\
+        :\"Welcome to the Ghibliotheque, the podcast that leafs through the library\
+        \ of films from the world\u2019s greatest animation studio, Studio Ghibli.To\
+        \ coincide with UK broadcaster Film4's complete Studio Ghibli retrospective\
+        \ this summer, Michael Leader (Little White Lies, Sight \\u0026 Sound), an\
+        \ avowed Ghibli fanatic, is sitting down with Jake Cunningham (The Independent,\
+        \ BFI), who has never seen any of the Studio\u2019s work before. Together\
+        \ they'll be looking at the history behind Ghibli's films (including Spirited\
+        \ Away, My Neighbour Totoro and Princess Mononoke), getting a critical perspective\
+        \ from Jake as a first-time viewer and forcing Michael to rank some of his\
+        \ favourite ever films.Released on Fridays over the summer, subscribe now\
+        \ to get Ghibliotheque delivered straight to your feed.Follow Michael and\
+        \ Jake on Twitter:@MichaelJLeader \u2013 Michael@jakehcunningham \u2013 Jake\"\
+        ,\"thumbnail_url\":\"https://thumborcdn.acast.com/m_-FY2fKC30cGhef7uz4wlp7V9o=/1500x1500/https://mediacdn.acast.com/assets/9b41cd90-c759-4ccb-98b1-16a633915c57/-jkbbdd91-ghibilogo1.jpg\"\
+        ,\"category\":\"TV \\u0026 Film\\nArts\\nVisual Arts\\nSociety \\u0026 Culture\\\
+        nHistory\",\"media_type\":\"Audio\",\"language\":\"en\",\"author\":\"Michael\
+        \ Leader, Jake Cunningham \\u0026 Harold McShiel\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/340/d4742620-76ed-0136-7b8e-27f978dac4db.jpg\"\
+        },{\"uuid\":\"dc3a84e0-6bce-0136-4e65-69745d675bc7\",\"url\":\"https://www.mothersofinvention.online\"\
+        ,\"title\":\"Mothers of Invention\",\"description\":\"\u200BJoin former Irish\
+        \ President Mary Robinson and comedian Maeve Higgins in this uplifting new\
+        \ podcast, celebrating amazing women doing remarkable things in pursuit of\
+        \ climate justice.\\n\u200B\\nEach episode features the Mothers of Invention\
+        \ driving powerful solutions to climate change \u2013 from the grassroots\
+        \ to the court room, the front lines to the board room \u2013 all over the\
+        \ world. \\n\\nFollow them on all social media @mothersinvent\",\"thumbnail_url\"\
+        :\"http://static.libsyn.com/p/assets/d/2/2/c/d22cfe569cb75353/MOI.jpg\",\"\
+        category\":\"Society \\u0026 Culture\\nScience \\u0026 Medicine\\nNatural\
+        \ Sciences\",\"media_type\":\"Audio\",\"language\":\"en\",\"author\":\"Doc\
+        \ Society\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/dc3a84e0-6bce-0136-4e65-69745d675bc7.jpg\"\
+        },{\"uuid\":\"fc2c9150-6aaa-0136-4e65-69745d675bc7\",\"url\":\"https://art19.com/shows/hey-riddle-riddle\"\
+        ,\"title\":\"Hey Riddle Riddle\",\"description\":\"Riddles! Puzzles! WhoDunnits!\
+        \ Adal Rifai, Erin Keif and JPC try and solve a few of these every episode\
+        \ while discussing and dissecting along the way. You can play along while\
+        \ listening but can you solve the questions before we do?? (you absolutely\
+        \ will)\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/94/92/cf/d0/9492cfd0-e22d-4861-9d90-b633e5f02259/330bf70b0d7f91879aa251166c4c1b4634c81b843cfcdc5571c51bc048897b82d5d4b03f99af8a95a81122ef5f8b0b36d7e086fd95600a160ef7c44fa64e1d4d.jpeg\"\
+        ,\"category\":\"Games \\u0026 Hobbies\\nOther Games\\nArts\\nPerforming Arts\\\
+        nComedy\",\"media_type\":\"Audio\",\"language\":\"en\",\"author\":\"HeadGum\"\
+        ,\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/fc2c9150-6aaa-0136-4e65-69745d675bc7.jpg\"\
+        },{\"uuid\":\"9487e430-6d83-0136-7b8c-27f978dac4db\",\"url\":\"https://art19.com/shows/late-confirmation\"\
+        ,\"title\":\"Late Confirmation by CoinDesk\",\"description\":\"The top stories\
+        \ in the blockchain world, delivered daily from the team at CoinDesk.\",\"\
+        thumbnail_url\":\"https://content.production.cdn.art19.com/images/5f/9b/2a/f1/5f9b2af1-d682-4f1f-848b-74cd07547733/7c6297f476bf6b67fea66bbd65b4b02f0aa578beba920cb27da88237adffbdefd4d6226c72586f53d4b1309f037c26f24581dfb5ed7131b63da8185b484c2e8f.jpeg\"\
+        ,\"category\":\"News \\u0026 Politics\\nTechnology\",\"media_type\":\"Audio\"\
+        ,\"language\":\"en\",\"author\":\"CoinDesk\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/9487e430-6d83-0136-7b8c-27f978dac4db.jpg\"\
+        },{\"uuid\":\"1bcefa20-7170-0131-7c28-723c91aeae46\",\"url\":\"http://rocketship.fm/\"\
+        ,\"title\":\"Rocketship.fm\",\"description\":\"Essential listening for entrepreneurs,\
+        \ product managers and anyone working in tech today. We break down the concepts\
+        \ you need to know, from Product Management to Growth, Sales to Funding, we'll\
+        \ bring you stories that will inspire and insights that will change the way\
+        \ you think about product and business.\\n\\nRocketship.fm, produced in partnership\
+        \ with Product Collective, inspires hundreds of thousands of entrepreneurs,\
+        \ developers, marketers, product people, and designers each month. Join us\
+        \ as we dive into everything from product management to growth, culture to\
+        \ sales and everything in between. Rocketship.fm has been featured in Forbes,\
+        \ Huffington Post, Inc, Entrepreneur and many more business publications as\
+        \ a top business podcast year after year.\",\"thumbnail_url\":\"https://www.omnycontent.com/d/playlist/20f38a10-1afe-4760-bb32-a7dd01317ee4/cfecce2e-033b-4f28-a323-a7de003f116b/b76fb826-9e99-4328-b3fa-a7de003f1179/image.jpg?t=1535090663\\\
+        u0026size=Large\",\"category\":\"Technology\\nSoftware How-To\",\"media_type\"\
+        :\"Audio\",\"language\":\"en-us\",\"author\":\"Rocketship LLC\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/340/1bcefa20-7170-0131-7c28-723c91aeae46.jpg\"\
+        },{\"uuid\":\"2e0eb560-5950-0136-fa7c-0fe84b59566d\",\"url\":\"https://art19.com/shows/master-class\"\
+        ,\"title\":\"Oprah\u2019s Master Class: The Podcast\",\"description\":\"Hear\
+        \ the greatest life lessons of some of the most respected and renowned actors,\
+        \ musicians, public figures and athletes. Handpicked by Oprah, these luminaries\
+        \ reveal their lives with candor and insight \u2014 in their own words. Listen\
+        \ as Jay -Z, Justin Timberlake, Ellen Degeneres, Shaquille O\u2019Neal, Reba\
+        \ McEntire, Dwayne Johnson and Jane Fonda, (just to name a few), share what\
+        \ they\u2019ve learned about life and their own insights into their personal\
+        \ stories.\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/47/a1/8a/c2/47a18ac2-4d22-4ca4-af87-2f2dc3e5cf54/f31b979f4503b5b7399eb5857478b45f118933dbf95f5a86e56d5eae8317bc39de21a6a3b6598a9c57c66017460367432cfe139d3d5cebed1342544f09a7fc6a.jpeg\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Oprah\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/2e0eb560-5950-0136-fa7c-0fe84b59566d.jpg\"\
+        },{\"uuid\":\"6259c8a0-610b-0136-4e65-69745d675bc7\",\"url\":\"https://audioboom.com/channel/beyond-the-grid\"\
+        ,\"title\":\"F1: Beyond The Grid\",\"description\":\"Beyond The Grid, presented\
+        \ by Bose, is a new podcast that delivers great stories, fresh insight and\
+        \ amazing anecdotes from the world of F1. Each week Tom Clarkson will bring\
+        \ fans in-depth, personal conversations with the biggest names in the sport,\
+        \ from current superstar drivers and leading team bosses to legendary figures\
+        \ from history.\",\"thumbnail_url\":\"https://images.theabcdn.com/i/32994283.jpg\"\
+        ,\"category\":\"Sports \\u0026 Recreation\\nGames \\u0026 Hobbies\\nAutomotive\\\
+        nTechnology\\nPodcasting\",\"media_type\":\"Audio\",\"language\":\"en-us\"\
+        ,\"author\":\"Formula 1\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/6259c8a0-610b-0136-4e65-69745d675bc7.jpg\"\
+        },{\"uuid\":\"5060af80-564a-0136-fa7c-0fe84b59566d\",\"url\":\"\",\"title\"\
+        :\"Pen Pals with Daniel \\u0026 Rory\",\"description\":\"Every week, your\
+        \ pen pals Rory Scovel and Daniel Van Kirk respond to the letters you send\
+        \ them on topics ranging from free will to freeway etiquette, from mental\
+        \ health to manatees. Seek advice. Tell a story. Vent. Send a letter. It's\
+        \ your podcast, we just talk about it.\",\"thumbnail_url\":\"http://static.megaphone.fm/podcasts/44188096-c5dc-11e8-86bf-47ee034d4ced/image/image.jpg\"\
+        ,\"category\":\"Comedy\\nHealth\\nSelf-Help\",\"media_type\":\"Audio\",\"\
+        language\":\"en\",\"author\":\"Starburns Audio, Daniel Van Kirk, Rory Scoval\"\
+        ,\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/5060af80-564a-0136-fa7c-0fe84b59566d.jpg\"\
+        },{\"uuid\":\"00613210-58fa-0136-fa7c-0fe84b59566d\",\"url\":\"https://edgelands.podbean.com\"\
+        ,\"title\":\"Edgelands\",\"description\":\"Eight countries. Three and a half\
+        \ thousand miles. One intrepid reporter. Join Ash Bhardwaj as he travels Europe's\
+        \ long-contested border with Russia.\",\"thumbnail_url\":\"https://deow9bq0xqvbj.cloudfront.net/image-logo/2906308/182105_Edgelands_Final_1400x1400_itunes_avatar.png\"\
+        ,\"category\":\"Society \\u0026 Culture\\nPlaces \\u0026 Travel\",\"media_type\"\
+        :\"Audio\",\"language\":\"en\",\"author\":\"The Telegraph\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/340/00613210-58fa-0136-fa7c-0fe84b59566d.jpg\"\
+        },{\"uuid\":\"89a49090-5b8a-0136-606e-0b1b2a1cd099\",\"url\":\"http://www.nasa.gov/\"\
+        ,\"title\":\"The Rocket Ranch\",\"description\":\"Welcome to the Rocket Ranch,\
+        \ the official podcast of NASA\u2019s Kennedy Space Center. Take a listen\
+        \ for a behind-the-scenes sneak peek into the inner workings of the world\u2019\
+        s premiere spaceport.\",\"thumbnail_url\":\"https://www.nasa.gov/sites/default/files/thumbnails/image/rocket-ranch_v3.jpg\"\
+        ,\"category\":\"Science \\u0026 Medicine\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-us\",\"author\":\"National Aeronautics and Space Administration (NASA)\"\
+        ,\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/89a49090-5b8a-0136-606e-0b1b2a1cd099.jpg\"\
+        },{\"uuid\":\"a291f920-587a-0136-fa7c-0fe84b59566d\",\"url\":\"https://twitter.com/booksoftheyear\"\
+        ,\"title\":\"Simon Mayo's Books Of The Year\",\"description\":\"Simon Mayo\
+        \ and Matt Williams invite the world's finest authors in for a chat. Plus\
+        \ the best unpublished work and your reviews.\",\"thumbnail_url\":\"https://thumborcdn.acast.com/IzDrZV_QdFQWbTT9K94LhEvT1P8=/1500x1500/https://mediacdn.acast.com/assets/31196ed5-9da1-4795-8a2d-7644ab4f4ed7/-jlr4tz7g-image001.jpg\"\
+        ,\"category\":\"Arts\",\"media_type\":\"Audio\",\"language\":\"en\",\"author\"\
+        :\"Ora Et Labora\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/a291f920-587a-0136-fa7c-0fe84b59566d.jpg\"\
+        },{\"uuid\":\"8687a2b0-4a21-0136-fa7c-0fe84b59566d\",\"url\":\"https://racquetmag.com/\"\
+        ,\"title\":\"The Racquet Magazine Podcast\",\"description\":\"Our tennis podcast\
+        \ has six grand slams\u2014does yours? Join hosts Rennae Stubbs and Racquet\
+        \ magazine co-founder Caitlin Thompson as they talk to their friends and favorite\
+        \ tennis players about life, love and sometimes even tennis.\",\"thumbnail_url\"\
+        :\"https://thumborcdn.acast.com/f3p0OGwZCIMwVtzlpUVHNZgdFro=/1500x1500/https://mediacdn.acast.com/assets/464498d3-0c5c-42ad-9953-84529729036c/-jhup2ovr-the_racquet_magazine_podcast.jpg\"\
+        ,\"category\":\"Society \\u0026 Culture\\nSports \\u0026 Recreation\\nProfessional\"\
+        ,\"media_type\":\"Audio\",\"language\":\"en\",\"author\":\"Racquet Magazine\"\
+        ,\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/8687a2b0-4a21-0136-fa7c-0fe84b59566d.jpg\"\
+        },{\"uuid\":\"1ca69990-4b35-0136-fa7c-0fe84b59566d\",\"url\":\"http://www.mcr.live\"\
+        ,\"title\":\"DJ Shadow Presents Find, Share, Rewind Podcast\",\"description\"\
+        :\"DJ Shadow opens up his world-famous collection and assumes the role of\
+        \ tour guide on an impeccably-curated musical adventure.\\n\\nwww.mcr.live\"\
+        ,\"thumbnail_url\":\"https://www.omnycontent.com/d/programs/13fd3df8-6c5d-4fc8-9b4e-a6dd00f36f33/d353e6aa-0b50-4e27-a8f5-a8f20092b2fc/image.jpg?t=1527843493\\\
+        u0026size=Large\",\"category\":\"Music\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-US\",\"author\":\"MCR Live\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/340/1ca69990-4b35-0136-fa7c-0fe84b59566d.jpg\"\
+        },{\"uuid\":\"203b2db0-4af4-0136-fa7c-0fe84b59566d\",\"url\":\"https://medium.com/s/playback\"\
+        ,\"title\":\"Medium Playback\",\"description\":\"Hear some of the best stories\
+        \ on Medium, straight from the authors who wrote them. On each episode of\
+        \ Medium's flagship podcast, we invite an author to the studio to perform\
+        \ a recent story they wrote for Medium and then talk with us about it. Hosted\
+        \ by journalist Manoush Zomorodi and writer Kara Brown, Playback features\
+        \ insightful, first-person stories on timely topics affecting the world today\
+        \  \u2014 and then gives you the story behind the story from the writer.\"\
+        ,\"thumbnail_url\":\"https://media.simplecast.com/podcast/image/5849/1528161266-artwork.jpg\"\
+        ,\"category\":\"Society \\u0026 Culture\\nNews \\u0026 Politics\\nTechnology\"\
+        ,\"media_type\":\"Audio\",\"language\":\"en\",\"author\":\"Medium\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/340/203b2db0-4af4-0136-fa7c-0fe84b59566d.jpg\"\
+        }]}}"}
+    headers:
+      Accept-Ranges: [bytes]
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [max-age=1800]
+      Connection: [close]
+      Content-Length: ['27691']
+      Content-Type: [application/json]
+      Date: ['Thu, 11 Oct 2018 15:45:14 GMT']
+      ETag: ['"5bbf6ffc-6c2b"']
+      Expires: ['Thu, 11 Oct 2018 16:15:14 GMT']
+      Last-Modified: ['Thu, 11 Oct 2018 15:45:00 GMT']
+      Server: [nginx/1.14.0]
+    status: {code: 200, message: OK}
+version: 1

@@ -1,0 +1,287 @@
+interactions:
+- request:
+    body: '%5Buser%5Demail=REDACTED@USERNAME.COM&%5Buser%5Dpassword=REDACTED_PASSWORD'
+    headers:
+      Content-Length: ['100']
+      Content-Type: [application/x-www-form-urlencoded]
+    method: POST
+    uri: https://play.pocketcasts.com/users/sign_in
+  response:
+    body: {string: '<html><body>You are being <a href="https://play.pocketcasts.com/">redirected</a>.</body></html>'}
+    headers:
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Type: [text/html; charset=utf-8]
+      Date: ['Thu, 11 Oct 2018 15:45:22 GMT']
+      Location: ['https://play.pocketcasts.com/']
+      Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
+      Set-Cookie: [XSRF-TOKEN=2wjpXX4A621f%2FMO1k9d9e77mDfHAja4%2FpeibwnAq7bupqigXHHqnqwnuEiUiH62qFoYYxN9PrQXStE3IZAyi5A%3D%3D;
+          path=/, _social_session=ODFkR09SaDJra3AzTWRzVjFUTjUxNjU1OUx6ZEVzTFVucXozbG9PRU1KMzZPdUNFS1M1S3ZlbEVGbXhFMTh5VFIrZFBjUjJsTmlldXJDUXlxZm96d2dzK3h3ZGJ5dDlYTnp6WjJsSXNpdWJqYWp1M1hwOFh3di83K3JGRzRobE91SGFUaFVnWm02V01KWWNzVkJlRzNpQUFBNHdvK014Z3k4WlVLbnJ2VEM2MXRoVGs2OU9PSmRSNmhvcU1rQ2RrLS1BWElOalZHMGVTWDFhRlRGU3h4U0pnPT0%3D--fa3d7d0bb464f289f74ca5f970e747d4c687027e;
+          path=/; HttpOnly]
+      Status: [302 Found]
+      Strict-Transport-Security: [max-age=15768000]
+      Transfer-Encoding: [chunked]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Powered-By: [Phusion Passenger 5.3.2]
+      X-Request-Id: [74709603-eddc-44c3-ad77-5a795b8abf5a]
+      X-Runtime: ['0.095290']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 302, message: Found}
+- request:
+    body: null
+    headers:
+      Cookie: [XSRF-TOKEN=2wjpXX4A621f%2FMO1k9d9e77mDfHAja4%2FpeibwnAq7bupqigXHHqnqwnuEiUiH62qFoYYxN9PrQXStE3IZAyi5A%3D%3D;
+          _social_session=ODFkR09SaDJra3AzTWRzVjFUTjUxNjU1OUx6ZEVzTFVucXozbG9PRU1KMzZPdUNFS1M1S3ZlbEVGbXhFMTh5VFIrZFBjUjJsTmlldXJDUXlxZm96d2dzK3h3ZGJ5dDlYTnp6WjJsSXNpdWJqYWp1M1hwOFh3di83K3JGRzRobE91SGFUaFVnWm02V01KWWNzVkJlRzNpQUFBNHdvK014Z3k4WlVLbnJ2VEM2MXRoVGs2OU9PSmRSNmhvcU1rQ2RrLS1BWElOalZHMGVTWDFhRlRGU3h4U0pnPT0%3D--fa3d7d0bb464f289f74ca5f970e747d4c687027e]
+    method: GET
+    uri: https://play.pocketcasts.com/
+  response:
+    body: {string: '<html><body>You are being <a href="https://play.pocketcasts.com/web/podcasts/index">redirected</a>.</body></html>'}
+    headers:
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Type: [text/html; charset=utf-8]
+      Date: ['Thu, 11 Oct 2018 15:45:22 GMT']
+      Location: ['https://play.pocketcasts.com/web/podcasts/index']
+      Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
+      Set-Cookie: [XSRF-TOKEN=0eVXd51tIH61HvX1gtMcWYiLLPm9%2Bhln%2FoUyQyHDiggqxAWhgEvAJIPu2UZU1Woek5Rj9sMheIOJRxB8Xw%2FjqQ%3D%3D;
+          path=/, _social_session=aGRHRENQSGxoSHpGUjhBRnJxK2tXbGlRQnI4OWFsbnhFSDgvc0xhSTNhOVhhc1JVSkdiNWtZcmpvUHp6MVZwUlZXOGI0MjhXSzJKa3lnc24vVDY2ZENUY2JIM0dzVnhxQnR6Z3NFZDZ1bVJGMUZHMTZteGhsOFlHTmxhS3J3SzBMUnBPeHNjbHpVZkpjRHpZTlA5eDRVTUJ1c3JUTWZDb1FSUlc3UHp0SkRvVVA5MS95MXRSZElDaFJaNDBzbHE4aHFJSitHY2Z5bEJjWXU1NjM5TUVGRThyZkhPMyt3bFh3TVBhTnlYZnFWcGxBMEVsKzlhbjNtSXdSUTZyNUFUTmFPeUN0WVd0TitoNUFBSWRuYzdmMEE9PS0ta0pmN0xlb3VsaC9KZWErSU1ZVjRDdz09--da75b57bf08583ecd947143ce596f6dcaa4002fa;
+          path=/; HttpOnly]
+      Status: [302 Found]
+      Strict-Transport-Security: [max-age=15768000]
+      Transfer-Encoding: [chunked]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Powered-By: [Phusion Passenger 5.3.2]
+      X-Request-Id: [54f7db98-c144-41f6-8a96-898297e5521c]
+      X-Runtime: ['0.006654']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 302, message: Found}
+- request:
+    body: null
+    headers:
+      Cookie: [XSRF-TOKEN=0eVXd51tIH61HvX1gtMcWYiLLPm9%2Bhln%2FoUyQyHDiggqxAWhgEvAJIPu2UZU1Woek5Rj9sMheIOJRxB8Xw%2FjqQ%3D%3D;
+          _social_session=aGRHRENQSGxoSHpGUjhBRnJxK2tXbGlRQnI4OWFsbnhFSDgvc0xhSTNhOVhhc1JVSkdiNWtZcmpvUHp6MVZwUlZXOGI0MjhXSzJKa3lnc24vVDY2ZENUY2JIM0dzVnhxQnR6Z3NFZDZ1bVJGMUZHMTZteGhsOFlHTmxhS3J3SzBMUnBPeHNjbHpVZkpjRHpZTlA5eDRVTUJ1c3JUTWZDb1FSUlc3UHp0SkRvVVA5MS95MXRSZElDaFJaNDBzbHE4aHFJSitHY2Z5bEJjWXU1NjM5TUVGRThyZkhPMyt3bFh3TVBhTnlYZnFWcGxBMEVsKzlhbjNtSXdSUTZyNUFUTmFPeUN0WVd0TitoNUFBSWRuYzdmMEE9PS0ta0pmN0xlb3VsaC9KZWErSU1ZVjRDdz09--da75b57bf08583ecd947143ce596f6dcaa4002fa]
+    method: GET
+    uri: https://play.pocketcasts.com/web/podcasts/index
+  response:
+    body: {string: "<!DOCTYPE html>\n<html lang=\"en\" ng-app=\"pocketcasts\" data-framework=\"\
+        angularjs\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"description\"\
+        \ content=\"Listen to your favorite podcasts in your browser.\">\n  <meta\
+        \ http-equiv=\"X-UA-Compatible\" content=\"IE=Edge,chrome=1\">\n  <link rel=\"\
+        apple-touch-icon-precomposed\" sizes=\"76x76\" href=\"/assets/favicon-76-de30edd979b7827f9c99a26f8a2ab216a47f551a7f7d17fd5217be92f09dbd45.png\"\
+        \ />\n<link rel=\"apple-touch-icon-precomposed\" sizes=\"152x152\" href=\"\
+        /assets/favicon-152-cd0973f2271554c96bd75b6aea59fc97e39c6d61632e8d2be7f6447f4a0e7c38.png\"\
+        \ />\n<link rel=\"icon\" href=\"/favicon.ico\" type=\"image/x-icon\" />\n\
+        <link rel=\"shortcut icon\" href=\"/favicon.ico\" type=\"image/x-icon\" />\n\
+        <link rel=\"icon\" href=\"/assets/favicon-16-7769e4435e769f09418d01b4cbf69b4254e051d99774f2f9f21def8d3ff03d96.png\"\
+        \ type=\"image/png\" sizes=\"16x16\" />\n<link rel=\"icon\" href=\"/assets/favicon-32-08267f5f61d1e5fa04dd2eda2b615e2483a97642e1ee50bc489d00122ce32157.png\"\
+        \ type=\"image/png\" sizes=\"32x32\" />\n<link rel=\"icon\" href=\"/assets/favicon-96-8e7eacb5a6957b117116dcf7f428e8be82c4d93a43c4aab7dd5f398a5e1c4066.png\"\
+        \ type=\"image/png\" sizes=\"96x96\" />\n<link rel=\"icon\" href=\"/assets/favicon-128-e3d59ddc5117a7efa170693d9299c01883d102f1c62c81b08bcbb55bd7152b0b.png\"\
+        \ type=\"image/png\" sizes=\"128x128\" />\n<link rel=\"icon\" href=\"/assets/favicon-196-764eabc609dde7fb5e746b11ba934c5e3f21115e2fad01477f038b21d66b023b.png\"\
+        \ type=\"image/png\" sizes=\"196x196\" />\n<link rel=\"mask-icon\" href=\"\
+        /assets/safaripin-77e9d90e5b601140255b449546876dd4a9ff421ac23483b2d14536ba65b8b7b7.svg\"\
+        \ color=\"#F44336\" />\n  <title>Pocket Casts</title>\n  <meta name=\"csrf-param\"\
+        \ content=\"authenticity_token\" />\n<meta name=\"csrf-token\" content=\"\
+        MtV4YUOeXbKCoG0hTahdfDJf7uH/Z5bJ+2wXuDQxOx3J9Cq3Xri96LRQQZKbris7KUCh7oG89y2MrjWHSv1SvA==\"\
+        \ />\n  <script>\n      var SHOW_WELCOME = false;\n      var USER_PODCASTS_UUIDS\
+        \ = [];\n      var USER_EMAIL = 'matt+pocketcasts@bornski.com';\n      var\
+        \ CHECKOUT_URL = 'https://pay.paddle.com/checkout/495004?passthrough=664486&quantity_variable=0&guest_email=matt%2Bpocketcasts%40bornski.com';\n\
+        \      var APP_VERSION_CODE = 5;\n      var PAID = true;\n  </script>\n  <script\
+        \ type=\"text/javascript\" src=\"https://www.gstatic.com/cv/js/sender/v1/cast_sender.js\"\
+        ></script>\n  <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/icon?family=Material+Icons\"\
+        \ />\n  <script>\n      (function(d) {\n          var config = {\n       \
+        \       kitId: 'vyg1evw',\n              scriptTimeout: 3000,\n          \
+        \    async: true\n          },\n          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\\\
+        bwf-loading\\b/g,\"\")+\" wf-inactive\";},config.scriptTimeout),tk=d.createElement(\"\
+        script\"),f=false,s=d.getElementsByTagName(\"script\")[0],a;h.className+=\"\
+        \ wf-loading\";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!=\"\
+        complete\"&&a!=\"loaded\")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)\n\
+        \      })(document);\n  </script>\n  <link rel=\"stylesheet\" media=\"screen\"\
+        \ href=\"/assets/web-a05e3547792605a7b04bdfb40fe7448b9cdfbc633f2e20f2c415105366041637.css\"\
+        \ />\n  <script src=\"/assets/web-f76346a069d4f91ab409ec89d4334fca2d30d8b2ddfa5c430e7fd0934279f017.js\"\
+        ></script>\n  \n</head>\n<body ng-app=\"pocketcasts\" ng-controller=\"AppController\
+        \ as app\" ng-class=\"{audio_player_open: isAudioPlayerOpen(), show_notes_open:\
+        \ isShowNotesOpen(), paid: showNotice}\" data-ng-init=\"init()\">\n\n<div\
+        \ id=\"beta_banner\">\n  <span>Want to help us test a brand new beta version?\
+        \ Try it out here. It's great. Honestly!</span> <a href=\"https://playbeta.pocketcasts.com/web/\"\
+        \ target=\"_blank\">https://playbeta.pocketcasts.com</a>\n</div>\n<div id=\"\
+        header\">\n  <div id=\"header_logo\"><img width=\"30px\" height=\"30px\" style=\"\
+        width:31px;height:30px;\" src=\"/assets/logo-47947269f4551323d79393902f7a087c1495219309c46f005b91f41d72d19270.png\"\
+        \ alt=\"Logo\" /></div>\n  <div id=\"header_links\">\n    <div class=\"search_panel\"\
+        \ ng-class=\"{search_open: isSearchOpen}\" ng-controller=\"SearchController\"\
+        >\n      <div id=\"search_add_button\" ng-click=\"openCloseSearch()\"><div\
+        \ class=\"add_image\"></div></div>\n      <div id=\"search_input\"\n     \
+        \      data-angucomplete-alt=\"\"\n           data-placeholder=\"Search for\
+        \ podcast\"\n           data-pause=\"1000\"\n           data-selected-object=\"\
+        resultSelected\"\n           data-remote-url=\"/web/podcasts/search.json?term=\"\
+        \n           data-remote-url-data-field=\"podcasts\"\n           data-remote-url-response-formatter=\"\
+        formatSearchResponse\"\n           data-search-fields=\"title\"\n        \
+        \   data-title-field=\"title\"\n           data-description-field=\"author\"\
+        \n           data-image-field=\"discover_thumbnail_url\"\n           data-clear-selected=\"\
+        true\"\n           data-text-searching=\"Searching for podcasts...\"\n   \
+        \        data-text-no-results=\"No podcasts found.\"\n           data-input-class=\"\
+        form-control form-control-small\"></div>\n    </div>\n\n    <div class=\"\
+        dropdown\"><a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"\
+        ><div class=\"settings_cog\"></div></a>\n      <ul class=\"dropdown-menu dropdown-menu-right\"\
+        \ role=\"menu\">\n\n\n        <li><a href=\"https://play.pocketcasts.com/account\"\
+        \ target=\"_blank\">Account</a></li>\n        <li><a ng-click=\"openFaq()\"\
+        >FAQ</a></li>\n        <li><a ng-click=\"openReleaseNotes()\">Release Notes</a></li>\n\
+        \n        <li class=\"divider\"></li>\n\n        <li><a rel=\"nofollow\" data-method=\"\
+        delete\" href=\"/users/sign_out\">Sign Out</a></li>\n      </ul>\n    </div>\n\
+        \  </div>\n\n\n</div>\n\n<div id=\"main\" ui-view=\"\"></div>\n\n\n\n<div\
+        \ data-settings-dialog=\"\"></div>\n\n<div id=\"loading_dialog_bg\" style=\"\
+        display:none\">\n\n  <div id=\"loading_dialog\">\n    <div id=\"loading_errored\"\
+        >\n      <h1>Failed To Add Podcast</h1>\n      <p id=\"loadding_error_message\"\
+        >Ak! Something went wrong. Please email us with the feed URL at <a href=\"\
+        mailto:support@shiftyjelly.com\">support@shiftyjelly.com</a>.</p>\n    </div>\n\
+        \    <div id=\"loading_in_progress\">\n        <h1>Adding Podcast</h1>\n\n\
+        \        <p>You can continue to use Pocket Casts,<br/>your new subscription\
+        \ will appear in a moment.</p>\n\n        <svg height=\"80\" width=\"80\"\
+        >\n          <path d=\"M75,40 A35,35 0 1,0 40,75\" fill=\"none\" stroke=\"\
+        #F44336s\" stroke-width=\"10\">\n            <animateTransform attributeType=\"\
+        xml\"\n                attributeName=\"transform\"\n                type=\"\
+        rotate\"\n                from=\"0 40 40\"\n                to=\"360 40 40\"\
+        \n                dur=\"1.5s\"\n                repeatCount=\"indefinite\"\
+        />\n          </path>\n          <path d=\"M62,40 A22,22 0 1,0 40,62\" fill=\"\
+        none\" stroke=\"#F44336\" stroke-width=\"8\" >\n            <animateTransform\
+        \ attributeType=\"xml\"\n              attributeName=\"transform\"\n     \
+        \         type=\"rotate\"\n              from=\"0 40 40\"\n              to=\"\
+        360 40 40\"\n              dur=\"1s\"\n              repeatCount=\"indefinite\"\
+        />\n          </path>\n        </svg>\n\n        <p>Loading Feed...</p>\n\n\
+        \    </div>\n\n  </div>\n</div>\n\n<div id=\"players\" ng-controller=\"PlayerController\"\
+        \ ng-show=\"mediaPlayer.episode != null\" class=\"ng-hide\">\n    <div data-player-audio=\"\
+        \"></div>\n    <div data-player-video=\"\"></div>\n</div>\n\n<div id=\"episode_more_list\"\
+        \ style=\"display:none;\">\n  <ul class=\"list-group\">\n    <li class=\"\
+        list-group-item\">Play Next</li>\n    <li class=\"list-group-item\">Add to\
+        \ Queue</li>\n    <li class=\"list-group-item\">Mark as Played</li>\n    <li\
+        \ class=\"list-group-item\">Mark as Unplayed</li>\n    <li class=\"list-group-item\"\
+        >Share Episode</li>\n  </ul>\n</div>\n\n<script>\n    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n\
+        \        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n\
+        \            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n\
+        \    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\
+        \n    ga('create', 'UA-44126141-2', 'auto');\n    ga('send', 'pageview');\n\
+        </script>\n\n</body>\n</html>\n\n"}
+    headers:
+      Cache-Control: ['max-age=0, private, must-revalidate']
+      Connection: [keep-alive]
+      Content-Type: [text/html; charset=utf-8]
+      Date: ['Thu, 11 Oct 2018 15:45:22 GMT']
+      ETag: [W/"3c1e2667fa400cae7984251f14f2caff"]
+      Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
+      Set-Cookie: [XSRF-TOKEN=6vUrQgPXxVF4jJJu%2BxDAuMEoFhZKc3ocIG%2BHpXSR5b8R1HmUHvElC058vt0tFrb%2F2jdZGTSoG%2FhXraWaCl2MHg%3D%3D;
+          path=/, _social_session=Tmw0RkdnUFE3TzVuNGV2WG5KSWNDajFOdjYyaXFQNXl1WHJ4eFN0K1cweWswUlJqcjJ2OEVrOVRxSFhNZ0dtSEIrd3djaUIvYVppWlVhQnpkeURMbndYZEVYdHJaeWdYUWJqUjZjaThVOTdScURBMnJZdWRIQmRldFJKNzVYVGo2SDRQOHN1VWhvU2w1akRBL1IwYVhkNmxpdlVEU0ZpRWk3cUdkNVN2aklHRUVJVzFnSDFRT0dYZjFuSjFEQUpSTzFzMjhodUVxVUlSRWJKLzllSkNVdDhSQStybnJTRExzNzZXdlV3UHBsYnpranQweDFmY0JwZU93dWozdTY0Wm9jc3c5ZEd6VHg2VkRlVTdwYmNuVEE9PS0tMUN4UWRyQVZKWUlzMU42Y0E5eUJDdz09--1bdcee962fa8ec358fcca632997cc04783b2f6ce;
+          path=/; HttpOnly]
+      Status: [200 OK]
+      Strict-Transport-Security: [max-age=15768000]
+      Transfer-Encoding: [chunked]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Powered-By: [Phusion Passenger 5.3.2]
+      X-Request-Id: [97c495af-bab5-4935-9be3-26aeade8d84e]
+      X-Runtime: ['0.015079']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 200, message: OK}
+- request:
+    body: term=test
+    headers:
+      Content-Length: ['9']
+      Content-Type: [application/x-www-form-urlencoded]
+      Cookie: [XSRF-TOKEN=6vUrQgPXxVF4jJJu%2BxDAuMEoFhZKc3ocIG%2BHpXSR5b8R1HmUHvElC058vt0tFrb%2F2jdZGTSoG%2FhXraWaCl2MHg%3D%3D;
+          _social_session=Tmw0RkdnUFE3TzVuNGV2WG5KSWNDajFOdjYyaXFQNXl1WHJ4eFN0K1cweWswUlJqcjJ2OEVrOVRxSFhNZ0dtSEIrd3djaUIvYVppWlVhQnpkeURMbndYZEVYdHJaeWdYUWJqUjZjaThVOTdScURBMnJZdWRIQmRldFJKNzVYVGo2SDRQOHN1VWhvU2w1akRBL1IwYVhkNmxpdlVEU0ZpRWk3cUdkNVN2aklHRUVJVzFnSDFRT0dYZjFuSjFEQUpSTzFzMjhodUVxVUlSRWJKLzllSkNVdDhSQStybnJTRExzNzZXdlV3UHBsYnpranQweDFmY0JwZU93dWozdTY0Wm9jc3c5ZEd6VHg2VkRlVTdwYmNuVEE9PS0tMUN4UWRyQVZKWUlzMU42Y0E5eUJDdz09--1bdcee962fa8ec358fcca632997cc04783b2f6ce]
+    method: POST
+    uri: https://play.pocketcasts.com/web/podcasts/search.json
+  response:
+    body: {string: "{\"podcasts\":[{\"id\":null,\"uuid\":\"1dc83150-42f6-0133-bf97-0d11918ab357\"\
+        ,\"url\":\"https://www.podomatic.com/podcasts/thinkdeeppodcast\",\"title\"\
+        :\"Test\",\"description\":\"\",\"thumbnail_url\":\"https://assets.podomatic.net/ts/dc/59/f3/thinkdeeppodcast/1400x1400_9577106.jpg\"\
+        ,\"author\":\"Test\"},{\"id\":null,\"uuid\":\"5c319230-02e0-0136-c264-7d73a919276a\"\
+        ,\"url\":\"http://soundcloud.com/user-985345385\",\"title\":\"Test\",\"description\"\
+        :\"Podcast by Lundbeck\",\"thumbnail_url\":\"http://i1.sndcdn.com/avatars-000307255005-t4vjm5-original.jpg\"\
+        ,\"author\":\"Lundbeck\"},{\"id\":null,\"uuid\":\"9c635f10-a1f8-0132-f82c-5f4c86fd3263\"\
+        ,\"url\":\"http://www.shiftbrain.com/\",\"title\":\"Test\",\"description\"\
+        :\"SHIFTBRAIN\u306E\u30C7\u30B6\u30A4\u30CA\u30FC\u3067\u3001\u30C7\u30B6\u30A4\
+        \u30F3\u3068\u304BWEB\u3068\u304B\u305D\u306E\u5468\u8FBA\u306B\u3064\u3044\
+        \u3066\u307E\u3063\u305F\u308A\u3068\u4F1A\u8A71\u3057\u305F\u5185\u5BB9\u3067\
+        \u3059\u3002\u9031\u4E00\u56DE\u304F\u3089\u3044\u66F4\u65B0\u3057\u3066\u3044\
+        \u304D\u307E\u3059\u3002\u6687\u3064\u3076\u3057\u306B\u3069\u3046\u305E\u3002\
+        \",\"thumbnail_url\":\"http://www.test-preview.net/designer_podcast/cover.jpg\"\
+        ,\"author\":\"SHIFBRAIN\"},{\"id\":null,\"uuid\":\"a5b138f0-0428-012e-f9a0-00163e1b201c\"\
+        ,\"url\":\"http://www.tested.com/this-is-only-a-test/\",\"title\":\"This is\
+        \ Only a Test\",\"description\":\"This is the official podcast of Tested.com.\
+        \ Tested brings you the week's technology and science news, with hosts Will\
+        \ Smith, Norman Chan, and Jeremy Williams. There's no jargon here, just solid\
+        \ explanations of the week's news--and plenty of wacky tangents. Make sure\
+        \ you stick around after the outro for fake outtakes!\",\"thumbnail_url\"\
+        :\"http://files.tested.com/static/podcast_logo.jpg\",\"author\":\"Will Smith,\
+        \ Norman Chan, Jeremy Williams\"},{\"id\":null,\"uuid\":\"f4692950-2b9c-012e-0929-00163e1b201c\"\
+        ,\"url\":\"http://www.bbc.co.uk/programmes/p02nrsl2\",\"title\":\"Test Match\
+        \ Special\",\"description\":\"Coverage of England\u2019s cricket matches.\
+        \ Insight and analysis from Jonathan Agnew and Geoffrey Boycott, plus interviews\
+        \ with the top players.\",\"thumbnail_url\":\"http://ichef.bbci.co.uk/images/ic/3000x3000/p058glq7.jpg\"\
+        ,\"author\":\"BBC Radio 5 live\"},{\"id\":null,\"uuid\":\"3d5935f0-226b-0133-26bb-059c869cc4eb\"\
+        ,\"url\":\"https://testandcode.com/\",\"title\":\"Test and Code\",\"description\"\
+        :\"I focus on testing and process questions like \u201CHow do I know it works?\u201D\
+        , \u201CHow do I effectively test?\u201D, and the like.\\nBut really, anything\
+        \ in the software development realm is fair game.\",\"thumbnail_url\":\"https://images.fireside.fm/podcasts/images/b/bc7f1faf-8aad-4135-bb12-83a8af679756/cover.jpg\"\
+        ,\"author\":\"Brian Okken\"},{\"id\":null,\"uuid\":\"f10f6880-f86e-0130-c3a4-723c91aeae46\"\
+        ,\"url\":\"http://flitetest.com/\",\"title\":\"Flite Test: Aviation - RC Planes\
+        \ - Multirotors\",\"description\":\"Flite Test is an entertainment company\
+        \ that is all about flight. We love to test, fly and sometimes even crash\
+        \ when things go wrong! We often talk about flying, building \\u0026 repairing\
+        \ RC airplanes, setting up quadcopters, occasionally helicopters and anything\
+        \ else related to radio control flight.  FliteTest After Hours is hosted by\
+        \ Chris and he often goes into the behind the scenes of the webshow, the radio\
+        \ control industry, and has very entertaining guests on the show.\",\"thumbnail_url\"\
+        :\"http://static.libsyn.com/p/assets/b/8/0/2/b802613396453647/FT_Podcast_Logo1-01.png\"\
+        ,\"author\":\"FliteTest.com | Radio Control Flight\"},{\"id\":null,\"uuid\"\
+        :\"e2716200-8b9b-0131-8a05-723c91aeae46\",\"url\":\"http://www.joecolantonio.com\"\
+        ,\"title\":\"TestTalks | Automation Awesomeness | Helping YOU Succeed with\
+        \ Test Automation\",\"description\":\"TestTalks is a weekly podcast hosted\
+        \ by Joe Colantonio, which geeks out on all things software test automation.\
+        \ TestTalks covers news found in the testing space, reviews books about automation\
+        \ and speaks with some of the thought leaders in the test automation field.\
+        \ We\u2019ll aim to interview some of today\u2019s most successful and inspiring\
+        \ software engineers and test automation thought leaders.\\n\\nDuring the\
+        \ interviews, the spotlighted engineer will tell us about his or her testing\
+        \ experience, sharing their successes and failures as well as which testing\
+        \ techniques are working for them right now. We\u2019ll all learn more about\
+        \ testing through these talks \u2014 hence the name TestTalks.\",\"thumbnail_url\"\
+        :\"http://static.libsyn.com/p/assets/9/f/a/5/9fa5cb4ab07d9162/TestTalksPodcastCover2015.jpg\"\
+        ,\"author\":\"Test Automation with Joe Colantonio. Test Talks covers Selenium,\
+        \ SoapUI, UFT, LoadRunner, BDD, test news, book reviews , interviews thought\
+        \ leaders in the test automation field, and more!\"},{\"id\":null,\"uuid\"\
+        :\"cc551600-564d-012e-209d-00163e1b201c\",\"url\":\"http://www.eslpod.com/toefl\"\
+        ,\"title\":\"ESLPod.com's Guide to the TOEFL Test\",\"description\":\"This\
+        \ podcast is for anyone studying for the Test of English as a Foreign Language\
+        \ (TOEFL) or the International English Language Testing System (IELTS). It\
+        \ is designed to help you improve your listening comprehension skills.\",\"\
+        thumbnail_url\":\"http://www.eslpod.com/itunesimage3.jpg\",\"author\":\"Center\
+        \ for Educational Development\"},{\"id\":null,\"uuid\":\"17581210-bc35-0132-3826-0b39892d38e0\"\
+        ,\"url\":\"https://flitetest.podbean.com\",\"title\":\"Flite Test - Aviation\
+        \ - Drones - RC Planes\",\"description\":\"[VIDEO CAST] Flite Test is an entertainment\
+        \ company that is all about flight. We love to test, fly and sometimes even\
+        \ crash when things go wrong! See more at www.flitetest.com\",\"thumbnail_url\"\
+        :\"https://deow9bq0xqvbj.cloudfront.net/image-logo/752282/FT2_final.png\"\
+        ,\"author\":\"Flite Test\"}]}"}
+    headers:
+      Cache-Control: ['max-age=0, private, must-revalidate']
+      Connection: [keep-alive]
+      Content-Type: [application/json; charset=utf-8]
+      Date: ['Thu, 11 Oct 2018 15:45:22 GMT']
+      ETag: [W/"1fb8aa15f2e0a5a6ece1231af1474d12"]
+      Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
+      Set-Cookie: [XSRF-TOKEN=AFfjCeU7oQAI1ruBUWj9udWsuGFLBqU9v%2FwJ6veqBrf7drHf%2BB1BWj4mlzKHbov%2BzrP3bjXdxNnIPivViWZvFg%3D%3D;
+          path=/, _social_session=eHF3SDZDYU12U2hNTk9GU1BXYmhyRER6VXk1aHdBdEZNOFB0ajdldjB2SjJiSHovRFNIcHlwcmdkNnFKcTdVMkVWUGhUUHZMaytEZitYT2RySmhBejRjVW9iRk5RamdtN1dvVVpHSXQzUE9YeENTMzNBMzI0UDd0ZXFmUWN6VlJlQ2RRSUV6Smp6aUZHdzNLeXpkNFg4WlBPY2RUcCtnTzY2V1BJNWhZQU5iTTlCbVpBTDZHek1BdnFoMlorb25FQStDZkNiMjQ0UG5XNlNLcUZJUUxYRVlIWTV1VXVLMTlySmNMVm9hWTg2U3NkUVl5R3VvS3B5aXBOaklGR0N3MlBSUFdacHVpOGtGSDJ0OUM3Ulg2S3c9PS0tUUdhYXFCbnZpTSt2NnVoMFVCVlNqdz09--9c511553b1a10aaa515207a792e412143bb0c0ee;
+          path=/; HttpOnly]
+      Status: [200 OK]
+      Strict-Transport-Security: [max-age=15768000]
+      Transfer-Encoding: [chunked]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Powered-By: [Phusion Passenger 5.3.2]
+      X-Request-Id: [459b5721-df8a-4b60-b9f8-6a3a51c665e8]
+      X-Runtime: ['0.252060']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 200, message: OK}
+version: 1

@@ -1,0 +1,222 @@
+interactions:
+- request:
+    body: '%5Buser%5Demail=REDACTED@USERNAME.COM&%5Buser%5Dpassword=REDACTED_PASSWORD'
+    headers:
+      Content-Length: ['100']
+      Content-Type: [application/x-www-form-urlencoded]
+    method: POST
+    uri: https://play.pocketcasts.com/users/sign_in
+  response:
+    body: {string: '<html><body>You are being <a href="https://play.pocketcasts.com/">redirected</a>.</body></html>'}
+    headers:
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Type: [text/html; charset=utf-8]
+      Date: ['Thu, 11 Oct 2018 15:45:24 GMT']
+      Location: ['https://play.pocketcasts.com/']
+      Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
+      Set-Cookie: [XSRF-TOKEN=9m2PcWfIcodtIBCey7NarPzcvBb4hmlYJZ%2FcamY8OuzLaNfGiyNUXzcUF6qnv1bVzGooTqy%2F4tbZPKpfxqANaA%3D%3D;
+          path=/, _social_session=aWNnTE9tMXZNR0ZwNDcwRmZySXZobUNsWWE2dzZjREtiQU15RnRiYUVTZ2F6YS81Z3h3M0pVZDB1R1QvRXdpcCswWVhOQ0ZHVEsvelhyNjlZSEVkbThub2c3dHBkZ1k0cTI2cmlERkpNb3VKYkhwcE5HWnRJcTE1MWpsR0dlSk5TMXNic1F3ckxiQ0luTmUrWmV1SC9RZFRWTm44TXNEcU1RaFl2N3hXM0tlU1phSjdEcnhJWkNJYVhUWnU1dmlTLS1lOGluZThoUE1KMEU5eDdCejRLR3pnPT0%3D--fa364b005876cbab6932e16c8f2c801b0c4dcf43;
+          path=/; HttpOnly]
+      Status: [302 Found]
+      Strict-Transport-Security: [max-age=15768000]
+      Transfer-Encoding: [chunked]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Powered-By: [Phusion Passenger 5.3.2]
+      X-Request-Id: [05cd2a7f-dbc7-45a4-844a-b53ec4b6f19c]
+      X-Runtime: ['0.106297']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 302, message: Found}
+- request:
+    body: null
+    headers:
+      Cookie: [XSRF-TOKEN=9m2PcWfIcodtIBCey7NarPzcvBb4hmlYJZ%2FcamY8OuzLaNfGiyNUXzcUF6qnv1bVzGooTqy%2F4tbZPKpfxqANaA%3D%3D;
+          _social_session=aWNnTE9tMXZNR0ZwNDcwRmZySXZobUNsWWE2dzZjREtiQU15RnRiYUVTZ2F6YS81Z3h3M0pVZDB1R1QvRXdpcCswWVhOQ0ZHVEsvelhyNjlZSEVkbThub2c3dHBkZ1k0cTI2cmlERkpNb3VKYkhwcE5HWnRJcTE1MWpsR0dlSk5TMXNic1F3ckxiQ0luTmUrWmV1SC9RZFRWTm44TXNEcU1RaFl2N3hXM0tlU1phSjdEcnhJWkNJYVhUWnU1dmlTLS1lOGluZThoUE1KMEU5eDdCejRLR3pnPT0%3D--fa364b005876cbab6932e16c8f2c801b0c4dcf43]
+    method: GET
+    uri: https://play.pocketcasts.com/
+  response:
+    body: {string: '<html><body>You are being <a href="https://play.pocketcasts.com/web/podcasts/index">redirected</a>.</body></html>'}
+    headers:
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Type: [text/html; charset=utf-8]
+      Date: ['Thu, 11 Oct 2018 15:45:25 GMT']
+      Location: ['https://play.pocketcasts.com/web/podcasts/index']
+      Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
+      Set-Cookie: [XSRF-TOKEN=Sl3BLyXw9Q7YgDvXg0piDIFDcKXDGSORV%2BCXbl9gDE6tNMCeEyv4WwlV3cPC0oT5nzaupfwxmv2QUdwDPJc2yQ%3D%3D;
+          path=/, _social_session=UTFWRnhjU25oekNTamJZVEdqRm96OTN4Tk5nTHhSd3RUaTQ3Y2pxQUY5eXNESHJQZHNOMXhDVlM0WFBLY295YW5MWmg5T3ByVUZzcjBsMUFmMldtSDkyMk14TWJWSU96SXBNbGlpcVVSK2Z6MnZVOHBvTmQyM2VQOGtYZW9raThJMzdQNldkUmUvTEFpY2VDMHU1dkx3N0w5bnpXV0tsaXVtWlJwaEY1UHpPN2dyLzlHOVlXdlVGR05vWDVVWDRUakhGYXZUV3FnUHVqc2dCSlZwQndhTmR6N0lncFlsS2laeXMyQVpXSGwzZkZMUGpDSGdaYUlhUHdyMXVKV1RaeUlTQlRqelR1SlJXUHFnYWtSNHlyQ2c9PS0tK0k3akJBZmRQRk5RcVZERGFrcVc5QT09--10976e35a0094ed6cead2138993657b5f9d299fd;
+          path=/; HttpOnly]
+      Status: [302 Found]
+      Strict-Transport-Security: [max-age=15768000]
+      Transfer-Encoding: [chunked]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Powered-By: [Phusion Passenger 5.3.2]
+      X-Request-Id: [181a0122-685b-46c0-84f6-cb7b7e69e4e2]
+      X-Runtime: ['0.006842']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 302, message: Found}
+- request:
+    body: null
+    headers:
+      Cookie: [XSRF-TOKEN=Sl3BLyXw9Q7YgDvXg0piDIFDcKXDGSORV%2BCXbl9gDE6tNMCeEyv4WwlV3cPC0oT5nzaupfwxmv2QUdwDPJc2yQ%3D%3D;
+          _social_session=UTFWRnhjU25oekNTamJZVEdqRm96OTN4Tk5nTHhSd3RUaTQ3Y2pxQUY5eXNESHJQZHNOMXhDVlM0WFBLY295YW5MWmg5T3ByVUZzcjBsMUFmMldtSDkyMk14TWJWSU96SXBNbGlpcVVSK2Z6MnZVOHBvTmQyM2VQOGtYZW9raThJMzdQNldkUmUvTEFpY2VDMHU1dkx3N0w5bnpXV0tsaXVtWlJwaEY1UHpPN2dyLzlHOVlXdlVGR05vWDVVWDRUakhGYXZUV3FnUHVqc2dCSlZwQndhTmR6N0lncFlsS2laeXMyQVpXSGwzZkZMUGpDSGdaYUlhUHdyMXVKV1RaeUlTQlRqelR1SlJXUHFnYWtSNHlyQ2c9PS0tK0k3akJBZmRQRk5RcVZERGFrcVc5QT09--10976e35a0094ed6cead2138993657b5f9d299fd]
+    method: GET
+    uri: https://play.pocketcasts.com/web/podcasts/index
+  response:
+    body: {string: "<!DOCTYPE html>\n<html lang=\"en\" ng-app=\"pocketcasts\" data-framework=\"\
+        angularjs\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"description\"\
+        \ content=\"Listen to your favorite podcasts in your browser.\">\n  <meta\
+        \ http-equiv=\"X-UA-Compatible\" content=\"IE=Edge,chrome=1\">\n  <link rel=\"\
+        apple-touch-icon-precomposed\" sizes=\"76x76\" href=\"/assets/favicon-76-de30edd979b7827f9c99a26f8a2ab216a47f551a7f7d17fd5217be92f09dbd45.png\"\
+        \ />\n<link rel=\"apple-touch-icon-precomposed\" sizes=\"152x152\" href=\"\
+        /assets/favicon-152-cd0973f2271554c96bd75b6aea59fc97e39c6d61632e8d2be7f6447f4a0e7c38.png\"\
+        \ />\n<link rel=\"icon\" href=\"/favicon.ico\" type=\"image/x-icon\" />\n\
+        <link rel=\"shortcut icon\" href=\"/favicon.ico\" type=\"image/x-icon\" />\n\
+        <link rel=\"icon\" href=\"/assets/favicon-16-7769e4435e769f09418d01b4cbf69b4254e051d99774f2f9f21def8d3ff03d96.png\"\
+        \ type=\"image/png\" sizes=\"16x16\" />\n<link rel=\"icon\" href=\"/assets/favicon-32-08267f5f61d1e5fa04dd2eda2b615e2483a97642e1ee50bc489d00122ce32157.png\"\
+        \ type=\"image/png\" sizes=\"32x32\" />\n<link rel=\"icon\" href=\"/assets/favicon-96-8e7eacb5a6957b117116dcf7f428e8be82c4d93a43c4aab7dd5f398a5e1c4066.png\"\
+        \ type=\"image/png\" sizes=\"96x96\" />\n<link rel=\"icon\" href=\"/assets/favicon-128-e3d59ddc5117a7efa170693d9299c01883d102f1c62c81b08bcbb55bd7152b0b.png\"\
+        \ type=\"image/png\" sizes=\"128x128\" />\n<link rel=\"icon\" href=\"/assets/favicon-196-764eabc609dde7fb5e746b11ba934c5e3f21115e2fad01477f038b21d66b023b.png\"\
+        \ type=\"image/png\" sizes=\"196x196\" />\n<link rel=\"mask-icon\" href=\"\
+        /assets/safaripin-77e9d90e5b601140255b449546876dd4a9ff421ac23483b2d14536ba65b8b7b7.svg\"\
+        \ color=\"#F44336\" />\n  <title>Pocket Casts</title>\n  <meta name=\"csrf-param\"\
+        \ content=\"authenticity_token\" />\n<meta name=\"csrf-token\" content=\"\
+        dIhQHLlOjww4aoaKZ4IGTKJM2m3lrOkCeC8jJ2ZGRYGT4VGtj5WCWem/YJ4mGuC5vDkEbdqEUG6/nmhKBbF/Bg==\"\
+        \ />\n  <script>\n      var SHOW_WELCOME = false;\n      var USER_PODCASTS_UUIDS\
+        \ = [];\n      var USER_EMAIL = 'matt+pocketcasts@bornski.com';\n      var\
+        \ CHECKOUT_URL = 'https://pay.paddle.com/checkout/495004?passthrough=664486&quantity_variable=0&guest_email=matt%2Bpocketcasts%40bornski.com';\n\
+        \      var APP_VERSION_CODE = 5;\n      var PAID = true;\n  </script>\n  <script\
+        \ type=\"text/javascript\" src=\"https://www.gstatic.com/cv/js/sender/v1/cast_sender.js\"\
+        ></script>\n  <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/icon?family=Material+Icons\"\
+        \ />\n  <script>\n      (function(d) {\n          var config = {\n       \
+        \       kitId: 'vyg1evw',\n              scriptTimeout: 3000,\n          \
+        \    async: true\n          },\n          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\\\
+        bwf-loading\\b/g,\"\")+\" wf-inactive\";},config.scriptTimeout),tk=d.createElement(\"\
+        script\"),f=false,s=d.getElementsByTagName(\"script\")[0],a;h.className+=\"\
+        \ wf-loading\";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!=\"\
+        complete\"&&a!=\"loaded\")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)\n\
+        \      })(document);\n  </script>\n  <link rel=\"stylesheet\" media=\"screen\"\
+        \ href=\"/assets/web-a05e3547792605a7b04bdfb40fe7448b9cdfbc633f2e20f2c415105366041637.css\"\
+        \ />\n  <script src=\"/assets/web-f76346a069d4f91ab409ec89d4334fca2d30d8b2ddfa5c430e7fd0934279f017.js\"\
+        ></script>\n  \n</head>\n<body ng-app=\"pocketcasts\" ng-controller=\"AppController\
+        \ as app\" ng-class=\"{audio_player_open: isAudioPlayerOpen(), show_notes_open:\
+        \ isShowNotesOpen(), paid: showNotice}\" data-ng-init=\"init()\">\n\n<div\
+        \ id=\"beta_banner\">\n  <span>Want to help us test a brand new beta version?\
+        \ Try it out here. It's great. Honestly!</span> <a href=\"https://playbeta.pocketcasts.com/web/\"\
+        \ target=\"_blank\">https://playbeta.pocketcasts.com</a>\n</div>\n<div id=\"\
+        header\">\n  <div id=\"header_logo\"><img width=\"30px\" height=\"30px\" style=\"\
+        width:31px;height:30px;\" src=\"/assets/logo-47947269f4551323d79393902f7a087c1495219309c46f005b91f41d72d19270.png\"\
+        \ alt=\"Logo\" /></div>\n  <div id=\"header_links\">\n    <div class=\"search_panel\"\
+        \ ng-class=\"{search_open: isSearchOpen}\" ng-controller=\"SearchController\"\
+        >\n      <div id=\"search_add_button\" ng-click=\"openCloseSearch()\"><div\
+        \ class=\"add_image\"></div></div>\n      <div id=\"search_input\"\n     \
+        \      data-angucomplete-alt=\"\"\n           data-placeholder=\"Search for\
+        \ podcast\"\n           data-pause=\"1000\"\n           data-selected-object=\"\
+        resultSelected\"\n           data-remote-url=\"/web/podcasts/search.json?term=\"\
+        \n           data-remote-url-data-field=\"podcasts\"\n           data-remote-url-response-formatter=\"\
+        formatSearchResponse\"\n           data-search-fields=\"title\"\n        \
+        \   data-title-field=\"title\"\n           data-description-field=\"author\"\
+        \n           data-image-field=\"discover_thumbnail_url\"\n           data-clear-selected=\"\
+        true\"\n           data-text-searching=\"Searching for podcasts...\"\n   \
+        \        data-text-no-results=\"No podcasts found.\"\n           data-input-class=\"\
+        form-control form-control-small\"></div>\n    </div>\n\n    <div class=\"\
+        dropdown\"><a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"\
+        ><div class=\"settings_cog\"></div></a>\n      <ul class=\"dropdown-menu dropdown-menu-right\"\
+        \ role=\"menu\">\n\n\n        <li><a href=\"https://play.pocketcasts.com/account\"\
+        \ target=\"_blank\">Account</a></li>\n        <li><a ng-click=\"openFaq()\"\
+        >FAQ</a></li>\n        <li><a ng-click=\"openReleaseNotes()\">Release Notes</a></li>\n\
+        \n        <li class=\"divider\"></li>\n\n        <li><a rel=\"nofollow\" data-method=\"\
+        delete\" href=\"/users/sign_out\">Sign Out</a></li>\n      </ul>\n    </div>\n\
+        \  </div>\n\n\n</div>\n\n<div id=\"main\" ui-view=\"\"></div>\n\n\n\n<div\
+        \ data-settings-dialog=\"\"></div>\n\n<div id=\"loading_dialog_bg\" style=\"\
+        display:none\">\n\n  <div id=\"loading_dialog\">\n    <div id=\"loading_errored\"\
+        >\n      <h1>Failed To Add Podcast</h1>\n      <p id=\"loadding_error_message\"\
+        >Ak! Something went wrong. Please email us with the feed URL at <a href=\"\
+        mailto:support@shiftyjelly.com\">support@shiftyjelly.com</a>.</p>\n    </div>\n\
+        \    <div id=\"loading_in_progress\">\n        <h1>Adding Podcast</h1>\n\n\
+        \        <p>You can continue to use Pocket Casts,<br/>your new subscription\
+        \ will appear in a moment.</p>\n\n        <svg height=\"80\" width=\"80\"\
+        >\n          <path d=\"M75,40 A35,35 0 1,0 40,75\" fill=\"none\" stroke=\"\
+        #F44336s\" stroke-width=\"10\">\n            <animateTransform attributeType=\"\
+        xml\"\n                attributeName=\"transform\"\n                type=\"\
+        rotate\"\n                from=\"0 40 40\"\n                to=\"360 40 40\"\
+        \n                dur=\"1.5s\"\n                repeatCount=\"indefinite\"\
+        />\n          </path>\n          <path d=\"M62,40 A22,22 0 1,0 40,62\" fill=\"\
+        none\" stroke=\"#F44336\" stroke-width=\"8\" >\n            <animateTransform\
+        \ attributeType=\"xml\"\n              attributeName=\"transform\"\n     \
+        \         type=\"rotate\"\n              from=\"0 40 40\"\n              to=\"\
+        360 40 40\"\n              dur=\"1s\"\n              repeatCount=\"indefinite\"\
+        />\n          </path>\n        </svg>\n\n        <p>Loading Feed...</p>\n\n\
+        \    </div>\n\n  </div>\n</div>\n\n<div id=\"players\" ng-controller=\"PlayerController\"\
+        \ ng-show=\"mediaPlayer.episode != null\" class=\"ng-hide\">\n    <div data-player-audio=\"\
+        \"></div>\n    <div data-player-video=\"\"></div>\n</div>\n\n<div id=\"episode_more_list\"\
+        \ style=\"display:none;\">\n  <ul class=\"list-group\">\n    <li class=\"\
+        list-group-item\">Play Next</li>\n    <li class=\"list-group-item\">Add to\
+        \ Queue</li>\n    <li class=\"list-group-item\">Mark as Played</li>\n    <li\
+        \ class=\"list-group-item\">Mark as Unplayed</li>\n    <li class=\"list-group-item\"\
+        >Share Episode</li>\n  </ul>\n</div>\n\n<script>\n    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n\
+        \        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n\
+        \            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n\
+        \    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\
+        \n    ga('create', 'UA-44126141-2', 'auto');\n    ga('send', 'pageview');\n\
+        </script>\n\n</body>\n</html>\n\n"}
+    headers:
+      Cache-Control: ['max-age=0, private, must-revalidate']
+      Connection: [keep-alive]
+      Content-Type: [text/html; charset=utf-8]
+      Date: ['Thu, 11 Oct 2018 15:45:25 GMT']
+      ETag: [W/"25a5fa1a023f57da12fd26ece4c65af4"]
+      Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
+      Set-Cookie: [XSRF-TOKEN=TEl7kKi%2B6erRjXsqe%2FgufWYBw381HNo20K%2Fyi%2B5vKOyrIHohnmXkvwBYnT46YMiIeHQdfwo0Y1oXHrnmjZgSaw%3D%3D;
+          path=/, _social_session=MlIzVUthQWpDV1dTUi9JSFc5bjdwWEx6RFF5WXk2MFNxNnJlc1QxOTZDT0RJdnQ3UUJBZEdZSVpFNm9PNXlGem1hVk1INUxLS0paMmdhWGdycEMxM1FXMkRsam4xNHFpNktxNGZVc1JzYVhkYXdGRHR5KzVhNTJHNDVNVm9CUFdncGtabm4zY3ZIYTlkY093eWpINzdFWGR5V2U0eGpwU3dpb21pbG9DRko4bTdwV3pETkE0S2FPcVRQWk12U0FPakJsclpmZ3lFYWhBZ1NTTHhtRnZScm5YNkR6Z3E0bWtiNk1GS1A2ZlVYNHo4b1QzSlNZVzkyaEQzUEVhSFMrc1ZocU56aERDWG0rYTNZVmxKUWk3b3c9PS0tRXlNK2M2bkhuNUgyTU1BU3U2cGlDdz09--60c017a11d0244253bd5c45a11be2f18e164b379;
+          path=/; HttpOnly]
+      Status: [200 OK]
+      Strict-Transport-Security: [max-age=15768000]
+      Transfer-Encoding: [chunked]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Powered-By: [Phusion Passenger 5.3.2]
+      X-Request-Id: [8caa0a49-6dec-45c4-af68-d3f297b584fb]
+      X-Runtime: ['0.014659']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 200, message: OK}
+- request:
+    body: uuid=a35748e0-bb4d-0134-10a8-25324e2a541d
+    headers:
+      Content-Length: ['41']
+      Content-Type: [application/x-www-form-urlencoded]
+      Cookie: [XSRF-TOKEN=TEl7kKi%2B6erRjXsqe%2FgufWYBw381HNo20K%2Fyi%2B5vKOyrIHohnmXkvwBYnT46YMiIeHQdfwo0Y1oXHrnmjZgSaw%3D%3D;
+          _social_session=MlIzVUthQWpDV1dTUi9JSFc5bjdwWEx6RFF5WXk2MFNxNnJlc1QxOTZDT0RJdnQ3UUJBZEdZSVpFNm9PNXlGem1hVk1INUxLS0paMmdhWGdycEMxM1FXMkRsam4xNHFpNktxNGZVc1JzYVhkYXdGRHR5KzVhNTJHNDVNVm9CUFdncGtabm4zY3ZIYTlkY093eWpINzdFWGR5V2U0eGpwU3dpb21pbG9DRko4bTdwV3pETkE0S2FPcVRQWk12U0FPakJsclpmZ3lFYWhBZ1NTTHhtRnZScm5YNkR6Z3E0bWtiNk1GS1A2ZlVYNHo4b1QzSlNZVzkyaEQzUEVhSFMrc1ZocU56aERDWG0rYTNZVmxKUWk3b3c9PS0tRXlNK2M2bkhuNUgyTU1BU3U2cGlDdz09--60c017a11d0244253bd5c45a11be2f18e164b379]
+    method: POST
+    uri: https://play.pocketcasts.com/web/episodes/show_notes.json
+  response:
+    body: {string: '{"show_notes":"Unless you happen to be standing on a hilltop or
+        swimming in the ocean right now, you are on a watershed. These unsung wonders
+        of topography and hydrology are an important contributor to the rain cycle
+        and yet we humans tend to abuse them.\u003cbr /\u003e\u003cbr /\u003eLearn
+        more about advertising on the HowStuffWorks podcasts at \u003ca href=\"http://www.howstuffworks.com/advertisers.htm\"\u003ewww.howstuffworks.com/advertisers.htm\u003c/a\u003e\u003cbr
+        /\u003e\u003cbr /\u003eAnd to learn about your ad choices when listening to
+        podcasts, visit \u003ca href=\"https://www.howstuffworks.com/privacy.htm#ad-choices\"\u003ehttps://www.howstuffworks.com/privacy.htm#ad-choices\u003c/a\u003e"}'}
+    headers:
+      Cache-Control: ['max-age=0, private, must-revalidate']
+      Connection: [keep-alive]
+      Content-Type: [application/json; charset=utf-8]
+      Date: ['Thu, 11 Oct 2018 15:45:25 GMT']
+      ETag: [W/"fd5b26374f1e9871d51bedcf2497e4f6"]
+      Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
+      Set-Cookie: [XSRF-TOKEN=VwErzliNkx%2F7iC94BdGp%2FdepKCBYo5jaEz9IrxFMo7CwaCp%2FblaeSipdyWxESU8Iydz2IGeLIbbUjgPCcruZNw%3D%3D;
+          path=/, _social_session=MkdTR2VXOGszOUpzUDNoTWU1RVBVL1l6NkF4dlVrWEJjZ0JZVkhsQkQ1cnlpWVFCYjhxSHorcFJkSytkaGMyOHdFdWNJL0JsMXRNVVkyRUlQZXJsNkh3UFA5MzhXeXlMNzk3dmIrWlcxS1ROb1U4VHBieUpZRjVabjl4NW0zdnoxdWU1bFlyRHpGaW5VWEMrcXIwYlpLQkhLVG9ycVdvbU03U2RmbWg1Y3hWaTh5aVJGNi9lak9LMHV2WTV5RDllUys3OWYyYTc0ZTRPdG1Nb0FnQkk5UWN3bm1sd2R1cmdLN29xTjY4NXZqR3VqQ3Q1VjhqckJ5U1NqQ0VBOUZ1SzRsM3ZRM0lWZXhGYkxOOUF5K2E2dXc9PS0tcWZRNGRJWkw2ditaaHhLbUxoT0IrUT09--a8ef8ab87cb255e1726763aaa84110e1ff9414b8;
+          path=/; HttpOnly]
+      Status: [200 OK]
+      Strict-Transport-Security: [max-age=15768000]
+      Transfer-Encoding: [chunked]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Powered-By: [Phusion Passenger 5.3.2]
+      X-Request-Id: [aa466216-1899-4478-bfd1-d2fb72314b8e]
+      X-Runtime: ['0.027437']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 200, message: OK}
+version: 1

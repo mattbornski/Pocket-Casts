@@ -1,0 +1,1254 @@
+interactions:
+- request:
+    body: '%5Buser%5Demail=REDACTED@USERNAME.COM&%5Buser%5Dpassword=REDACTED_PASSWORD'
+    headers:
+      Content-Length: ['100']
+      Content-Type: [application/x-www-form-urlencoded]
+    method: POST
+    uri: https://play.pocketcasts.com/users/sign_in
+  response:
+    body: {string: '<html><body>You are being <a href="https://play.pocketcasts.com/">redirected</a>.</body></html>'}
+    headers:
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Type: [text/html; charset=utf-8]
+      Date: ['Thu, 11 Oct 2018 15:45:15 GMT']
+      Location: ['https://play.pocketcasts.com/']
+      Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
+      Set-Cookie: [XSRF-TOKEN=PM5tKco02CRJ8sdSNzERLtV5xEwmofeqSY82b2p5w%2BcPjf4qlo9nlP9JVOcq%2FyC%2BxC10aL3np6AY7hpfhQxGxg%3D%3D;
+          path=/, _social_session=aUpCYURjS0Fac3J0Si8zeWVtajUvL3F2QmljcE1iQVdFMWc1ZmtrMVdiL3J1MlVMeHI0NTdETnpwSkFsaEhSUklkcUVad2hLTFg2ZkthbUFEZUhzbVp1TGxRMVN2K2FKQm1JUkQzcGFSc2NQeURvdWUvQWd6Vy9CZE5IY2ptOUlLWFFwOUdFU242N3YxUEluRjlPVWVZMkZ2LzR5dUg1b1h4TVhCeDVoYVZwMXFQbXJTd3dPSWdQRTBhQ0NheU5QLS1SMHhLS2M3b3p2MGJtSXgzQVlxREJnPT0%3D--4ef452050405d5673cffd63a933beb1c3b4f4ab2;
+          path=/; HttpOnly]
+      Status: [302 Found]
+      Strict-Transport-Security: [max-age=15768000]
+      Transfer-Encoding: [chunked]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Powered-By: [Phusion Passenger 5.3.2]
+      X-Request-Id: [090f625f-8bfb-4198-b2eb-05b654cbac15]
+      X-Runtime: ['0.097022']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 302, message: Found}
+- request:
+    body: null
+    headers:
+      Cookie: [XSRF-TOKEN=PM5tKco02CRJ8sdSNzERLtV5xEwmofeqSY82b2p5w%2BcPjf4qlo9nlP9JVOcq%2FyC%2BxC10aL3np6AY7hpfhQxGxg%3D%3D;
+          _social_session=aUpCYURjS0Fac3J0Si8zeWVtajUvL3F2QmljcE1iQVdFMWc1ZmtrMVdiL3J1MlVMeHI0NTdETnpwSkFsaEhSUklkcUVad2hLTFg2ZkthbUFEZUhzbVp1TGxRMVN2K2FKQm1JUkQzcGFSc2NQeURvdWUvQWd6Vy9CZE5IY2ptOUlLWFFwOUdFU242N3YxUEluRjlPVWVZMkZ2LzR5dUg1b1h4TVhCeDVoYVZwMXFQbXJTd3dPSWdQRTBhQ0NheU5QLS1SMHhLS2M3b3p2MGJtSXgzQVlxREJnPT0%3D--4ef452050405d5673cffd63a933beb1c3b4f4ab2]
+    method: GET
+    uri: https://play.pocketcasts.com/
+  response:
+    body: {string: '<html><body>You are being <a href="https://play.pocketcasts.com/web/podcasts/index">redirected</a>.</body></html>'}
+    headers:
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Type: [text/html; charset=utf-8]
+      Date: ['Thu, 11 Oct 2018 15:45:15 GMT']
+      Location: ['https://play.pocketcasts.com/web/podcasts/index']
+      Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
+      Set-Cookie: [XSRF-TOKEN=kK5C%2FMWi74XMQ0VbKhkLF%2B6N45b5Ijmcl%2B%2BKvWwIzmaFg%2F7%2FyM4uOyYZVu%2BgkBylcNx648d%2BadznGcLmIKAwVw%3D%3D;
+          path=/, _social_session=N0lkMDRHdlp3azNnemc4a0VnUFNwazZ6eGdTY0JNcXNOc1Q0c3RCQlp1MWhQTVpSVlVFKzZDNHdCczhnZnovcjBDOEFiaThjZFd0Ull4N1NQUUlYWXExUjkwWGI0UEtubnl2cWxkSE5Fa1RGSzRqRFpKbUU4WjFaT1ZwdFJFSEFuVDc4aWd2cVo4NVJwa2dMMGpBUXY3L29iQ1FOYkkydHRpQzJpczB1cHpMdDIvOUw3Q0JROEEyNVNxamF6N0syMm9penJiWWEvYnc4QmpscHBGVHRDTThYekp1WThETmd6L09iRHZvaE9EQzdJYnJIMXBEMG5sV1J2VytoWnAwYnhhMlppcTdCUmw5SkUweDJXRXdza1E9PS0tZ0NKSUk2NjNLc3BCYjRoTVJPaXpaUT09--074b54393072a362bae604c6503893e539dfc62a;
+          path=/; HttpOnly]
+      Status: [302 Found]
+      Strict-Transport-Security: [max-age=15768000]
+      Transfer-Encoding: [chunked]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Powered-By: [Phusion Passenger 5.3.2]
+      X-Request-Id: [d46d75a8-15bf-4114-835d-3ad038eedad4]
+      X-Runtime: ['0.007917']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 302, message: Found}
+- request:
+    body: null
+    headers:
+      Cookie: [XSRF-TOKEN=kK5C%2FMWi74XMQ0VbKhkLF%2B6N45b5Ijmcl%2B%2BKvWwIzmaFg%2F7%2FyM4uOyYZVu%2BgkBylcNx648d%2BadznGcLmIKAwVw%3D%3D;
+          _social_session=N0lkMDRHdlp3azNnemc4a0VnUFNwazZ6eGdTY0JNcXNOc1Q0c3RCQlp1MWhQTVpSVlVFKzZDNHdCczhnZnovcjBDOEFiaThjZFd0Ull4N1NQUUlYWXExUjkwWGI0UEtubnl2cWxkSE5Fa1RGSzRqRFpKbUU4WjFaT1ZwdFJFSEFuVDc4aWd2cVo4NVJwa2dMMGpBUXY3L29iQ1FOYkkydHRpQzJpczB1cHpMdDIvOUw3Q0JROEEyNVNxamF6N0syMm9penJiWWEvYnc4QmpscHBGVHRDTThYekp1WThETmd6L09iRHZvaE9EQzdJYnJIMXBEMG5sV1J2VytoWnAwYnhhMlppcTdCUmw5SkUweDJXRXdza1E9PS0tZ0NKSUk2NjNLc3BCYjRoTVJPaXpaUT09--074b54393072a362bae604c6503893e539dfc62a]
+    method: GET
+    uri: https://play.pocketcasts.com/web/podcasts/index
+  response:
+    body: {string: "<!DOCTYPE html>\n<html lang=\"en\" ng-app=\"pocketcasts\" data-framework=\"\
+        angularjs\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"description\"\
+        \ content=\"Listen to your favorite podcasts in your browser.\">\n  <meta\
+        \ http-equiv=\"X-UA-Compatible\" content=\"IE=Edge,chrome=1\">\n  <link rel=\"\
+        apple-touch-icon-precomposed\" sizes=\"76x76\" href=\"/assets/favicon-76-de30edd979b7827f9c99a26f8a2ab216a47f551a7f7d17fd5217be92f09dbd45.png\"\
+        \ />\n<link rel=\"apple-touch-icon-precomposed\" sizes=\"152x152\" href=\"\
+        /assets/favicon-152-cd0973f2271554c96bd75b6aea59fc97e39c6d61632e8d2be7f6447f4a0e7c38.png\"\
+        \ />\n<link rel=\"icon\" href=\"/favicon.ico\" type=\"image/x-icon\" />\n\
+        <link rel=\"shortcut icon\" href=\"/favicon.ico\" type=\"image/x-icon\" />\n\
+        <link rel=\"icon\" href=\"/assets/favicon-16-7769e4435e769f09418d01b4cbf69b4254e051d99774f2f9f21def8d3ff03d96.png\"\
+        \ type=\"image/png\" sizes=\"16x16\" />\n<link rel=\"icon\" href=\"/assets/favicon-32-08267f5f61d1e5fa04dd2eda2b615e2483a97642e1ee50bc489d00122ce32157.png\"\
+        \ type=\"image/png\" sizes=\"32x32\" />\n<link rel=\"icon\" href=\"/assets/favicon-96-8e7eacb5a6957b117116dcf7f428e8be82c4d93a43c4aab7dd5f398a5e1c4066.png\"\
+        \ type=\"image/png\" sizes=\"96x96\" />\n<link rel=\"icon\" href=\"/assets/favicon-128-e3d59ddc5117a7efa170693d9299c01883d102f1c62c81b08bcbb55bd7152b0b.png\"\
+        \ type=\"image/png\" sizes=\"128x128\" />\n<link rel=\"icon\" href=\"/assets/favicon-196-764eabc609dde7fb5e746b11ba934c5e3f21115e2fad01477f038b21d66b023b.png\"\
+        \ type=\"image/png\" sizes=\"196x196\" />\n<link rel=\"mask-icon\" href=\"\
+        /assets/safaripin-77e9d90e5b601140255b449546876dd4a9ff421ac23483b2d14536ba65b8b7b7.svg\"\
+        \ color=\"#F44336\" />\n  <title>Pocket Casts</title>\n  <meta name=\"csrf-param\"\
+        \ content=\"authenticity_token\" />\n<meta name=\"csrf-token\" content=\"\
+        TeYOFBRRykPp1zojQvh9XDxVwcDqIFhr1N34HjiqWoFYy7IXGT0L/QONKZfIcWruogRYtdR8CCukK7BFdAKksA==\"\
+        \ />\n  <script>\n      var SHOW_WELCOME = false;\n      var USER_PODCASTS_UUIDS\
+        \ = [];\n      var USER_EMAIL = 'matt+pocketcasts@bornski.com';\n      var\
+        \ CHECKOUT_URL = 'https://pay.paddle.com/checkout/495004?passthrough=664486&quantity_variable=0&guest_email=matt%2Bpocketcasts%40bornski.com';\n\
+        \      var APP_VERSION_CODE = 5;\n      var PAID = true;\n  </script>\n  <script\
+        \ type=\"text/javascript\" src=\"https://www.gstatic.com/cv/js/sender/v1/cast_sender.js\"\
+        ></script>\n  <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/icon?family=Material+Icons\"\
+        \ />\n  <script>\n      (function(d) {\n          var config = {\n       \
+        \       kitId: 'vyg1evw',\n              scriptTimeout: 3000,\n          \
+        \    async: true\n          },\n          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\\\
+        bwf-loading\\b/g,\"\")+\" wf-inactive\";},config.scriptTimeout),tk=d.createElement(\"\
+        script\"),f=false,s=d.getElementsByTagName(\"script\")[0],a;h.className+=\"\
+        \ wf-loading\";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!=\"\
+        complete\"&&a!=\"loaded\")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)\n\
+        \      })(document);\n  </script>\n  <link rel=\"stylesheet\" media=\"screen\"\
+        \ href=\"/assets/web-a05e3547792605a7b04bdfb40fe7448b9cdfbc633f2e20f2c415105366041637.css\"\
+        \ />\n  <script src=\"/assets/web-f76346a069d4f91ab409ec89d4334fca2d30d8b2ddfa5c430e7fd0934279f017.js\"\
+        ></script>\n  \n</head>\n<body ng-app=\"pocketcasts\" ng-controller=\"AppController\
+        \ as app\" ng-class=\"{audio_player_open: isAudioPlayerOpen(), show_notes_open:\
+        \ isShowNotesOpen(), paid: showNotice}\" data-ng-init=\"init()\">\n\n<div\
+        \ id=\"beta_banner\">\n  <span>Want to help us test a brand new beta version?\
+        \ Try it out here. It's great. Honestly!</span> <a href=\"https://playbeta.pocketcasts.com/web/\"\
+        \ target=\"_blank\">https://playbeta.pocketcasts.com</a>\n</div>\n<div id=\"\
+        header\">\n  <div id=\"header_logo\"><img width=\"30px\" height=\"30px\" style=\"\
+        width:31px;height:30px;\" src=\"/assets/logo-47947269f4551323d79393902f7a087c1495219309c46f005b91f41d72d19270.png\"\
+        \ alt=\"Logo\" /></div>\n  <div id=\"header_links\">\n    <div class=\"search_panel\"\
+        \ ng-class=\"{search_open: isSearchOpen}\" ng-controller=\"SearchController\"\
+        >\n      <div id=\"search_add_button\" ng-click=\"openCloseSearch()\"><div\
+        \ class=\"add_image\"></div></div>\n      <div id=\"search_input\"\n     \
+        \      data-angucomplete-alt=\"\"\n           data-placeholder=\"Search for\
+        \ podcast\"\n           data-pause=\"1000\"\n           data-selected-object=\"\
+        resultSelected\"\n           data-remote-url=\"/web/podcasts/search.json?term=\"\
+        \n           data-remote-url-data-field=\"podcasts\"\n           data-remote-url-response-formatter=\"\
+        formatSearchResponse\"\n           data-search-fields=\"title\"\n        \
+        \   data-title-field=\"title\"\n           data-description-field=\"author\"\
+        \n           data-image-field=\"discover_thumbnail_url\"\n           data-clear-selected=\"\
+        true\"\n           data-text-searching=\"Searching for podcasts...\"\n   \
+        \        data-text-no-results=\"No podcasts found.\"\n           data-input-class=\"\
+        form-control form-control-small\"></div>\n    </div>\n\n    <div class=\"\
+        dropdown\"><a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"\
+        ><div class=\"settings_cog\"></div></a>\n      <ul class=\"dropdown-menu dropdown-menu-right\"\
+        \ role=\"menu\">\n\n\n        <li><a href=\"https://play.pocketcasts.com/account\"\
+        \ target=\"_blank\">Account</a></li>\n        <li><a ng-click=\"openFaq()\"\
+        >FAQ</a></li>\n        <li><a ng-click=\"openReleaseNotes()\">Release Notes</a></li>\n\
+        \n        <li class=\"divider\"></li>\n\n        <li><a rel=\"nofollow\" data-method=\"\
+        delete\" href=\"/users/sign_out\">Sign Out</a></li>\n      </ul>\n    </div>\n\
+        \  </div>\n\n\n</div>\n\n<div id=\"main\" ui-view=\"\"></div>\n\n\n\n<div\
+        \ data-settings-dialog=\"\"></div>\n\n<div id=\"loading_dialog_bg\" style=\"\
+        display:none\">\n\n  <div id=\"loading_dialog\">\n    <div id=\"loading_errored\"\
+        >\n      <h1>Failed To Add Podcast</h1>\n      <p id=\"loadding_error_message\"\
+        >Ak! Something went wrong. Please email us with the feed URL at <a href=\"\
+        mailto:support@shiftyjelly.com\">support@shiftyjelly.com</a>.</p>\n    </div>\n\
+        \    <div id=\"loading_in_progress\">\n        <h1>Adding Podcast</h1>\n\n\
+        \        <p>You can continue to use Pocket Casts,<br/>your new subscription\
+        \ will appear in a moment.</p>\n\n        <svg height=\"80\" width=\"80\"\
+        >\n          <path d=\"M75,40 A35,35 0 1,0 40,75\" fill=\"none\" stroke=\"\
+        #F44336s\" stroke-width=\"10\">\n            <animateTransform attributeType=\"\
+        xml\"\n                attributeName=\"transform\"\n                type=\"\
+        rotate\"\n                from=\"0 40 40\"\n                to=\"360 40 40\"\
+        \n                dur=\"1.5s\"\n                repeatCount=\"indefinite\"\
+        />\n          </path>\n          <path d=\"M62,40 A22,22 0 1,0 40,62\" fill=\"\
+        none\" stroke=\"#F44336\" stroke-width=\"8\" >\n            <animateTransform\
+        \ attributeType=\"xml\"\n              attributeName=\"transform\"\n     \
+        \         type=\"rotate\"\n              from=\"0 40 40\"\n              to=\"\
+        360 40 40\"\n              dur=\"1s\"\n              repeatCount=\"indefinite\"\
+        />\n          </path>\n        </svg>\n\n        <p>Loading Feed...</p>\n\n\
+        \    </div>\n\n  </div>\n</div>\n\n<div id=\"players\" ng-controller=\"PlayerController\"\
+        \ ng-show=\"mediaPlayer.episode != null\" class=\"ng-hide\">\n    <div data-player-audio=\"\
+        \"></div>\n    <div data-player-video=\"\"></div>\n</div>\n\n<div id=\"episode_more_list\"\
+        \ style=\"display:none;\">\n  <ul class=\"list-group\">\n    <li class=\"\
+        list-group-item\">Play Next</li>\n    <li class=\"list-group-item\">Add to\
+        \ Queue</li>\n    <li class=\"list-group-item\">Mark as Played</li>\n    <li\
+        \ class=\"list-group-item\">Mark as Unplayed</li>\n    <li class=\"list-group-item\"\
+        >Share Episode</li>\n  </ul>\n</div>\n\n<script>\n    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n\
+        \        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n\
+        \            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n\
+        \    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\
+        \n    ga('create', 'UA-44126141-2', 'auto');\n    ga('send', 'pageview');\n\
+        </script>\n\n</body>\n</html>\n\n"}
+    headers:
+      Cache-Control: ['max-age=0, private, must-revalidate']
+      Connection: [keep-alive]
+      Content-Type: [text/html; charset=utf-8]
+      Date: ['Thu, 11 Oct 2018 15:45:15 GMT']
+      ETag: [W/"cc511ffdf85c6ec5379ca1edf9963dc5"]
+      Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
+      Set-Cookie: [XSRF-TOKEN=HmxgzmCYXOUiCFB5EFK3DuM6NZ%2B%2BTn7f67nKBHKPOJgLQdzNbfSdW8hSQ82a26C8fWus6oASLp%2BbT4JfPifGqQ%3D%3D;
+          path=/, _social_session=Ymx4R3hmbXBQaWt1UC90LzZhSmhIK1VTT3l3bzMxbDRQYXF0RS9GaU0vLzBFbk5FKzNzVGl3VEtqNmFWRlVWb3MvR2IvMW5ESFpCbmxycTdhTzVnUHFUSGZwcW9iRTc2OGJFQTFIWm90LzJrVkFqTmxBMDJSOGMzQVd6VTN6VlVDK2lmQTBmd1RJRGVaQUVGYXllYkp3Z1dKQVpFWm1FUTVCUGxnS2RyOVhJdFozZkpkUXZNbVBBdWpUdmF4bTFaRGV6VWE1TnRNTVVNWXE0Ym1ucmNhQ1FDU25kR0VDRlN4R25YVXJtNGIyUTFwRWRBZ2VqaWN6Mk41WURHRWpzS3RGUUtpbHZtZHNuWU1zZWptY1Bxc1E9PS0tbjJ2cmxBRk1EdGRyV3poRTRlNTJNUT09--60c765fb68f0deb13f00202f5c15730e60284bc0;
+          path=/; HttpOnly]
+      Status: [200 OK]
+      Strict-Transport-Security: [max-age=15768000]
+      Transfer-Encoding: [chunked]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Powered-By: [Phusion Passenger 5.3.2]
+      X-Request-Id: [d6ff7d3a-a5df-4bca-9bd7-c31f4bfe81c9]
+      X-Runtime: ['0.015176']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://static.pocketcasts.com/discover/json/trending.json
+  response:
+    body: {string: "{\"status\":\"ok\",\"result\":{\"podcasts\":[{\"uuid\":\"7c388990-aa35-0136-7b93-27f978dac4db\"\
+        ,\"url\":\"https://art19.com/shows/conan-obrien\",\"title\":\"Conan O\u2019\
+        Brien Needs A Friend\",\"description\":\"After 25 years at the Late Night\
+        \ desk, Conan realized that the only people at his holiday party are the men\
+        \ and women who work for him.Over the years and despite thousands of interviews,\
+        \ Conan has never made a real and lasting friendship with any of his celebrity\
+        \ guests. So, he started a podcast to do just that.Deeper, unboundedly playful,\
+        \ and free from FCC regulations, Conan O\u2019Brien Needs a Friend is a weekly\
+        \ opportunity for Conan to hang out with the people he enjoys most and perhaps\
+        \ find some real friendship along the way.\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/82/55/e8/1d/8255e81d-68bc-4169-a04c-efb4fb436bfe/958715893ca5c3a5bf3dfc823c6e172c642548359230ce3e3997f9c0348a738f79ea5f5cb9262efc0fecb28489e3abd0c62a04512a1ce15287fc06e014dfb3d7.jpeg\"\
+        ,\"category\":\"Comedy\",\"media_type\":\"Audio\",\"language\":\"en\",\"author\"\
+        :\"Earwolf\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/7c388990-aa35-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"400dbcb0-a32e-0136-7b93-27f978dac4db\",\"url\":\"https://www.gimletmedia.com/without-fail\"\
+        ,\"title\":\"Without Fail\",\"description\":\"Candid conversations with entrepreneurs,\
+        \ artists, athletes, visionaries of all kinds\u2014about their successes,\
+        \ and their failures, and what they learned from both. Hosted by Alex Blumberg,\
+        \ from Gimlet Media.\",\"thumbnail_url\":\"http://static.megaphone.fm/podcasts/d22ed5b2-6f4a-11e8-b45b-fb2855bd55bd/image/uploads_2F1537892049842-8j2s89sh64h-b0cd4927cf5202e16a21843aa32e784a_2F20171026_WithoutFail-exp22.png\"\
+        ,\"category\":\"Society \\u0026 Culture\\nBusiness\\nTechnology\",\"media_type\"\
+        :\"Audio\",\"language\":\"en\",\"author\":\"Gimlet\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/400dbcb0-a32e-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"e20d0480-a3e7-0136-7b93-27f978dac4db\",\"url\":\"https://www.historyunobscured.com\"\
+        ,\"title\":\"Unobscured\",\"description\":\"History is full of stories we\
+        \ think we know. They are old and dark, but time has robbed us of perspective\
+        \ and clarity. They've become obscured and misunderstood. Which is why this\
+        \ series exists: to dig deep and shed light on some of history\u2019s darkest\
+        \ moments. To help us better understand where we\u2019ve come from. To make\
+        \ it Unobscured. Each season pairs narrative storytelling from Aaron Mahnke,\
+        \ creator of the hit podcast Lore, with prominent historian interviews.\\\
+        n\\nSeason One: The Salem Witch Trials\",\"thumbnail_url\":\"http://static.megaphone.fm/podcasts/5e6bf9fe-6f39-11e8-bf42-8f9dbd4bf8ae/image/uploads_2F1536935118514-ibbslmqcovo-b296f6c9f0c3cf40415046ddefdcafde_2FUnobscuredLogo-FINAL-3000x3000.jpg\"\
+        ,\"category\":\"Society \\u0026 Culture\\nHistory\",\"media_type\":\"Audio\"\
+        ,\"language\":\"en\",\"author\":\"HowStuffWorks \\u0026 Aaron Mahnke\",\"\
+        thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/e20d0480-a3e7-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"91686360-6c8a-0136-4e66-69745d675bc7\",\"url\":\"http://wbur.org/lastseen\"\
+        ,\"title\":\"Last Seen\",\"description\":\"It remains the most valuable \u2014\
+        \ and confounding \u2014 art heist in history: 13 artworks stolen from Boston\u2019\
+        s Isabella Stewart Gardner Museum. Twenty-eight years later, not a single\
+        \ piece in a haul worth half a billion dollars has surfaced. The art, and\
+        \ the thieves who made off with it, remain at large. With first-ever interviews,\
+        \ unprecedented access, and more than a year of investigative reporting, \\\
+        \"Last Seen\\\" takes us into the biggest unsolved art heist in history. A\
+        \ joint production from WBUR and The Boston Globe.\",\"thumbnail_url\":\"\
+        https://d279m997dpfwgl.cloudfront.net/wp/2018/07/lastseen-album-art-3000.jpg\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-us\",\"author\":\"WBUR \\u0026 The Boston Globe\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/91686360-6c8a-0136-4e66-69745d675bc7.jpg\"\
+        },{\"uuid\":\"fde30310-a945-0136-7b93-27f978dac4db\",\"url\":\"\",\"title\"\
+        :\"Short Stuff\",\"description\":\"A bite-sized edition of the Stuff You Should\
+        \ Know podcast that fans have grown to love, 10-12 minute episodes about the\
+        \ most interesting things in the world around us.\",\"thumbnail_url\":\"http://static.megaphone.fm/podcasts/9aaec3a0-c651-11e8-944d-0fe32fd33af8/image/uploads_2F1538491034293-uq8w4w2zx7-3f6d080f4673876077b6915aaeb03c9c_2FShortStuffLogo-FINAL-3000x3000.png\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"HowStuffWorks\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/fde30310-a945-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"1a177af0-9754-0136-7b93-27f978dac4db\",\"url\":\"https://art19.com/shows/the-dream\"\
+        ,\"title\":\"The Dream\",\"description\":\"What if we told you that with zero\
+        \ experience and only a few hundred dollars down, this podcast could change\
+        \ your life? Well, we\u2019d be lying. This season on The Dream, Jane Marie\
+        \ dives into the world of pyramid schemes, multi-level marketing, and all\
+        \ the other businesses that require their members to recruit their nearest\
+        \ and dearest in hopes of a commission. Join us as we trace the path of get-rich\
+        \ schemes from Jane\u2019s roots in rural Michigan all the way to the White\
+        \ House.\_\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/a6/a7/6c/cd/a6a76ccd-a2e0-4e16-8abf-146dd243e66a/c10dae99525acf3ded407c0b3f273db2c71ec671b365b1347209e47aebd660fc98a709b8f45fffb5c8a09a8b9fc3272c75283b8f135f92b431f9d239ffc3d487.jpeg\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Little Everywhere \\u0026 Stitcher\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/1a177af0-9754-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"a66e3070-9f82-0136-7b93-27f978dac4db\",\"url\":\"https://art19.com/shows/legal-wars\"\
+        ,\"title\":\"Legal Wars\",\"description\":\"The courtroom can be a battlefield\
+        \ over money, people\u2019s rights, and even their lives. For some cases,\
+        \ the consequences can affect us long after the verdict is read.Based on extensive\
+        \ interviews and court transcripts, Wondery\u2019s new podcast LEGAL WARS\
+        \ puts you inside the jury box of some of the most famous court cases in American\
+        \ history, including Hulk Hogan\u2019s courtroom wrestling match with Gawker,\
+        \ the battle for free speech on the internet, and the Rodney King trial that\
+        \ set off the LA Riots. Host Hill Harper, actor and Harvard Law School graduate,\
+        \ brings you the drama, the larger-than-life characters, and the real-world\
+        \ impact these cases had on our society.\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/1f/31/19/05/1f311905-8d47-4174-acbf-d420f18b6d78/486b0161dec418239d9385cfd804e942322522cf945d1f4844ff0e0bb367a5b5d1e7730c7b66cb38528a2c3cf02d685e63c3203c7a419a97ff82a1b7689096af.jpeg\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Wondery\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/a66e3070-9f82-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"2f31dfb0-2249-0132-b5ae-5f4c86fd3263\",\"url\":\"https://serialpodcast.org\"\
+        ,\"title\":\"Serial\",\"description\":\"Serial is a podcast from the creators\
+        \ of This American Life, hosted by Sarah Koenig. Serial unfolds one story\
+        \ - a true story - over the course of a whole season. The show follows the\
+        \ plot and characters wherever they lead, through many surprising twists and\
+        \ turns. Sarah won't know what happens at the end of the story until she gets\
+        \ there, not long before you get there with her. Each week she'll bring you\
+        \ the latest chapter, so it's important to listen in, starting with Episode\
+        \ 1. New episodes are released on Thursday mornings.\",\"thumbnail_url\":\"\
+        https://serialpodcast.org/sites/all/modules/custom/serial/img/serial-itunes-logo.png\"\
+        ,\"category\":\"News \\u0026 Politics\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"This American Life\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/2f31dfb0-2249-0132-b5ae-5f4c86fd3263.jpg\"\
+        },{\"uuid\":\"20152cf0-7d63-0136-7b90-27f978dac4db\",\"url\":\"http://talksatgoogle.libsyn.com/\"\
+        ,\"title\":\"Talks at Google\",\"description\":\"The Talks at Google podcast\
+        \ - where great minds meet. \\n\\nTalks at Google brings the world\u2019s\
+        \ most influential thinkers, creators, makers, and doers all to one place.\
+        \ Every episode is taken from a video that can be seen at YouTube.com/TalksAtGoogle.\\\
+        n\\nDISCLAIMER: The views or opinions expressed by the guest speakers are\
+        \ solely their own and do not necessarily represent the views or opinions\
+        \ of Google, Inc. The comments on this channel belong only to the person who\
+        \ posted them. We do, however, reserve the right to remove off-topic or inappropriate\
+        \ comments.\\n\\nAlso, the materials presented in the videos are licensed\
+        \ to Google by the speaker(s). Google does not endorse any products or technology\
+        \ presented by the guest speakers.\",\"thumbnail_url\":\"http://static.libsyn.com/p/assets/7/1/b/c/71bcca06f38ee9b3/Talks-Libsyn-Logo.jpg\"\
+        ,\"category\":\"Society \\u0026 Culture\\nTechnology\\nBusiness\",\"media_type\"\
+        :\"Audio\",\"language\":\"en\",\"author\":\"Talks at Google\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/20152cf0-7d63-0136-7b90-27f978dac4db.jpg\"\
+        },{\"uuid\":\"af3920d0-a025-0136-7b93-27f978dac4db\",\"url\":\"https://www.earwolf.com/show/threedom/\"\
+        ,\"title\":\"Threedom\",\"description\":\"Scott Aukerman, Lauren Lapkus and\
+        \ Paul F Tompkins abandon their regular formats to focus on the basics of\
+        \ being funny with each other. Can't wait to hear more episodes? You can binge\
+        \ the entire season now on Stitcher Premium. For a free month of premium,\
+        \ go to\_stitcherpremium.com/threedom\_and use promo code 'THREEDOM'.\",\"\
+        thumbnail_url\":\"https://content.production.cdn.art19.com/images/2c/46/9d/41/2c469d41-745e-4c50-ae08-a7fcb608cd2c/6eb7f76a82ef92fc9f60af477cf38cbbc50053d8d33e51619e3d1014357585899491797cfc0b1e466acae8b43b52e417b5478dab4006b47559508e1aa3609b55.jpeg\"\
+        ,\"category\":\"Performing Arts\",\"media_type\":\"Audio\",\"language\":\"\
+        en-us\",\"author\":\"Earwolf\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/af3920d0-a025-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"045f3aa0-aa6a-0136-7b93-27f978dac4db\",\"url\":\"https://art19.com/shows/the-argument\"\
+        ,\"title\":\"The Argument\",\"description\":\"The other side is dangerously\
+        \ wrong. They think you are too. But for democracy to work, we need to hear\
+        \ each other out. Every Thursday, New York Times Opinion columnists David\
+        \ Leonhardt, Michelle Goldberg and Ross Douthat explain the arguments from\
+        \ across the political spectrum. Their candid debates help you form your own\
+        \ opinion of the latest news, and learn how the other half thinks. Find the\
+        \ best ways to persuade in the modern search for common ground.\",\"thumbnail_url\"\
+        :\"https://content.production.cdn.art19.com/images/5b/75/88/88/5b758888-970b-403b-85c0-96fb044b7d81/0cb10d66aed6f124f088984260e85e2f284ef0ec676dc8ff9ab04b994ca0bb808497a4b61023af6f22315e3e2a487bf3d9eea9f8c23dadb8930a66f82b6b8074.jpeg\"\
+        ,\"category\":\"News \\u0026 Politics\\nSociety \\u0026 Culture\",\"media_type\"\
+        :\"Audio\",\"language\":\"en\",\"author\":\"The New York Times Opinion\",\"\
+        thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/045f3aa0-aa6a-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"08e13140-d22e-0134-ebcf-4114446340cb\",\"url\":\"http://www.bbc.co.uk/programmes/p04sj2pt\"\
+        ,\"title\":\"Intrigue: The Ratline\",\"description\":\"A story of love, denial\
+        \ and a curious death. Philippe Sands investigates the mysterious disappearance\
+        \ of senior Nazi, Otto Wachter, who was indicted for mass murder.\",\"thumbnail_url\"\
+        :\"http://ichef.bbci.co.uk/images/ic/3000x3000/p06hmsz9.jpg\",\"category\"\
+        :\"News \\u0026 Politics\",\"media_type\":\"Audio\",\"language\":\"en\",\"\
+        author\":\"BBC Radio 4\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/08e13140-d22e-0134-ebcf-4114446340cb.jpg\"\
+        },{\"uuid\":\"873e7420-042d-012e-f9a4-00163e1b201c\",\"url\":\"http://blog.joerogan.net\"\
+        ,\"title\":\"The Joe Rogan Experience\",\"description\":\"The podcast of Comedian\
+        \ Joe Rogan..\",\"thumbnail_url\":\"http://static.libsyn.com/p/assets/7/1/f/3/71f3014e14ef2722/JREiTunesImage2.jpg\"\
+        ,\"category\":\"Comedy\\nSociety \\u0026 Culture\",\"media_type\":\"Audio\"\
+        ,\"language\":\"en\",\"author\":\"Joe Rogan\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/873e7420-042d-012e-f9a4-00163e1b201c.jpg\"\
+        },{\"uuid\":\"00a7eb10-a35f-0136-7b93-27f978dac4db\",\"url\":\"http://www.bbc.co.uk/programmes/p06lnk20\"\
+        ,\"title\":\"This is Capitalism\",\"description\":\"This is a collection of\
+        \ programmes from BBC Radio 4 on capitalism - the hidden economic wiring which\
+        \ puts money and markets at the centre of our lives.\",\"thumbnail_url\":\"\
+        http://ichef.bbci.co.uk/images/ic/3000x3000/p06lnkbm.jpg\",\"category\":\"\
+        News \\u0026 Politics\",\"media_type\":\"Audio\",\"language\":\"en\",\"author\"\
+        :\"BBC Radio 4\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/00a7eb10-a35f-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"e0fca1b0-893b-0136-7b90-27f978dac4db\",\"url\":\"https://art19.com/shows/dr-death\"\
+        ,\"title\":\"Dr. Death\",\"description\":\"We\u2019re at our most vulnerable\
+        \ when we go to our doctors. We trust the person at the other end of that\
+        \ scalpel. We trust the hospital. We trust the system.Christopher Duntsch\
+        \ was a neurosurgeon who radiated confidence. He claimed he was the best in\
+        \ Dallas. If you had back pain, and had tried everything else, Dr. Duntsch\
+        \ could give you the spine surgery that would take your pain away.But soon\
+        \ his patients started to experience complications, and the system failed\
+        \ to protect them. Which begs the question: who - or what - is that system\
+        \ meant to protect?From Wondery, the network behind the hit podcast Dirty\
+        \ John, DR. DEATH is a story about a charming surgeon, 33 patients and a spineless\
+        \ system. Reported and hosted by Laura Beil.\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/1d/53/8f/a0/1d538fa0-4053-481a-bc95-55b0df8d4b6a/4378c3832f80118109029d8e6c07f2a7a61c2e9c9555b68fa72f197a08279b499930ec1f881a4f7993ca4c373dfad88a755abadbd8008869f85c930be1036ca0.jpeg\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Wondery\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/e0fca1b0-893b-0136-7b90-27f978dac4db.jpg\"\
+        },{\"uuid\":\"55819d40-a221-0136-7b93-27f978dac4db\",\"url\":\"https://audioboom.com/channel/dead-man-talking\"\
+        ,\"title\":\"Dead Man Talking\",\"description\":\"Angel Resendiz aka The Railroad\
+        \ Killer criss-crossed the US by freight train in the 80s and 90s, choosing\
+        \ his victims at random, before he was executed by the State of Texas in 2006.\\\
+        nBefore his death, Resendiz spoke to journalist Alex Hannaford and claimed,\
+        \ on tape, to have killed more than he had taken the blame for.\\nThe authorities\
+        \ said Angel Resendiz was lying in an attempt to delay his own death. But,\
+        \ haunted by the crackly interview tape, Alex is determined to investigate.\
+        \ Then a letter arrives from a woman serving life in prison for her husband\u2019\
+        s murder \u2014 telling him that Resendiz once confessed to that killing too.\"\
+        ,\"thumbnail_url\":\"https://images.theabcdn.com/i/33520847.jpg\",\"category\"\
+        :\"Society \\u0026 Culture\\nSociety \\u0026 Culture\\nHistory\\nNews \\u0026\
+        \ Politics\",\"media_type\":\"Audio\",\"language\":\"en\",\"author\":\"AudioBoom\
+        \ \\u0026 Dead Man Talking\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/55819d40-a221-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"ead2fd60-a9a3-0136-7b93-27f978dac4db\",\"url\":\"http://creative.gimletmedia.com/shows/wireframe/\"\
+        ,\"title\":\"Wireframe\",\"description\":\"A podcast about the stories behind\
+        \ interaction design. For UX/UI designers, graphic designers, and the design\
+        \ curious. Hosted by Adobe principal designer Khoi Vinh. Brought to you by\
+        \ Adobe and Gimlet Creative.\",\"thumbnail_url\":\"http://static.megaphone.fm/podcasts/5d2ae6c2-c33f-11e8-8212-5f88ce84264b/image/uploads_2F1538158072488-pi377pttd7s-717ebe89bdd884fef3a7f089dc870147_2F20180921_Wireframe-ShowArt.png\"\
+        ,\"category\":\"Arts\\nDesign\\nSociety \\u0026 Culture\\nTechnology\",\"\
+        media_type\":\"Audio\",\"language\":\"en\",\"author\":\"Adobe / Gimlet Creative\"\
+        ,\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/ead2fd60-a9a3-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"bfa329d0-ea86-0135-c25e-7d73a919276a\",\"url\":\"https://art19.com/shows/wolverine-the-long-night\"\
+        ,\"title\":\"Wolverine: The Long Night\",\"description\":\"Following a string\
+        \ of mysterious deaths in Burns, Alaska, Special Agents Sally Pierce and Tad\
+        \ Marshall arrive to investigate. They soon find there\u2019s more going on\
+        \ than meets the eye. The first scripted podcast from Marvel, starring Celia\
+        \ Keenan-Bolger and Ato Essandoh as Agents Pierce and Marshall, with Richard\
+        \ Armitage as Wolverine. Also featuring Scott Adsit, Bob Balaban, Zoe Chao,\
+        \ Andrew Keenan-Bolger, and Brian Stokes Mitchell. Learn more at wolverinepodcast.com.\"\
+        ,\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/da/ef/db/33/daefdb33-b0e2-40eb-93b8-91cb71783558/9d0bdb6e753f9e4d599fb444d200a196107b4b3db55c8f75be01b1456e445147f866a3972d484c87f9c3dc03836ce3d9c6c9957b33f42c19630d407282fcbf2c.jpeg\"\
+        ,\"category\":\"Arts\\nPerforming Arts\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Marvel and Stitcher\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/bfa329d0-ea86-0135-c25e-7d73a919276a.jpg\"\
+        },{\"uuid\":\"bc2dbb00-9cd7-0136-7b93-27f978dac4db\",\"url\":\"https://www.thecitypodcast.com/\"\
+        ,\"title\":\"The City\",\"description\":\"The City tells true stories of how\
+        \ power works in urban America. Season 1 begins in Chicago, 1990.Winter is\
+        \ turning into spring, and in Chicago, that means construction season. After\
+        \ years of disinvestment, highways are rebuilt, old buildings demolished,\
+        \ new skyscrapers erected. All that rubble has to go somewhere, and its destination\
+        \ isn\u2019t a landfill\u2014it\u2019s a pair of vacant lots in a black, working-class\
+        \ neighborhood called North Lawndale. The man behind this operation is a white\
+        \ guy sporting a Cosby sweater and underworld connections. What follows is\
+        \ a tour de force through Chicago\u2019s underbelly: Aldermen get indicted.\
+        \ An FBI investigation goes awry. A community\u2019s resilience is tested\u2014\
+        all unfolding under the spectre of racism in America.Learn more and explore\
+        \ the dumps in North Lawndale via augmented reality at thecitypodcast.com\"\
+        ,\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/eb/62/c7/0e/eb62c70e-b8e6-42cd-9736-a501fb535f9c/18791660688edf8a0b06653581c80f0b56ea779fe89a7906ee965568a4c173edf98e00c91c60e773dd9233c25ecf5f18be7594927b10a0cea83f4bf3e3f60fdb.jpeg\"\
+        ,\"category\":\"News \\u0026 Politics\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"USA TODAY | Wondery\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/bc2dbb00-9cd7-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"381a6e70-8ec6-0136-7b92-27f978dac4db\",\"url\":\"thehappyfacepodcast.com\"\
+        ,\"title\":\"Happy Face\",\"description\":\"Happy Face is a new podcast series\
+        \ from HowStuff Works with episodes releasing every Friday. For Melissa Moore,\
+        \ 1995 was a nightmare. That\u2019s the year the teenager learned her father,\
+        \ Keith Hunter Jesperson, was a serial killer. It\u2019s also the year Melissa\
+        \ Moore\u2019s doubt spiral began: When you look like your father, and you\
+        \ share his intelligence and charisma, how do you know you\u2019re not a psychopath,\
+        \ too? Happy Face is the story of Keith Hunter Jesperson, his brutal crimes,\
+        \ and the cat and mouse game he played with detectives and the media. But\
+        \ it\u2019s also the story of the horrific legacy he gifted his children.\
+        \ Join Melissa Moore as she investigates her father\u2019s crimes, reckons\
+        \ with the past, and wades through her darkest fears as she hunts for a better\
+        \ future.\",\"thumbnail_url\":\"http://static.megaphone.fm/podcasts/0358e51e-6f38-11e8-a244-3b469f4e14b3/image/uploads_2F1535474395260-u44q9yl8s4-441e2a2a73ca0b43d160bbfc71094d7e_2FHappyFaceLogo-FINAL-3000x3000.jpg\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"HowStuffWorks\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/381a6e70-8ec6-0136-7b92-27f978dac4db.jpg\"\
+        },{\"uuid\":\"77f1b350-5419-0134-ec2d-0d50f522381b\",\"url\":\"https://gimletmedia.com/show/heavyweight/\"\
+        ,\"title\":\"Heavyweight\",\"description\":\"Maybe you\u2019ve laid awake\
+        \ imagining how it could have been, how it might yet be, but the moment to\
+        \ act was never right. Well, the moment is here and the podcast making it\
+        \ happen is Heavyweight. Join Jonathan Goldstein for road trips, thorny reunions,\
+        \ and difficult conversations as he backpedals his way into the past like\
+        \ a therapist with a time machine. From Gimlet Media.\",\"thumbnail_url\"\
+        :\"http://static.megaphone.fm/podcasts/37595324-4dcc-11e6-8a94-1f35ab5d7e5c/image/uploads_2F1517347279585-o4q7qicnkbk-e913d47f8e878d239c5364e4de1517b5_2F20171116_Heavyweight-ShowCover.png\"\
+        ,\"category\":\"Arts\\nDesign\",\"media_type\":\"Audio\",\"language\":\"en\"\
+        ,\"author\":\"Gimlet\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/77f1b350-5419-0134-ec2d-0d50f522381b.jpg\"\
+        },{\"uuid\":\"9d7b3a60-71ca-0136-7b8d-27f978dac4db\",\"url\":\"https://www.kcrw.com/news-culture/shows/bodies\"\
+        ,\"title\":\"Bodies\",\"description\":\"\u201CWhat\u2019s wrong with me?\u201D\
+        \ Each episode of this documentary series begins as a medical mystery. But\
+        \ once you peel back the layers, more questions emerge.\",\"thumbnail_url\"\
+        :\"https://www.kcrw.com/news-culture/shows/bodies/@@images/96479437-4a13-41f1-9fc3-600f057a3d1f.png\"\
+        ,\"category\":\"Health\",\"media_type\":\"Audio\",\"language\":\"en-us\",\"\
+        author\":\"KCRW, Allison Behringer\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/9d7b3a60-71ca-0136-7b8d-27f978dac4db.jpg\"\
+        },{\"uuid\":\"12012c20-0423-012e-f9a0-00163e1b201c\",\"url\":\"https://www.howstuffworks.com\"\
+        ,\"title\":\"Stuff You Should Know\",\"description\":\"If you've ever wanted\
+        \ to know about champagne, satanism, the Stonewall Uprising, chaos theory,\
+        \ LSD, El Nino, true crime and Rosa Parks then look no further. Josh and Chuck\
+        \ have you covered.\",\"thumbnail_url\":\"http://static.megaphone.fm/podcasts/1e705dd4-2de6-11e8-b55d-9ba6ddb3f75e/image/uploads_2F1521732699052-l46bxmk0qkc-071bfd4afd80223fcb2b944c07c0f97e_2Fsysk-audio-1600.jpg\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-us\",\"author\":\"HowStuffWorks\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/12012c20-0423-012e-f9a0-00163e1b201c.jpg\"\
+        },{\"uuid\":\"7180def0-65a2-0135-902c-63f4b61a9224\",\"url\":\"http://www.smalltowndicks.com\"\
+        ,\"title\":\"Small Town Dicks Podcast\",\"description\":\"Yeardley Smith and\
+        \ Zibby Allen host this frank, unfiltered true crime podcast with Small Town\
+        \ Detectives and identical twins, Dan and Dave. Dan investigates Violent Crimes.\
+        \ Dave investigates Sex Crimes and Child Abuse. Often peppered with primary\
+        \ resources such as 9-1-1 calls and suspect interrogation recordings, each\
+        \ episode introduces a new crime, and is  told by the detectives who investigated\
+        \ it. But Yeardley and Zibby don\u2019t just settle for the who, why, how\
+        \ and where of it all, they also seek to uncover the human side of their guests,\
+        \ offering a glimpse into the raw reality of true crime in Small Town, USA.\
+        \  Names, locations, and certain details have been altered to protect the\
+        \ privacy of the victims and their families.\",\"thumbnail_url\":\"http://static.libsyn.com/p/assets/f/d/c/b/fdcbdb18bab2bc93/STD_GRAPHIC.jpg\"\
+        ,\"category\":\"Society \\u0026 Culture\\nGovernment \\u0026 Organizations\"\
+        ,\"media_type\":\"Audio\",\"language\":\"en\",\"author\":\"Yeardley Smith\
+        \ and Zibby Allen\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/7180def0-65a2-0135-902c-63f4b61a9224.jpg\"\
+        },{\"uuid\":\"3ec78c50-0d62-012e-fb9c-00163e1b201c\",\"url\":\"http://www.dancarlin.com\"\
+        ,\"title\":\"Dan Carlin's Hardcore History\",\"description\":\"In \\\"Hardcore\
+        \ History\\\" journalist and broadcaster Dan Carlin takes his \\\"Martian\\\
+        \", unorthodox way of thinking and applies it to the past. Was Alexander the\
+        \ Great as bad a person as Adolf Hitler? What would Apaches with modern weapons\
+        \ be like? Will our modern civilization ever fall like civilizations from\
+        \ past eras? This isn't academic history (and Carlin isn't a historian) but\
+        \ the podcast's unique blend of high drama, masterful narration and Twilight\
+        \ Zone-style twists has entertained millions of listeners.\",\"thumbnail_url\"\
+        :\"http://www.dancarlin.com/graphics/DC_HH_iTunes.jpg\",\"category\":\"Society\
+        \ \\u0026 Culture\\nHistory\",\"media_type\":\"Audio\",\"language\":\"en-us\"\
+        ,\"author\":\"Dan Carlin\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/3ec78c50-0d62-012e-fb9c-00163e1b201c.jpg\"\
+        },{\"uuid\":\"ebb46750-14b5-0136-c266-7d73a919276a\",\"url\":\"http://www.cbc.ca/radio/originalpodcasts.html\"\
+        ,\"title\":\"Uncover: Escaping NXIVM\",\"description\":\"NXIVM (pron: Nexium)\
+        \ calls itself a humanitarian community. Experts call it a cult. Uncover:\
+        \ Escaping NXIVM is an investigative podcast series about the group, its leader\
+        \ Keith Raniere and one woman\u2019s journey to get out.\",\"thumbnail_url\"\
+        :\"https://www.cbc.ca/radio/podcasts/images/promo-nxivm-1400x1400-fix.jpg\"\
+        ,\"category\":\"News \\u0026 Politics\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-ca\",\"author\":\"CBC Podcasts\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/ebb46750-14b5-0136-c266-7d73a919276a.jpg\"\
+        },{\"uuid\":\"4eb5b260-c933-0134-10da-25324e2a541d\",\"url\":\"https://art19.com/shows/the-daily\"\
+        ,\"title\":\"The Daily\",\"description\":\"This is what the news should sound\
+        \ like. The biggest stories of our time, told by the best journalists in the\
+        \ world. Hosted by Michael Barbaro. Twenty minutes a day, five days a week,\
+        \ ready by 6 a.m.\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/01/1b/f3/d6/011bf3d6-a448-4533-967b-e2f19e376480/7fdd4469c1b5cb3b66aa7dcc9fa21f138efe9a0310a8a269f3dcd07c83a552844fcc445ea2d53db1e55d6fb077aeaa8a1566851f8f2d8ac4349d9d23a87a69f5.jpeg\"\
+        ,\"category\":\"News \\u0026 Politics\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"The New York Times\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/4eb5b260-c933-0134-10da-25324e2a541d.jpg\"\
+        },{\"uuid\":\"0cc43410-1d2f-012e-0175-00163e1b201c\",\"url\":\"http://99percentinvisible.org\"\
+        ,\"title\":\"99% Invisible\",\"description\":\"Design is everywhere in our\
+        \ lives, perhaps most importantly in the places where we've just stopped noticing.\
+        \ 99% Invisible is a weekly exploration of the process and power of design\
+        \ and architecture. From award winning producer Roman Mars. Learn more at\
+        \ 99percentinvisible.org.  \\n\\nA proud member of Radiotopia, from PRX. Learn\
+        \ more at radiotopia.fm.\",\"thumbnail_url\":\"https://f.prxu.org/96/images/a2dfa88e-cbe9-4a41-b1a6-72694e60e7fd/99-1400.png\"\
+        ,\"category\":\"Arts\\nDesign\",\"media_type\":\"Audio\",\"language\":\"en\"\
+        ,\"author\":\"Roman Mars\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/0cc43410-1d2f-012e-0175-00163e1b201c.jpg\"\
+        },{\"uuid\":\"f5a28790-ae2c-0135-9e5c-5bb073f92b78\",\"url\":\"http://slate.com/slowburn\"\
+        ,\"title\":\"Slow Burn\",\"description\":\"Leon Neyfakh excavates the strange\
+        \ subplots and forgotten characters of recent political history\u2014and finds\
+        \ surprising parallels to the present. Season 1 of Slow Burn captured what\
+        \ it felt like to live through Watergate; Season 2 does the same with the\
+        \ saga of Bill Clinton\u2019s impeachment.\",\"thumbnail_url\":\"http://static.megaphone.fm/podcasts/86fe6492-bb2a-11e7-873d-cf56b25e8a62/image/uploads_2F1532379389565-qz30ca54m1q-6110eb97cb104c6ddcd3b68545243c7e_2FSlow-Burn-S2-Podcast-Artwork-Slate-Logo.jpg\"\
+        ,\"category\":\"Society \\u0026 Culture\\nHistory\\nNews \\u0026 Politics\\\
+        nGovernment \\u0026 Organizations\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Slate\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/f5a28790-ae2c-0135-9e5c-5bb073f92b78.jpg\"\
+        },{\"uuid\":\"02c025d0-9456-0136-7b92-27f978dac4db\",\"url\":\"https://twit.tv/shows/valley-of-genius\"\
+        ,\"title\":\"Valley of Genius (MP3)\",\"description\":\"Ripped from the pages\
+        \ of Adam Fisher's uncensored history of Silicon Valley, Valley of Genius\
+        \ features the hackers, founders, and freaks who made Silicon Valley boom,\
+        \ in their own words. Drawn from over 200 interviews with the brightest stars\
+        \ and hidden heroes of technology, Valley of Genius is required listening\
+        \ for history buffs, tech lovers, and anyone interested in the innovation,\
+        \ betrayal, and magic of Silicon Valley.   \\n\\nNew episodes are posted every\
+        \ Monday.\",\"thumbnail_url\":\"https://elroycdn.twit.tv/sites/default/files/styles/twit_album_art_2048x2048/public/images/shows/valley_of_genius/album_art/audio/vog_2048x2048.jpg?itok=AN9H5O9Y\"\
+        ,\"category\":\"Arts\\nLiterature\\nSociety \\u0026 Culture\\nPersonal Journals\\\
+        nSociety \\u0026 Culture\\nHistory\\nTechnology\\nTech News\",\"media_type\"\
+        :\"Audio\",\"language\":\"en-US\",\"author\":\"TWiT\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/02c025d0-9456-0136-7b92-27f978dac4db.jpg\"\
+        },{\"uuid\":\"e5e5fb40-75b8-0134-78cd-4ffec63d9550\",\"url\":\"http://www.darkestnightpod.com\"\
+        ,\"title\":\"Darkest Night\",\"description\":\"Darkest Night is a binaural\
+        \ audio drama that places you, the listener, at the center of a recovered\
+        \ memory that sounds as though it\u2019s happening around you in real time.\
+        \ Each chapter delves into the last memories of the recently deceased, slowly\
+        \ revealing a horrifying master plan. Who is weaving this master conspiracy,\
+        \ and what is their ultimate goal? Subscribe now to find out, and wear headphones\
+        \ for the best, most terrifying results. \\n\\nDarkest Night is narrated by\
+        \ Lee Pace (The Hobbit Films, Guardians of the Galaxy, Pushing Daisies. Halt\
+        \ \\u0026 Catch Fire, etc). Darkest Night features acting performances from\
+        \ Denis O'Hare (American Horror Story), Maynard James Keenan, Missi Pyle (The\
+        \ Artist \\u0026 Dodgeball), RuPaul, Michelle Visage, and Jeffery Bowyer-Chapman.\"\
+        ,\"thumbnail_url\":\"http://static.libsyn.com/p/assets/6/c/d/6/6cd60bd23ed9a527/Darkest_Nights_Final_Logo.jpg\"\
+        ,\"category\":\"Arts\\nPerforming Arts\\nGames \\u0026 Hobbies\\nTV \\u0026\
+        \ Film\",\"media_type\":\"Audio\",\"language\":\"en\",\"author\":\"The Paragon\
+        \ Collective\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/e5e5fb40-75b8-0134-78cd-4ffec63d9550.jpg\"\
+        },{\"uuid\":\"b3856ae0-7f27-0136-7b90-27f978dac4db\",\"url\":\"https://www.bearbrookpodcast.com/\"\
+        ,\"title\":\"Bear Brook\",\"description\":\"Two barrels, four bodies, and\
+        \ an enigmatic killer. The cold case that changed the way murders will be\
+        \ investigated forever.\",\"thumbnail_url\":\"http://static.megaphone.fm/podcasts/25a36cd4-969d-11e8-b065-c70d2b23c076/image/uploads_2F1534530178454-o5gj4usb0b-d702ecd1be1cfdd6e1be5c3654bbb79e_2FBBLogoV3_PodcastApps.png\"\
+        ,\"category\":\"News \\u0026 Politics\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"New Hampshire Public Radio\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/b3856ae0-7f27-0136-7b90-27f978dac4db.jpg\"\
+        },{\"uuid\":\"7868f900-21de-0133-2464-059c869cc4eb\",\"url\":\"https://npr.org/series/423302056/hidden-brain\"\
+        ,\"title\":\"Hidden Brain\",\"description\":\"Shankar Vedantam uses science\
+        \ and storytelling to reveal the unconscious patterns that drive human behavior,\
+        \ shape our choices and direct our relationships.\",\"thumbnail_url\":\"https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324.jpg?s=1400\"\
+        ,\"category\":\"Social Sciences\\nScience \\u0026 Medicine\",\"media_type\"\
+        :\"Audio\",\"language\":\"en-us\",\"author\":\"NPR\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/7868f900-21de-0133-2464-059c869cc4eb.jpg\"\
+        },{\"uuid\":\"f78707a0-9ed0-0136-7b93-27f978dac4db\",\"url\":\"https://art19.com/shows/halloween-unmasked\"\
+        ,\"title\":\"Halloween Unmasked\",\"description\":\"Relive America\u2019s\
+        \ most revolutionary horror film, \u2018Halloween.\u2019 Dive Deep with host\
+        \ Amy Nicholson to unpack John Carpenter\u2019s accidental classic, Jamie\
+        \ Lee Curtis\u2019 legacy as the ultimate scream queen, and the film\u2019\
+        s iconic masked killer Michael Myers.\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/1b/ab/44/68/1bab4468-57e6-4bc0-9c84-f7d07202bad4/922f11e043d5cfa0826a8b2cdca8ee11c2a6a0cce59d58939c42ffdd959e8eef794b66e9fba6cf39c3e0217a00d88a53678765e9276490bb5662715064b8a0c5.jpeg\"\
+        ,\"category\":\"TV \\u0026 Film\\nSociety \\u0026 Culture\",\"media_type\"\
+        :\"Audio\",\"language\":\"en\",\"author\":\"The Ringer\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/f78707a0-9ed0-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"eda33410-4f42-0132-cf00-5f4c86fd3263\",\"url\":\"http://gimletmedia.com/shows/reply-all\"\
+        ,\"title\":\"Reply All\",\"description\":\"\\\"'A podcast about the internet'\
+        \ that is actually an unfailingly original exploration of modern life and\
+        \ how to survive it.\\\" - The Guardian. Hosted by PJ Vogt and Alex Goldman,\
+        \ from Gimlet.\",\"thumbnail_url\":\"http://static.megaphone.fm/podcasts/05f71746-a825-11e5-aeb5-a7a572df575e/image/uploads_2F1516902193862-jqkml22bswo-cee641b4533ddb31a5a7ab656fe45116_2FCURRENT_Reply%2BAll%2BLogo.png\"\
+        ,\"category\":null,\"media_type\":\"Audio\",\"language\":\"en\",\"author\"\
+        :\"Gimlet\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/eda33410-4f42-0132-cf00-5f4c86fd3263.jpg\"\
+        },{\"uuid\":\"64b8f9b0-045a-0136-c264-7d73a919276a\",\"url\":\"https://sidewalklabs.com\"\
+        ,\"title\":\"City of the Future\",\"description\":\"City of the Future is\
+        \ a new podcast from Sidewalk Labs that will explore the innovations, ideas,\
+        \ and technologies that are set to transform our cities.\",\"thumbnail_url\"\
+        :\"http://static.libsyn.com/p/assets/a/7/e/f/a7efbc019862d5f9/18.10.01_SWL_Podcast-Album-Cover_1400x1400_500kb.jpg\"\
+        ,\"category\":\"Technology\\nSociety \\u0026 Culture\\nArts\\nDesign\",\"\
+        media_type\":\"Audio\",\"language\":\"EN\",\"author\":\"Sidewalk Labs\",\"\
+        thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/64b8f9b0-045a-0136-c264-7d73a919276a.jpg\"\
+        },{\"uuid\":\"9bead050-a3ac-0136-7b93-27f978dac4db\",\"url\":\"https://art19.com/shows/sold-in-america\"\
+        ,\"title\":\"Sold In America\",\"description\":\"Sold in America is an eight-episode\
+        \ journey into the world of selling sex in the United States. Hosted by journalist\
+        \ and activist Noor Tagouri, this deeply personal, deeply reported series\
+        \ takes listeners across the country to meet the human faces of this billion-dollar\
+        \ trade \u2013 and uncovers its surprising misconceptions. \",\"thumbnail_url\"\
+        :\"https://content.production.cdn.art19.com/images/c7/f0/9b/d4/c7f09bd4-c679-4a05-b7c1-f6568d31af2c/39c5599df6feee1b491c04b52168c5600071648e234ee7e1c033ca4fd472bf31f26dacc34bd74f391e544b9fbb4757b8375c981390cac674e9d9c1d9c2d4323e.jpeg\"\
+        ,\"category\":\"Society \\u0026 Culture\\nPlaces \\u0026 Travel\",\"media_type\"\
+        :\"Audio\",\"language\":\"en\",\"author\":\"Stitcher and E.W. Scripps Company,\
+        \ with Noor Tagouri\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/9bead050-a3ac-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"cd12d290-9719-0136-7b93-27f978dac4db\",\"url\":\"https://art19.com/shows/american-scandal\"\
+        ,\"title\":\"American Scandal\",\"description\":\"Every scandal begins with\
+        \ a lie. But the truth will come out. And then comes the fallout and the outrage.Scandals\
+        \ have shaped America since its founding. From business and politics to sports\
+        \ and society, we look on aghast as corruption, deceit and ambition bring\
+        \ down heroes and celebrities, politicians and moguls.\_And when the dust\
+        \ finally settles, we\u2019re left to wonder: how did this happen? Where did\
+        \ they trip up, and who is to blame? From the creators of American History\
+        \ Tellers, Business Wars and Tides of History comes American Scandal, where\
+        \ we take you deep into the heart of America\u2019s dark side to look at what\
+        \ drives someone to break the rules and what happens when they\u2019re caught.\_\
+        Hosted by Lindsay Graham.\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/75/8c/dc/ee/758cdcee-6416-4045-910d-5a921bc9f778/1e67aab4391f2494bee3f17e19b7c906ed29042a967387165db00cd9704e0d17677043bb68894449262416cdcf44187818222149c70a92af43d06b413dc1ffdb.jpeg\"\
+        ,\"category\":\"Society \\u0026 Culture\\nHistory\",\"media_type\":\"Audio\"\
+        ,\"language\":\"en\",\"author\":\"Wondery\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/cd12d290-9719-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"d1744560-41ae-0136-fa7c-0fe84b59566d\",\"url\":\"https://art19.com/shows/the-good-place-the-podcast\"\
+        ,\"title\":\"The Good Place: The Podcast\",\"description\":\"Holy motherforking\
+        \ shirtballs! This is the official comedy and entertainment podcast for NBC's\
+        \ TV show The Good Place. Subscribe and you'll get weekly behind-the-scenes\
+        \ stories, episode and performance insights and funny anecdotes. Hosted by\
+        \ actor Marc Evan Jackson (Shawn) with a rotating slate of co-hosts and special\
+        \ guests, including actors, writers, producers and more, this podcast takes\
+        \ a deep dive into everything on- and off-screen.\_Follow: @nbcthegoodplaceNBC\
+        \ Entertainment Podcast Network \xA92018\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/2b/98/53/a5/2b9853a5-3317-4b8b-9f9c-10ec7c078a1f/8645f2360ebd9a4c0dbd55578892a6ccc021e8ca224227b5bc49f3573fd2444dfc38bc381a72dc2d3c23b1d84eee21b6e52e8e7f0f6e1261845d332ef122f614.jpeg\"\
+        ,\"category\":\"TV \\u0026 Film\\nSociety \\u0026 Culture\\nPhilosophy\\nComedy\"\
+        ,\"media_type\":\"Audio\",\"language\":\"en\",\"author\":\"NBC\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/d1744560-41ae-0136-fa7c-0fe84b59566d.jpg\"\
+        },{\"uuid\":\"d7b7a810-cc0e-012e-6caa-00163e1b201c\",\"url\":\"https://lpotl.libsyn.com/website\"\
+        ,\"title\":\"Last Podcast On The Left\",\"description\":\"The Last Podcast\
+        \ On The Left covers all the horrors our world has to offer both imagined\
+        \ and real, from demons and slashers to cults and serial killers, The Last\
+        \ Podcast is guaranteed to satisfy your blood lust.\",\"thumbnail_url\":\"\
+        http://static.libsyn.com/p/assets/7/b/0/3/7b03e748868ef23a/LPOTL_Poster_LPN.jpg\"\
+        ,\"category\":\"Comedy\",\"media_type\":\"Audio\",\"language\":\"en\",\"author\"\
+        :\"The Last Podcast Network\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/d7b7a810-cc0e-012e-6caa-00163e1b201c.jpg\"\
+        },{\"uuid\":\"3782b780-0bc5-012e-fb02-00163e1b201c\",\"url\":\"https://www.thisamericanlife.org\"\
+        ,\"title\":\"This American Life\",\"description\":\"This American Life is\
+        \ a weekly public radio show, heard by 2.2 million people on more than 500\
+        \ stations. Another 2.5 million people download the weekly podcast. It is\
+        \ hosted by Ira Glass, produced in collaboration with Chicago Public Media,\
+        \ delivered to stations by PRX The Public Radio Exchange, and has won all\
+        \ of the major broadcasting awards.\",\"thumbnail_url\":\"http://www.thisamericanlife.org/sites/all/themes/thislife/images/logo-square-1400.jpg\"\
+        ,\"category\":\"Society \\u0026 Culture\\nArts\",\"media_type\":\"Audio\"\
+        ,\"language\":\"en\",\"author\":\"This American Life\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/3782b780-0bc5-012e-fb02-00163e1b201c.jpg\"\
+        },{\"uuid\":\"086bbbc0-9db2-0136-7b93-27f978dac4db\",\"url\":\"https://www.danielandjorge.com/\"\
+        ,\"title\":\"Daniel and Jorge Explain the Universe\",\"description\":\"A fun-filled\
+        \ discussion of the big, mind-blowing, unanswered questions about the Universe.\
+        \ In each episode, Daniel Whiteson (a Physicist who works at CERN) and Jorge\
+        \ Cham (a popular online cartoonist) discuss some of the simple but profound\
+        \ questions that people have been wondering about for thousands of years,\
+        \ explaining the science in a fun, shorts-wearing and jargon-free way.\",\"\
+        thumbnail_url\":\"http://static.megaphone.fm/podcasts/176ee8b0-3819-11e8-a1b4-d3fb6ea4a0b1/image/uploads_2F1522853594055-c7xq1z1c04q-78cf7c809d95f4501f556de8dbd8cf3e_2FDaniel_26JorgeLogo-FINAL-3000x3000.png\"\
+        ,\"category\":\"Science \\u0026 Medicine\\nNatural Sciences\",\"media_type\"\
+        :\"Audio\",\"language\":\"en\",\"author\":\"HowStuffWorks\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/086bbbc0-9db2-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"5f07a9d0-b6e1-0134-106e-25324e2a541d\",\"url\":\"https://art19.com/shows/pod-save-america\"\
+        ,\"title\":\"Pod Save America\",\"description\":\"Four former aides to President\
+        \ Obama \u2014 Jon Favreau, Dan Pfeiffer, Jon Lovett, and Tommy Vietor \u2014\
+        \ are joined by journalists, politicians, comedians, and activists for a freewheeling\
+        \ conversation about politics, the press and the challenges posed by the Trump\
+        \ presidency.\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/9f/11/57/4c/9f11574c-4033-45aa-b8d3-0b204258ab58/5e963f8f8811e208b1a90c91507a0f7880c7b861bf81c290e44c193e891a507bbe99798dd7ed0cd795a4fede54560f167fa023553f66c29ff86bf9f8322c7f83.jpeg\"\
+        ,\"category\":\"News \\u0026 Politics\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Crooked Media\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/5f07a9d0-b6e1-0134-106e-25324e2a541d.jpg\"\
+        },{\"uuid\":\"505f91a0-8f9b-0136-7b92-27f978dac4db\",\"url\":\"http://adventuresinnewamerica.com/\"\
+        ,\"title\":\"Adventures in New America\",\"description\":\"Adventures in New\
+        \ America is the first sci-fi, political satire, Afrofuturistic buddy comedy,\
+        \ serialized for New Americans in a new and desperate time.\\n\\nSet a few\
+        \ years in the future, Adventures in New America follows the escapades of\
+        \ two mismatched African-New-American best friends \u2014 fat, lonely, curmudgeon\
+        \ IA and lesbian sneak-thief Simon Carr \u2014 who take on a series of increasingly\
+        \ wild heists to get quick cash to pay for IA\u2019s medical treatment while\
+        \ attempting to survive the wilds of New New York City \u2014 and a secret\
+        \ cabal of Tetchy Terrorist Vampire Zombies from outer space. Intrigued? Good!\
+        \ Frequently, there will be musical numbers... and radical reflections on\
+        \ our dangerous, beautiful, heart-pounding world.\",\"thumbnail_url\":\"https://f.prxu.org/174/images/1aeb3bdb-5be1-4524-9f9d-bcceec120e75/New_America_Final.jpg\"\
+        ,\"category\":\"Arts\\nPerforming Arts\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-us\",\"author\":\"Night Vale Presents\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/505f91a0-8f9b-0136-7b92-27f978dac4db.jpg\"\
+        },{\"uuid\":\"ac371bd0-094f-0134-9ce1-59d98c6b72b8\",\"url\":\"http://revisionisthistory.com/\"\
+        ,\"title\":\"Revisionist History\",\"description\":\"Revisionist History is\
+        \ Malcolm Gladwell's journey through the overlooked and the misunderstood.\
+        \ Every episode re-examines something from the past\u2014an event, a person,\
+        \ an idea, even a song\u2014and asks whether we got it right the first time.\
+        \ From Panoply Media. Because sometimes the past deserves a second chance.\"\
+        ,\"thumbnail_url\":\"http://static.megaphone.fm/podcasts/1427a2f4-2674-11e6-a3d7-cf7ee2a2c03c/image/uploads_2F1526402855607-b3j4iypcxlm-ed6cf319778589d4dcc5e3b8012e61e3_2FRHshowtile_hd_051518.png\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Malcolm Gladwell / Panoply\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/ac371bd0-094f-0134-9ce1-59d98c6b72b8.jpg\"\
+        },{\"uuid\":\"fc2c9150-6aaa-0136-4e65-69745d675bc7\",\"url\":\"https://art19.com/shows/hey-riddle-riddle\"\
+        ,\"title\":\"Hey Riddle Riddle\",\"description\":\"Riddles! Puzzles! WhoDunnits!\
+        \ Adal Rifai, Erin Keif and JPC try and solve a few of these every episode\
+        \ while discussing and dissecting along the way. You can play along while\
+        \ listening but can you solve the questions before we do?? (you absolutely\
+        \ will)\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/94/92/cf/d0/9492cfd0-e22d-4861-9d90-b633e5f02259/330bf70b0d7f91879aa251166c4c1b4634c81b843cfcdc5571c51bc048897b82d5d4b03f99af8a95a81122ef5f8b0b36d7e086fd95600a160ef7c44fa64e1d4d.jpeg\"\
+        ,\"category\":\"Games \\u0026 Hobbies\\nOther Games\\nArts\\nPerforming Arts\\\
+        nComedy\",\"media_type\":\"Audio\",\"language\":\"en\",\"author\":\"HeadGum\"\
+        ,\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/fc2c9150-6aaa-0136-4e65-69745d675bc7.jpg\"\
+        },{\"uuid\":\"678c50a0-5403-0133-c7cf-0d11918ab357\",\"url\":\"http://cnn.com/podcast\"\
+        ,\"title\":\"The Forecast with Harry Enten\",\"description\":\"Let hosts Harry\
+        \ Enten, Rebecca Berg and Ryan Nobles keep you updated this midterm season.\
+        \ We'll tell you what races to watch and bring you the latest news and analysis\
+        \ on the voters, the candidates and the polls.\",\"thumbnail_url\":\"http://pg-act-11-o.s3-us-west-2.amazonaws.com/11/artwork/show.9.audioart.original.6fhcx.jpg\"\
+        ,\"category\":\"News \\u0026 Politics\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-us\",\"author\":\"CNN\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/678c50a0-5403-0133-c7cf-0d11918ab357.jpg\"\
+        },{\"uuid\":\"b001f6e0-7964-0135-9036-63f4b61a9224\",\"url\":\"http://wondery.com/wondery/shows/dirtyjohn/\"\
+        ,\"title\":\"Dirty John\",\"description\":\"Debra Newell is a successful interior\
+        \ designer. She meets John Meehan, a handsome man who seems to check all the\
+        \ boxes: attentive, available, just back from a year in Iraq with Doctors\
+        \ Without Borders. But her family doesn\u2019t like John, and they get entangled\
+        \ in an increasingly complex web of love, deception, forgiveness, denial,\
+        \ and ultimately, survival. Reported and hosted by Christopher Goffard from\
+        \ the L.A. Times.\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/f5/cf/d8/37/f5cfd837-6c97-4422-a573-4ea06f2b2a13/92560badd97d72391e87a7f98ef308a82f3f8973b0ac04d558be398f1bb06c4d0b09e982e9f7d939e7a7be6f06470d4b2f015e2211d4c4a67c73378122690d54.jpeg\"\
+        ,\"category\":\"Society \\u0026 Culture\\nPersonal Journals\",\"media_type\"\
+        :\"Audio\",\"language\":\"en\",\"author\":\"L.A. Times | Wondery\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/b001f6e0-7964-0135-9036-63f4b61a9224.jpg\"\
+        },{\"uuid\":\"a5b18b10-a487-0136-7b93-27f978dac4db\",\"url\":\"http://lyspodcast.com\"\
+        ,\"title\":\"The Leap Year Society\",\"description\":\"Join podcast host\_\
+        Amanda Morrison, her producer Mitch, and conspiracy theorist friend, Colin,\
+        \ as they work to uncover the truth behind an age-old, secretive group known\
+        \ only as the Leap Year Society, whose enigmatic present day recruitment program\
+        \ is inexorably linked to research that borders on the paranormal.\\n\\nWith\
+        \ incredible performances and incomparable production value, The Leap Year\
+        \ Society is like nothing you've heard before.\_Subscribe on Apple Podcasts,\
+        \ Spotify, Stitcher, or wherever you listen.\",\"thumbnail_url\":\"https://ssl-static.libsyn.com/p/assets/4/0/2/3/40230a9138ee487a/PODCAST_LOGO.png\"\
+        ,\"category\":\"Society \\u0026 Culture\\nGovernment \\u0026 Organizations\\\
+        nEducation\\nHigher Education\",\"media_type\":\"Audio\",\"language\":\"EN\"\
+        ,\"author\":\"Unknown 9\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/a5b18b10-a487-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"94e43cd0-e085-0135-c259-7d73a919276a\",\"url\":\"https://art19.com/shows/business-wars\"\
+        ,\"title\":\"Business Wars\",\"description\":\"Netflix vs. HBO. Nike vs. Adidas.\
+        \ Business is war. Sometimes the prize is your wallet, or your attention.\
+        \ Sometimes, it\u2019s just the fun of beating the other guy. The outcome\
+        \ of these battles shapes what we buy and how we live.\_Business Wars gives\
+        \ you the unauthorized, real story of what drives these companies and their\
+        \ leaders, inventors, investors and executives to new heights -- or to ruin.\
+        \ Hosted by David Brown, former anchor of Marketplace. From Wondery, the network\
+        \ behind Dirty John and American History Tellers.\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/72/49/f7/a4/7249f7a4-163e-443e-9d0b-c4d2133eb36c/28ee9ab994e1d3017649f8beb239f7f01c4c677cd3dce26ccec4a27f8c066901c8de40be841fe20e91c8ec5b8713ae3fda343671b3dbf73b9bd537cee88d7988.jpeg\"\
+        ,\"category\":\"Business\\nSociety \\u0026 Culture\\nHistory\",\"media_type\"\
+        :\"Audio\",\"language\":\"en\",\"author\":\"Wondery\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/94e43cd0-e085-0135-c259-7d73a919276a.jpg\"\
+        },{\"uuid\":\"57b8dff0-2ad6-0134-eba6-0d50f522381b\",\"url\":\"http://teamcoco.com\"\
+        ,\"title\":\"The CONAN Podcast\",\"description\":\"Give your eyes a rest and\
+        \ consume CONAN in audio-form! The CONAN Podcast features weekly highlights\
+        \ from monologues, comedy sketches, celebrity interviews, and stand-up sets.\
+        \ PLUS: Podcast-exclusives featuring Conan, Andy and more of your favorite\
+        \ CONAN staffers.\",\"thumbnail_url\":\"http://pg-act-87.s3-us-west-2.amazonaws.com/87/artwork/show.82.audioart.original.j2hxv.jpg\"\
+        ,\"category\":\"Comedy\\nNews \\u0026 Politics\\nTV \\u0026 Film\",\"media_type\"\
+        :\"Audio\",\"language\":\"en\",\"author\":\"Team Coco Digital\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/57b8dff0-2ad6-0134-eba6-0d50f522381b.jpg\"\
+        },{\"uuid\":\"5c0a2540-afba-0132-32cb-0b39892d38e0\",\"url\":\"http://www.lorepodcast.com\"\
+        ,\"title\":\"Lore\",\"description\":\"Lore is a bi-weekly podcast (and upcoming\
+        \ TV show) about the dark historical tales that fuel our modern superstitions.\
+        \ Each episode explores the world of mysterious creatures, tragic events,\
+        \ and unusual places.\\n\\nBecause sometimes the truth is more frightening\
+        \ than fiction.\",\"thumbnail_url\":\"http://static.libsyn.com/p/assets/1/6/5/f/165ff64eaf93fa53/lore-coverart3.jpg\"\
+        ,\"category\":\"Society \\u0026 Culture\\nHistory\",\"media_type\":\"Audio\"\
+        ,\"language\":\"en\",\"author\":\"Aaron Mahnke\",\"thumbnail_url_small\":\"\
+        https://static2.pocketcasts.com/discover/images/140/5c0a2540-afba-0132-32cb-0b39892d38e0.jpg\"\
+        },{\"uuid\":\"3204fe70-3c44-0136-fa7b-0fe84b59566d\",\"url\":\"https://www.theaustralian.com.au/the-teachers-pet\"\
+        ,\"title\":\"The Teacher's Pet\",\"description\":\"Lyn and Chris Dawson appear\
+        \ to have the perfect marriage. He's a star footballer and popular high school\
+        \ teacher. She's a devoted wife and mother. They share a beautiful home above\
+        \ Sydney's northern beaches. But when Lyn goes missing, dark secrets are buried.\
+        \ This is no fairytale, but a sordid story of strangely close twin brothers,\
+        \ teenage student lovers, and probable murder. The Australian's Hedley Thomas\
+        \ digs deep into a cold case which has been unsolved for 36 years, uncovering\
+        \ startling new evidence.\",\"thumbnail_url\":\"https://files.whooshkaa.com/podcasts/podcast_3289/podcast_media/154a7e-itunes-220.jpg\"\
+        ,\"category\":\"News \\u0026 Politics\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-us\",\"author\":\"The Australian\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/3204fe70-3c44-0136-fa7b-0fe84b59566d.jpg\"\
+        },{\"uuid\":\"06956510-92a5-0136-7b92-27f978dac4db\",\"url\":\"http://www.wildthingpodcast.com\"\
+        ,\"title\":\"Wild Thing\",\"description\":\"Believe in Bigfoot? Think it\u2019\
+        s total BS? Host Laura Krantz spent a year in the woods and in the lab, trying\
+        \ to answer that question. What she found might surprise even the staunchest\
+        \ non-believer.\\n\\nThis legendary creature represents a mystery that still\
+        \ captures our imaginations and Sasquatch is as popular now as it\u2019s ever\
+        \ been. Companies market Bigfoot-themed goods: beer, television shows, bikes,\
+        \ coffee, socks... erotica. People slap \u201CI believe\u201D bumper stickers\
+        \ on their cars and kayaks and binge-watch Bigfoot-themed reality shows.\\\
+        n\\nPart of this is tongue-in-cheek\u2014Bigfoot as hipster accessory. But\
+        \ many people take Sasquatch seriously. Very seriously. Primatologists, naturalists,\
+        \ academics\u2014perfectly rational people who swear to his existence and\
+        \ know he (she? it?) is real. Veteran public radio producer Laura Krantz has\
+        \ met them. Wild Thing is Laura\u2019s journey into the world of Bigfoot,\
+        \ introducing us to the true believers and the I-want-to-believers, while\
+        \ seeking to explore why this creature ignites our imaginations, where that\
+        \ fascination comes from, and why it persists.\",\"thumbnail_url\":\"https://media.simplecast.com/podcast/image/7169/1534863663-artwork.jpg\"\
+        ,\"category\":\"Science \\u0026 Medicine\\nNatural Sciences\\nSociety \\u0026\
+        \ Culture\\nSports \\u0026 Recreation\\nOutdoor\",\"media_type\":\"Audio\"\
+        ,\"language\":\"en\",\"author\":\"Foxtopus Ink\",\"thumbnail_url_small\":\"\
+        https://static2.pocketcasts.com/discover/images/140/06956510-92a5-0136-7b92-27f978dac4db.jpg\"\
+        },{\"uuid\":\"65f25c00-41cb-0136-fa7c-0fe84b59566d\",\"url\":\"http://www.everythingisalive.com/\"\
+        ,\"title\":\"Everything is Alive\",\"description\":\"Everything is Alive is\
+        \ an unscripted interview show in which all the subjects are inanimate objects.\
+        \ In each episode, a different thing tells us its life story--and everything\
+        \ it says is true.\",\"thumbnail_url\":\"https://f.prxu.org/143/images/bba41d30-5f70-45a9-9bde-392c4dc9e400/Everything_is_Alive_300pxs.jpg\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-us\",\"author\":\"Radiotopia\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/65f25c00-41cb-0136-fa7c-0fe84b59566d.jpg\"\
+        },{\"uuid\":\"c59b45b0-0bc4-012e-fb02-00163e1b201c\",\"url\":\"https://www.npr.org/planetmoney\"\
+        ,\"title\":\"Planet Money\",\"description\":\"The economy explained. Imagine\
+        \ you could call up a friend and say, \\\"Meet me at the bar and tell me what's\
+        \ going on with the economy.\\\" Now imagine that's actually a fun evening.\"\
+        ,\"thumbnail_url\":\"https://media.npr.org/assets/img/2018/08/02/npr_planetmoney_podcasttile_sq-7b7fab0b52fd72826936c3dbe51cff94889797a0.jpg?s=1400\"\
+        ,\"category\":\"News \\u0026 Politics\\nBusiness\",\"media_type\":\"Audio\"\
+        ,\"language\":\"en\",\"author\":\"NPR\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/c59b45b0-0bc4-012e-fb02-00163e1b201c.jpg\"\
+        },{\"uuid\":\"e0799370-aaf2-0136-7b93-27f978dac4db\",\"url\":\"https://thehiddenfrequenciespodcast.podbean.com\"\
+        ,\"title\":\"The Hidden Frequencies Podcast\",\"description\":\"An original\
+        \ science fiction horror audio drama anthology in the spirit of The Twilight\
+        \ Zone and Tales From the Dark Side.\",\"thumbnail_url\":\"https://deow9bq0xqvbj.cloudfront.net/image-logo/3437185/THF_Logo_iTunes.jpg\"\
+        ,\"category\":\"TV \\u0026 Film\",\"media_type\":\"Audio\",\"language\":\"\
+        en\",\"author\":\"thfshowrunner@gmail.com\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/e0799370-aaf2-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"d81fbcb0-0422-012e-f9a0-00163e1b201c\",\"url\":\"http://freakonomics.com/\"\
+        ,\"title\":\"Freakonomics Radio\",\"description\":\"Discover the hidden side\
+        \ of everything with Stephen J. Dubner, co-author of the\_Freakonomics\_books.\
+        \ Each week,\_Freakonomics Radio\_tells you things you always thought you\
+        \ knew (but didn\u2019t) and things you never thought you wanted to know (but\
+        \ do) \u2014\_from the economics of sleep to how to become great at just about\
+        \ anything. Dubner speaks with Nobel laureates and provocateurs, intellectuals\
+        \ and entrepreneurs, and various other underachievers. Special features include\
+        \ series like \u201CThe Secret Life of a C.E.O.\u201D as well as a live game\
+        \ show, \u201CTell Me Something I Don\u2019t Know.\u201D\_\",\"thumbnail_url\"\
+        :\"https://content.production.cdn.art19.com/images/01/73/7e/02/01737e02-609c-40c0-8cb1-6c010b5a170b/7300ad8b177115c141228ae24897bb5b828ba645232b5732ec43d9610a782138cd3d69d0c88f44559420c2ded82022e03600e57040740f1c7b42c93bfc06a675.jpeg\"\
+        ,\"category\":\"Society \\u0026 Culture\\nBusiness\",\"media_type\":\"Audio\"\
+        ,\"language\":\"en\",\"author\":\"\u200BDubner Productions and Stitcher\"\
+        ,\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/d81fbcb0-0422-012e-f9a0-00163e1b201c.jpg\"\
+        },{\"uuid\":\"e070ac10-711e-0136-7b8d-27f978dac4db\",\"url\":\"http://nike.com/ntcpro\"\
+        ,\"title\":\"TRAINED\",\"description\":\"Through years of research and working\
+        \ with the world's best athletes - Nike has learned greatness isn't born,\
+        \ it's trained. This podcast explores the cutting-edge of holistic fitness\
+        \ to help make you a better trainer and athlete. Listen to conversations with\
+        \ industry experts and discover the latest innovations, insights, and trends\
+        \ making the biggest impact on the training world.\",\"thumbnail_url\":\"\
+        https://media.simplecast.com/podcast/image/5861/1531964311-artwork.jpg\",\"\
+        category\":\"Health\\nFitness \\u0026 Nutrition\\nSports \\u0026 Recreation\\\
+        nSociety \\u0026 Culture\",\"media_type\":\"Audio\",\"language\":\"en\",\"\
+        author\":\"Nike\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/e070ac10-711e-0136-7b8d-27f978dac4db.jpg\"\
+        },{\"uuid\":\"a4085f60-5672-0134-ec37-0d50f522381b\",\"url\":\"http://www.npr.org/series/490248027/how-i-built-this\"\
+        ,\"title\":\"How I Built This with Guy Raz\",\"description\":\"Guy Raz dives\
+        \ into the stories behind some of the world's best known companies. How I\
+        \ Built This weaves a narrative journey about innovators, entrepreneurs and\
+        \ idealists\u2014and the movements they built.\",\"thumbnail_url\":\"https://media.npr.org/assets/img/2018/08/03/npr_hibt_podcasttile_sq-98320b282169a8cea04a406530e6e7b957665b3f.jpg?s=1400\"\
+        ,\"category\":\"Business\",\"media_type\":\"Audio\",\"language\":\"en-us\"\
+        ,\"author\":\"NPR\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/a4085f60-5672-0134-ec37-0d50f522381b.jpg\"\
+        },{\"uuid\":\"a85e9880-c563-0134-10da-25324e2a541d\",\"url\":\"http://www.pewtrusts.org/afterthefact\"\
+        ,\"title\":\"After the Fact\",\"description\":\"After the Fact is a podcast\
+        \ from The Pew Charitable Trusts that explores the facts, numbers, and trends\
+        \ shaping our world. Each monthly episode will focus on a topic and data point\
+        \ from one of Pew\u2019s research areas in environmental conservation, governmental\
+        \ policies, or health care in the United States. The host will expand on the\
+        \ data\u2019s relevance through discussions with guests and experts to invigorate\
+        \ our national conversation, inform audiences, and offer solutions to challenges.\"\
+        ,\"thumbnail_url\":\"http://static.libsyn.com/p/assets/b/c/8/1/bc81ec5d79def373/aft-logo-3000x3000-green3.png\"\
+        ,\"category\":\"News \\u0026 Politics\\nGovernment \\u0026 Organizations\\\
+        nNon-Profit\\nEducation\",\"media_type\":\"Audio\",\"language\":\"en\",\"\
+        author\":\"The Pew Charitable Trusts\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/a85e9880-c563-0134-10da-25324e2a541d.jpg\"\
+        },{\"uuid\":\"233aaac0-8aa1-0136-7b90-27f978dac4db\",\"url\":\"https://www.wbez.org/shows/16-shots/55c63c72-d518-4ad9-b5dc-dd0d841d79a7\"\
+        ,\"title\":\"16 Shots\",\"description\":\"In October of 2014, a white police\
+        \ officer fatally shot a black teenager on the streets of Chicago. The shooting\
+        \ of Laquan McDonald was captured on video, and sparked outrage across the\
+        \ city. Chicago's top cop was fired, the local state\u2019s attorney was voted\
+        \ out, and the feds were sent in to investigate the culture at the police\
+        \ department. Now, the police officer at the center of the shooting, Jason\
+        \ Van Dyke, will stand trial for murder. WBEZ and the Chicago Tribune look\
+        \ at how Van Dyke and McDonald intersected that night nearly four years ago,\
+        \ the alleged cover-up of the shooting, and examine the long history of friction\
+        \ between African-Americans and the Chicago Police Department. And we\u2019\
+        ll follow the trial \u2014 bringing you insight, context, and analysis.\"\
+        ,\"thumbnail_url\":\"https://wbez-assets.s3.amazonaws.com/podcast-images/16-shots-logo-01.png\"\
+        ,\"category\":\"News \\u0026 Politics\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-US\",\"author\":\"WBEZ \\u0026 the Chicago Tribune\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/233aaac0-8aa1-0136-7b90-27f978dac4db.jpg\"\
+        },{\"uuid\":\"f5b97290-0422-012e-f9a0-00163e1b201c\",\"url\":\"http://www.wnycstudios.org/shows/radiolab/projects/podcasts\"\
+        ,\"title\":\"Radiolab\",\"description\":\"A two-time Peabody Award-winner,\
+        \ Radiolab is an investigation told through sounds and stories, and centered\
+        \ around one big idea. In the Radiolab world, information sounds like music\
+        \ and science and culture collide. Hosted by Jad Abumrad and Robert Krulwich,\
+        \ the show is designed for listeners who demand skepticism, but appreciate\
+        \ wonder. \\r\\n WNYC Studios is a listener-supported producer of other leading\
+        \ podcasts including On the Media, Snap Judgment, Death, Sex \\u0026 Money,\
+        \ Nancy and Here\u2019s the Thing with Alec Baldwin.  \\r\\n\xA9 WNYC Studios\"\
+        ,\"thumbnail_url\":\"https://media.wnyc.org/i/raw/1/Radiolab_WNYCStudios_1400_2dq02Dh.png\"\
+        ,\"category\":\"Science \\u0026 Medicine\\nNatural Sciences\",\"media_type\"\
+        :\"Audio\",\"language\":\"en-us\",\"author\":\"WNYC Studios\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/f5b97290-0422-012e-f9a0-00163e1b201c.jpg\"\
+        },{\"uuid\":\"eb92cec0-5ac6-0133-cb2d-0d11918ab357\",\"url\":\"https://gimletmedia.com/science-vs/\"\
+        ,\"title\":\"Science Vs\",\"description\":\"There are a lot of fads, blogs\
+        \ and strong opinions, but then there\u2019s SCIENCE. Science Vs is the show\
+        \ from Gimlet Media that finds out what\u2019s fact, what\u2019s not, and\
+        \ what\u2019s somewhere in between. We do the hard work of sifting through\
+        \ all the science so you don't have to. This season we tackle plastics, veganism,\
+        \ essential oils, gentrification and CBD cannabis.\",\"thumbnail_url\":\"\
+        http://static.megaphone.fm/podcasts/f521b120-2c30-11e6-b5f3-63ee984ee1a4/image/uploads_2F1517347312822-v37qyb83kc-1c379943507491e49d3d2dac9fce5299_2F20171116_ScienceVSl-ShowCover.png\"\
+        ,\"category\":\"Science \\u0026 Medicine\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Gimlet\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/eb92cec0-5ac6-0133-cb2d-0d11918ab357.jpg\"\
+        },{\"uuid\":\"650a7fd0-c449-0135-9e60-5bb073f92b78\",\"url\":\"http://dchhaddendum.libsyn.com/website\"\
+        ,\"title\":\"Dan Carlin's Hardcore History: Addendum\",\"description\":\"\
+        Interviews, musings and extra material from the makers of Dan Carlin's Hardcore\
+        \ History.  If it did not fit in the HH feed it's probably here\",\"thumbnail_url\"\
+        :\"http://static.libsyn.com/p/assets/6/b/f/e/6bfe939ed4336498/HHA-1400px_b.jpg\"\
+        ,\"category\":\"Society \\u0026 Culture\\nSociety \\u0026 Culture\\nHistory\\\
+        nSociety \\u0026 Culture\\nPhilosophy\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Dan Carlin\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/650a7fd0-c449-0135-9e60-5bb073f92b78.jpg\"\
+        },{\"uuid\":\"39aba5d0-0428-012e-f9a0-00163e1b201c\",\"url\":\"https://risky.biz/\"\
+        ,\"title\":\"Risky Business\",\"description\":\"Risky Business is a weekly\
+        \ information security podcast featuring news and in-depth interviews with\
+        \ industry luminaries. Launched in February 2007, Risky Business is a must-listen\
+        \ digest for information security pros. With a running time of approximately\
+        \ 50-60 minutes, Risky Business is pacy; a security podcast without the waffle.\"\
+        ,\"thumbnail_url\":\"https://risky.biz/static/img/rbipod2.jpg\",\"category\"\
+        :null,\"media_type\":\"Audio\",\"language\":\"en\",\"author\":\"Patrick Gray\"\
+        ,\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/39aba5d0-0428-012e-f9a0-00163e1b201c.jpg\"\
+        },{\"uuid\":\"649853a0-437d-0131-8293-723c91aeae46\",\"url\":\"http://www.sleepwithmepodcast.com\"\
+        ,\"title\":\"Sleep With Me\",\"description\":\"Insomnia? Mind racing at night?\
+        \ Worries keeping you up? Tune in for a bedtime story that lets you forget\
+        \ your problems and progressively gets more boring until you fall to sleep.\
+        \ So get in bed, press play, close your eyes, and drift off into dreamland.\"\
+        ,\"thumbnail_url\":\"https://f.prxu.org/137/images/dfe04cba-eb7a-4048-ae17-fc1b53307e42/e7568efc308380f37b9d8d2d33777f13b8eac9e2acd338eff3987e7a07884cd34f8e01e793a62b50e9af8f462297af87213c7b8bb31047bdf1bc972828bd2aab.jpeg\"\
+        ,\"category\":\"Comedy\\nTV \\u0026 Film\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Dearest Scooter\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/649853a0-437d-0131-8293-723c91aeae46.jpg\"\
+        },{\"uuid\":\"8d728390-249c-0131-73be-723c91aeae46\",\"url\":\"http://www.samharris.org\"\
+        ,\"title\":\"Waking Up with Sam Harris\",\"description\":\"Join neuroscientist,\
+        \ philosopher, and best-selling author Sam Harris as he explores important\
+        \ and controversial questions about the human mind, society, and current events.\
+        \ \\n\\nSam Harris is the author of five New York Times bestsellers. His books\
+        \ include The End of Faith, Letter to a Christian Nation, The Moral Landscape,\
+        \ Free Will, Lying, Waking Up, and Islam and the Future of Tolerance (with\
+        \ Maajid Nawaz). The End of Faith won the 2005 PEN Award for Nonfiction. His\
+        \ writing and public lectures cover a wide range of topics\u2014neuroscience,\
+        \ moral philosophy, religion, meditation practice, human violence, rationality\u2014\
+        but generally focus on how a growing understanding of ourselves and the world\
+        \ is changing our sense of how we should live. \\n\\nHarris's work has been\
+        \ published in more than 20 languages and has been discussed in The New York\
+        \ Times, Time, Scientific American, Nature, Newsweek, Rolling Stone, and many\
+        \ other journals. He has written for The New York Times, The Los Angeles Times,\
+        \ The Economist, The Times (London), The Boston Globe, The Atlantic, The Annals\
+        \ of Neurology, and elsewhere.\\n\\nSam Harris received a degree in philosophy\
+        \ from Stanford University and a Ph.D. in neuroscience from UCLA.\",\"thumbnail_url\"\
+        :\"http://static.libsyn.com/p/assets/0/b/e/4/0be4dc9e0fc61265/podcast_art_alt_1.5.18.jpg\"\
+        ,\"category\":\"Education\",\"media_type\":\"Audio\",\"language\":\"en\",\"\
+        author\":\"Sam Harris\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/8d728390-249c-0131-73be-723c91aeae46.jpg\"\
+        },{\"uuid\":\"052df5e0-72b8-012f-1d57-525400c11844\",\"url\":\"https://www.npr.org/programs/ted-radio-hour/\"\
+        ,\"title\":\"TED Radio Hour\",\"description\":\"Guy Raz explores the emotions,\
+        \ insights, and discoveries that make us human. The TED Radio Hour is a narrative\
+        \ journey through fascinating ideas, astonishing inventions, fresh approaches\
+        \ to old problems, and new ways to think and create.\",\"thumbnail_url\":\"\
+        https://media.npr.org/assets/img/2018/08/03/npr_ted_podcasttile_sq-f924b1a84a189479b7555a19b030778d88ee55f5.jpg?s=1400\"\
+        ,\"category\":\"Technology\\nSociety \\u0026 Culture\",\"media_type\":\"Audio\"\
+        ,\"language\":\"en\",\"author\":\"NPR\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/052df5e0-72b8-012f-1d57-525400c11844.jpg\"\
+        },{\"uuid\":\"5187afb0-2f73-0136-c267-7d73a919276a\",\"url\":\"https://castingcallshow.com/\"\
+        ,\"title\":\"Casting Call\",\"description\":\"Casting Call is like a Hollywood\
+        \ singing competition, but for people who are pros at audio interviews and\
+        \ non-fiction storytelling. On the show, an esteemed panel of judges will\
+        \ join host Jonathan Goldstein to vet submissions from aspiring podcast hosts\
+        \ across the country, and select three finalists to travel to Gimlet HQ to\
+        \ make a pilot of their show. One talented hopeful will have their pilot turned\
+        \ into a mini-series, produced by Gimlet, and maybe even get a Squarespace\
+        \ sponsorship of their own -- the pinnacle of podcast fame.\\n\\nAll of the\
+        \ glory and the drama of the competition will be documented for listeners\
+        \ to hear. Expect a behind-the-scenes look at the weird and wonderful world\
+        \ of podcasting. You\u2019ll learn what makes a good host and how entertaining\
+        \ shows get made when Casting Call officially launches in September.\",\"\
+        thumbnail_url\":\"http://static.megaphone.fm/podcasts/67702c20-47f5-11e8-a67a-13c2bff5d6fa/image/uploads_2F1524597872475-91gmrtw1krt-35ebc870b31f8ad571a3734bf90e7628_2FCastingCall_Final.png\"\
+        ,\"category\":\"Society \\u0026 Culture\\nPersonal Journals\\nArts\",\"media_type\"\
+        :\"Audio\",\"language\":\"en\",\"author\":\"Squarespace / Gimlet Creative\"\
+        ,\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/5187afb0-2f73-0136-c267-7d73a919276a.jpg\"\
+        },{\"uuid\":\"eed6e2c0-8155-0134-904b-3327a14bcdba\",\"url\":\"https://www.gimletmedia.com/show/crimetown\"\
+        ,\"title\":\"Crimetown\",\"description\":\"Welcome to Crimetown, a series\
+        \ produced by Marc Smerling and Zac Stuart-Pontier in partnership with Gimlet\
+        \ Media. Each season, we investigate the culture of crime in a different city.\
+        \ \\n\\nIn Season 2, Crimetown heads to the heart of the Rust Belt: Detroit,\
+        \ Michigan. From its heyday as Motor City to its rebirth as the Brooklyn of\
+        \ the Midwest, Detroit\u2019s history reflects a series of issues that strike\
+        \ at the heart of American identity: race, poverty, policing, loss of industry,\
+        \ the war on drugs, and our universal desire for a savior. Detroit\u2019s\
+        \ a tough town, and its residents are even tougher. They\u2019ve weathered\
+        \ riots, a drug epidemic, political scandal, and innumerable other hardships,\
+        \ but they\u2019re still here\u2014and they have stories to tell.\",\"thumbnail_url\"\
+        :\"http://static.megaphone.fm/podcasts/faf93c7c-4dcc-11e6-ba15-9b8a8c61d0b5/image/uploads_2F1517245711404-8olcslkt306-2e354ce8711fcc2e1d3f7e9fd4eb802c_2F20171116_Crimetown-ShowCover.png\"\
+        ,\"category\":\"News \\u0026 Politics\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Gimlet\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/eed6e2c0-8155-0134-904b-3327a14bcdba.jpg\"\
+        },{\"uuid\":\"644ab160-49b9-0133-c358-0d11918ab357\",\"url\":\"http://mydadwroteaporno.com\"\
+        ,\"title\":\"My Dad Wrote A Porno\",\"description\":\"Imagine if your Dad\
+        \ wrote a dirty book. Most people would try to ignore it and pretend it had\
+        \ never happened - but not Jamie Morton. Instead, he's decided to read it\
+        \ to the world in this award-winning comedy podcast. With the help of his\
+        \ friends, James Cooper and BBC Radio 1's Alice Levine, Jamie will be reading\
+        \ a chapter a week and discovering more about his father than he ever bargained\
+        \ for.\",\"thumbnail_url\":\"https://thumborcdn.acast.com/HgBtDEhz4CedLJu_sNPaxGX_TjY=/1500x1500/https://acastprod.blob.core.windows.net/media/channels/ee6fd316-9ce1-4f8a-ba2c-a4a4bf5643e4/image/fd650e8ba02f6f411fbfd5b7df5902fe.jpg\"\
+        ,\"category\":null,\"media_type\":\"Audio\",\"language\":\"en\",\"author\"\
+        :\"My Dad Wrote A Porno\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/644ab160-49b9-0133-c358-0d11918ab357.jpg\"\
+        },{\"uuid\":\"820bc8d0-0423-012e-f9a0-00163e1b201c\",\"url\":\"https://www.missedinhistory.com/\"\
+        ,\"title\":\"Stuff You Missed in History Class\",\"description\":\"Join Holly\
+        \ and Tracy as they bring you the greatest and strangest Stuff You Missed\
+        \ In History Class in this podcast by HowStuffWorks.com.\",\"thumbnail_url\"\
+        :\"http://static.megaphone.fm/podcasts/c1e0bb2a-2de7-11e8-a4ca-03f1b5a0d64f/image/uploads_2F1521733402951-ji2sdpf81t8-a0671f44fabdf30df3feab17bde521c9_2Fsymhc-new-logo-1600x1600.png\"\
+        ,\"category\":\"Society \\u0026 Culture\\nHistory\",\"media_type\":\"Audio\"\
+        ,\"language\":\"en-us\",\"author\":\"HowStuffWorks\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/820bc8d0-0423-012e-f9a0-00163e1b201c.jpg\"\
+        },{\"uuid\":\"89ee5bc0-a36f-0136-7b93-27f978dac4db\",\"url\":\"https://www.gimletmedia.com/dolores-roach\"\
+        ,\"title\":\"The Horror of Dolores Roach\",\"description\":\"A macabre urban\
+        \ legend of love, betrayal, weed, gentrification, cannibalism, and survival\
+        \ of the fittest. After sixteen years in prison, the indomitable Dolores Roach\
+        \ returns to a New York City neighborhood that has changed drastically in\
+        \ her absence. Her boyfriend missing, her family long gone, Dolores is recognized\
+        \ only by an old stoner friend, Luis, who gives Dolores room and board and\
+        \ lets her give massages for cash in the basement apartment under his dilapidated\
+        \ empanada shop. When the promise of her newfound stability is quickly threatened,\
+        \ \u201CMagic Hands Dolores\u201D is driven to extremes to survive. A new\
+        \ scripted fiction podcast, The Horror of Dolores Roach stars Daphne Rubin-Vega\
+        \ and Bobby Cannavale. Written by Aaron Mark.\",\"thumbnail_url\":\"http://static.megaphone.fm/podcasts/2485b172-67fe-11e8-8455-bbecfa243aad/image/uploads_2F1537886523518-vh1v5iib3a-357c5ff3508b6dfdb9e0ef49cab7800f_2F20180916_Dolores-ShowCover.png\"\
+        ,\"category\":\"Arts\\nPerforming Arts\\nLiterature\\nScience \\u0026 Medicine\\\
+        nSocial Sciences\",\"media_type\":\"Audio\",\"language\":\"en\",\"author\"\
+        :\"Gimlet\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/89ee5bc0-a36f-0136-7b93-27f978dac4db.jpg\"\
+        },{\"uuid\":\"bc216260-f262-0135-c25e-7d73a919276a\",\"url\":\"http://www.armchairexpertpod.com\"\
+        ,\"title\":\"Armchair Expert with Dax Shepard\",\"description\":\"Hi, I\u2019\
+        m Dax Shepard, and I love talking to people. I am endlessly fascinated by\
+        \ the messiness of being human, and I find people who are vulnerable and honest\
+        \ about their struggles and shortcomings to be incredibly sexy. I invite you\
+        \ to join me as I explore other people\u2019s stories. We will celebrate,\
+        \ above all, the challenges and setbacks that ultimately lead to growth and\
+        \ betterment. What qualifies me for such an endeavor? More than a decade of\
+        \ sobriety, a degree in Anthropology and four years of improv training. I\
+        \ will attempt to discover human \u201Ctruths\u201D without any laboratory\
+        \ work, clinical trials or data collection. I will be, in the great tradition\
+        \ of 16th-century scientists, an Armchair Expert.\",\"thumbnail_url\":\"https://media.simplecast.com/podcast/image/4123/1517966385-artwork.jpg\"\
+        ,\"category\":\"Comedy\\nTV \\u0026 Film\\nMusic\",\"media_type\":\"Audio\"\
+        ,\"language\":\"en\",\"author\":\"Dax Shepard\",\"thumbnail_url_small\":\"\
+        https://static2.pocketcasts.com/discover/images/140/bc216260-f262-0135-c25e-7d73a919276a.jpg\"\
+        },{\"uuid\":\"da3271a0-69e7-0132-d9fd-5f4c86fd3263\",\"url\":\"https://www.npr.org/programs/invisibilia\"\
+        ,\"title\":\"Invisibilia\",\"description\":\"Unseeable forces control human\
+        \ behavior and shape our ideas, beliefs, and assumptions. Invisibilia\u2014\
+        Latin for invisible things\u2014fuses narrative storytelling with science\
+        \ that will make you see your own life differently.\",\"thumbnail_url\":\"\
+        https://media.npr.org/assets/img/2018/08/03/npr_invisibilia_podcasttile_sq-1c4d3c46584f71f04dc5b913c3cb8c08c0209f66.jpg?s=1400\"\
+        ,\"category\":null,\"media_type\":\"Audio\",\"language\":\"en\",\"author\"\
+        :\"NPR\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/da3271a0-69e7-0132-d9fd-5f4c86fd3263.jpg\"\
+        },{\"uuid\":\"e00f3310-8e81-0131-8b7c-723c91aeae46\",\"url\":\"https://audioboom.com/channel/nosuchthingasafish\"\
+        ,\"title\":\"No Such Thing As A Fish\",\"description\":\"A podcast from the\
+        \ QI offices in which the writers of the hit BBC show huddle around a microphone\
+        \ and discuss the best things they've found out this week. Hosted by Dan Schreiber\
+        \ (@schreiberland) with James Harkin (@jamesharkin), Andrew Hunter Murray\
+        \ (@andrewhunterm), and Anna Ptaszynski (#GetAnnaOnTwitter)\",\"thumbnail_url\"\
+        :\"https://images.theabcdn.com/i/24025650.jpg\",\"category\":null,\"media_type\"\
+        :\"Audio\",\"language\":\"en\",\"author\":\"Audioboom\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/e00f3310-8e81-0131-8b7c-723c91aeae46.jpg\"\
+        },{\"uuid\":\"838a18c0-575a-0134-cf69-7b84bf375f4c\",\"url\":\"https://art19.com/shows/wrongful-conviction-with-jason-flom\"\
+        ,\"title\":\"Wrongful Conviction with Jason Flom\",\"description\":\"Based\
+        \ on the files of the lawyers who freed them, Wrongful Conviction features\
+        \ interviews with men and women who have spent decades in prison for crimes\
+        \ they did not commit \u2013 some of them had even been sentenced to death.\_\
+        These are their stories.\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/bb/bc/39/d7/bbbc39d7-f890-4851-be61-4e86cdc0cbc4/48382fdbcb31cd44b71591caa3b382ef159dc9ffa6f040203679099c6d0d543e31969acbe697c56f91ed515e810bf4763ef060fc4fde4102edc25443340c91a5.jpeg\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-us\",\"author\":\"Jason Flom | reVolver Podcasts\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/838a18c0-575a-0134-cf69-7b84bf375f4c.jpg\"\
+        },{\"uuid\":\"04364440-031e-012e-f99b-00163e1b201c\",\"url\":\"https://www.ted.com/talks\"\
+        ,\"title\":\"TED Talks Daily\",\"description\":\"Want TED Talks on the go?\
+        \ Every weekday, this feed brings you our latest talks in audio format. Hear\
+        \ thought-provoking ideas on every subject imaginable -- from Artificial Intelligence\
+        \ to Zoology, and everything in between -- given by the world's leading thinkers\
+        \ and doers. This collection of talks, given at TED and TEDx conferences around\
+        \ the globe, is also available in video format.\",\"thumbnail_url\":\"https://pl.tedcdn.com/rss_feed_images/ted_talks_main_podcast/audio.png\"\
+        ,\"category\":\"Arts\\nDesign\",\"media_type\":\"Audio\",\"language\":\"en\"\
+        ,\"author\":\"TED\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/04364440-031e-012e-f99b-00163e1b201c.jpg\"\
+        },{\"uuid\":\"d0c26240-25ef-0134-2f17-737688e4d168\",\"url\":\"http://www.espn.com/espnradio/podcast/index\"\
+        ,\"title\":\"Ariel Helwani's MMA Show\",\"description\":\"ESPN's Ariel Helwani\
+        \ talks to the biggest names, addresses the hottest topics and previews/reviews\
+        \ the most important fight cards from across the world of MMA.\",\"thumbnail_url\"\
+        :\"http://a.espncdn.com/i/espnradio/logos/ariel_helwani_mma_show_3000x3000.jpg\"\
+        ,\"category\":\"Sports \\u0026 Recreation\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-us\",\"author\":\"ESPN, MMA, Ariel Helwani\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/d0c26240-25ef-0134-2f17-737688e4d168.jpg\"\
+        },{\"uuid\":\"17083f70-eaea-0134-ec45-4114446340cb\",\"url\":\"https://stownpodcast.org\"\
+        ,\"title\":\"S-Town\",\"description\":\"S-Town is a new podcast from Serial\
+        \ and This American Life, hosted by Brian Reed, about a man named John who\
+        \ despises his Alabama town and decides to do something about it. He asks\
+        \ Brian to investigate the son of a wealthy family who's allegedly been bragging\
+        \ that he got away with murder. But when someone else ends up dead, the search\
+        \ for the truth leads to a nasty feud, a hunt for hidden treasure, and an\
+        \ unearthing of the mysteries of one man's life.\",\"thumbnail_url\":\"https://files.stownpodcast.org/img/s-town-itunes.jpg\"\
+        ,\"category\":\"Society \\u0026 Culture\\nPersonal Journals\",\"media_type\"\
+        :\"Audio\",\"language\":\"en\",\"author\":\"Serial \\u0026 This American Life\"\
+        ,\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/17083f70-eaea-0134-ec45-4114446340cb.jpg\"\
+        },{\"uuid\":\"f2d7b290-b98c-0135-9e60-5bb073f92b78\",\"url\":\"https://www.npr.org/sections/money/567724614/the-indicator\"\
+        ,\"title\":\"The Indicator from Planet Money\",\"description\":\"A little\
+        \ show about big ideas. From the people who make Planet Money, The Indicator\
+        \ helps you make sense of what's happening today. It's a quick hit of insight\
+        \ into work, business, the economy, and everything else. Listen weekday afternoons.\"\
+        ,\"thumbnail_url\":\"https://media.npr.org/assets/img/2018/08/03/npr_theindicatorpm_podcasttile_sq-2b1d594a6a7d6c70618924796b4ffd778e9d33a8.jpg?s=1400\"\
+        ,\"category\":\"Business\",\"media_type\":\"Audio\",\"language\":\"en-us\"\
+        ,\"author\":\"NPR\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/f2d7b290-b98c-0135-9e60-5bb073f92b78.jpg\"\
+        },{\"uuid\":\"0ef33560-8246-012e-3a1a-00163e1b201c\",\"url\":\"http://www.thenosleeppodcast.com\"\
+        ,\"title\":\"The NoSleep Podcast\",\"description\":\"The NoSleep Podcast is\
+        \ a multi-award winning anthology series of original horror stories, with\
+        \ rich atmospheric music to enhance the frightening tales.\",\"thumbnail_url\"\
+        :\"https://content.production.cdn.art19.com/images/db/11/0f/ef/db110fef-6de8-46ec-b654-5b9579bdebad/94c86043b285dd04bfad3dbceba9956df37fa8baaa168ef6de45dfc05967f9195c3c2027bc558e361af1fb8f61d9ce76004b17355ed507f1870554ee0eebe084.jpeg\"\
+        ,\"category\":\"Arts\\nLiterature\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Creative Reason Media Inc.\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/0ef33560-8246-012e-3a1a-00163e1b201c.jpg\"\
+        },{\"uuid\":\"5d637b70-3d02-0134-eba6-0d50f522381b\",\"url\":\"https://art19.com/shows/up-and-vanished\"\
+        ,\"title\":\"Up and Vanished\",\"description\":\"Up and Vanished Season 2\
+        \ focuses on the disappearance of young mother Kristal Reisinger from a remote\
+        \ mountain town in Colorado. Follow along with host Payne Lindsey, a filmmaker\
+        \ turned amateur investigator, as he travels to Colorado to trace Reisinger\u2019\
+        s path. In UAV Season 1, Payne tackles his first cold case story, the long\
+        \ unsolved disappearance of Georgia high school teacher and former pageant\
+        \ queen, Tara Grinstead. The 11-year-old case remains the largest case file\
+        \ in Georgia history. Up and Vanished aims to tell compelling, true stories\
+        \ and give these cases the exposure they deserve.\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/af/3d/ee/f6/af3deef6-4bef-4908-ae27-f592fec87dd1/48647fa9754fd8d02de39da1452e9045da16366be7ee8b0e1ab2773cb4f83c5a2547c14a7cef65994d314417a62423d6b515ac981a81e0aab4714e820374cd32.jpeg\"\
+        ,\"category\":\"News \\u0026 Politics\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-us\",\"author\":\"Tenderfoot TV\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/5d637b70-3d02-0134-eba6-0d50f522381b.jpg\"\
+        },{\"uuid\":\"52375d40-eec9-0135-c25e-7d73a919276a\",\"url\":\"https://art19.com/shows/today-explained\"\
+        ,\"title\":\"Today, Explained\",\"description\":\"News comes at you fast.\
+        \ Join us at the end of your day to understand it. Monday to Friday. All killer,\
+        \ no filler. Hosted by Sean Rameswaram. Featuring the finest explainers from\
+        \ Vox and more.\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/bb/ae/09/4a/bbae094a-2155-4d58-982d-de9dfcfe85ca/8a3f7e169a75297006cc47f9e8f8f30374035eb75be667f42c10436cecc8bdfcce07e921b2f9892a0a08b72a3eb63c8f876c8f4130c7bb46ad9f43650f030dea.jpeg\"\
+        ,\"category\":\"News \\u0026 Politics\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Vox and Stitcher\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/52375d40-eec9-0135-c25e-7d73a919276a.jpg\"\
+        },{\"uuid\":\"3dce23a0-7cb2-0131-80db-723c91aeae46\",\"url\":\"http://www.foundmyfitness.com/\"\
+        ,\"title\":\"FoundMyFitness\",\"description\":\"Promoting strategies to increase\
+        \ healthspan, well-being, cognitive and physical performance through deeper\
+        \ understandings of biology.\",\"thumbnail_url\":\"http://www.foundmyfitness.com/fmf-rhonda-1400hw.jpg\"\
+        ,\"category\":\"Health\\nFitness \\u0026 Nutrition\",\"media_type\":\"Audio\"\
+        ,\"language\":\"en-us\",\"author\":\"Rhonda Patrick, Ph.D.\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/3dce23a0-7cb2-0131-80db-723c91aeae46.jpg\"\
+        },{\"uuid\":\"68210b00-0423-012e-f9a0-00163e1b201c\",\"url\":\"https://www.howstuffworks.com\"\
+        ,\"title\":\"Stuff To Blow Your Mind\",\"description\":\"Deep in the back\
+        \ of your mind, you\u2019ve always had the feeling that there\u2019s something\
+        \ strange about reality. There is. Join Robert and Joe as they examine neurological\
+        \ quandaries, cosmic mysteries, evolutionary marvels and our transhuman future\
+        \ on Stuff To Blow Your Mind, a podcast from HowStuffWorks.com.\",\"thumbnail_url\"\
+        :\"http://static.megaphone.fm/podcasts/91de1eac-2de4-11e8-b9c6-cba2d05929c3/image/uploads_2F1533565862252-jllaufj1wn-c0c0492420b1854b2250038d2857f298_2FSTBYMLogo-FINAL-3000x3000.png\"\
+        ,\"category\":\"Science \\u0026 Medicine\",\"media_type\":\"Audio\",\"language\"\
+        :\"en-us\",\"author\":\"HowStuffWorks\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/68210b00-0423-012e-f9a0-00163e1b201c.jpg\"\
+        },{\"uuid\":\"7ac90ac0-4925-0135-902b-63f4b61a9224\",\"url\":\"https://www.facebook.com/citationsneeded/\"\
+        ,\"title\":\"Citations Needed\",\"description\":\"Citations Needed is a podcast\
+        \ about the intersection of media, PR, and power, hosted by Nima Shirazi and\
+        \  Adam Johnson.\",\"thumbnail_url\":\"http://static.libsyn.com/p/assets/6/6/8/9/6689195c7e4129ce/CN-3k.png\"\
+        ,\"category\":\"News \\u0026 Politics\\nSociety \\u0026 Culture\",\"media_type\"\
+        :\"Audio\",\"language\":\"en\",\"author\":\"Nima Shirazi and Adam Johnson\"\
+        ,\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/7ac90ac0-4925-0135-902b-63f4b61a9224.jpg\"\
+        },{\"uuid\":\"f693d8f0-9414-0130-1143-723c91aeae46\",\"url\":\"https://www.facebook.com/thedollop\"\
+        ,\"title\":\"The Dollop with Dave Anthony and Gareth Reynolds\",\"description\"\
+        :\"Comedians Dave Anthony and Gareth Reynolds take on one subject from American\
+        \ history each week.\",\"thumbnail_url\":\"http://static.libsyn.com/p/assets/6/a/9/6/6a96a1557e801d14/Dollop_small_square_1.jpg\"\
+        ,\"category\":null,\"media_type\":\"Audio\",\"language\":\"en\",\"author\"\
+        :\"Dave Anthony and Gareth Reynolds\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/f693d8f0-9414-0130-1143-723c91aeae46.jpg\"\
+        },{\"uuid\":\"56c11920-9d5d-0133-2dcb-6dc413d6d41d\",\"url\":\"https://www.myfavoritemurder.com/\"\
+        ,\"title\":\"My Favorite Murder with Karen Kilgariff and Georgia Hardstark\"\
+        ,\"description\":\"Lifelong fans of true crime stories Karen Kilgariff and\
+        \ Georgia Hardstark tell each other their favorite tales of murder and hear\
+        \ hometown crime stories from friends and fans. \",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/01/63/74/fd/016374fd-eedb-46b2-bcd4-406fce100796/0bf83cad4a350e252c64063dc699c7ae52ba8870873a438735fa1c7a0e5af783fc457271e7cbeb6bb5bf44d82cc366a531671980f5d2944a50a74cf4dc36c9af.jpeg\"\
+        ,\"category\":\"Comedy\\nNews \\u0026 Politics\",\"media_type\":\"Audio\"\
+        ,\"language\":\"en\",\"author\":\"Karen Kilgariff \\u0026 Georgia Hardstark\"\
+        ,\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/56c11920-9d5d-0133-2dcb-6dc413d6d41d.jpg\"\
+        },{\"uuid\":\"5868f690-06fc-0136-c264-7d73a919276a\",\"url\":\"https://art19.com/shows/caliphate\"\
+        ,\"title\":\"Caliphate\",\"description\":\"In the war on terror, who is it\
+        \ that we\u2019re really fighting? \u201CCaliphate\u201D follows Rukmini Callimachi,\
+        \ who covers terrorism for The New York Times, on her quest to understand\
+        \ ISIS. For more information about the series, visit nytimes.com/caliphate.\
+        \ This series includes disturbing language and scenes of graphic violence.Producer:\
+        \ Andy Mills; Reporters: Rukmini Callimachi and Andy Mills; Managing Producer:\
+        \ Larissa Anderson; Editors: Wendy Dorr and Larissa Anderson; Associate Producer:\
+        \ Asthaa Chaturvedi; Technical Director: Brad Fisher; Executive Producer,\
+        \ NYT Audio: Lisa Tobin; Editorial Director, NYT Audio: Samantha Henig; Assistant\
+        \ Managing Editor, NYT: Sam Dolnick; Music: William Brittelle, Andy Mills,\
+        \ Nate Henricks, Cliff Martinez, Brad Fisher, Taku Sugimoto and David Wingo\"\
+        ,\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/e6/93/c9/1b/e693c91b-a3e3-461a-bad2-58c934974872/f9eedfd37de90efcc3bea079dba79b6201f75d8bc2b76aa83e7b8a5ae6c3b2bbf24c960faf8cc06ec58903cdeef9708c52ff7344416257ea1dd5d96b29d67194.jpeg\"\
+        ,\"category\":\"News \\u0026 Politics\\nGovernment \\u0026 Organizations\\\
+        nReligion \\u0026 Spirituality\",\"media_type\":\"Audio\",\"language\":\"\
+        en\",\"author\":\"The New York Times\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/5868f690-06fc-0136-c264-7d73a919276a.jpg\"\
+        },{\"uuid\":\"4622ea40-7bdf-0136-7b90-27f978dac4db\",\"url\":\"https://www.cbc.ca/radio/podcasts/the-shadows/\"\
+        ,\"title\":\"The Shadows\",\"description\":\"Kaitlin Prest, creator and host\
+        \ of the Prix-Italia winner The Heart, presents the first audio fiction from\
+        \ CBC Podcasts. The Shadows is a story about the anatomy of a relationship:\
+        \ a crush, a choice, a resentment and an end. Coming September 2018.\",\"\
+        thumbnail_url\":\"https://www.cbc.ca/radio/podcasts/images/promo-theshadows-1400x1400.jpg\"\
+        ,\"category\":\"Arts\",\"media_type\":\"Audio\",\"language\":\"en-ca\",\"\
+        author\":\"CBC Podcasts\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/4622ea40-7bdf-0136-7b90-27f978dac4db.jpg\"\
+        },{\"uuid\":\"046f9e00-a81a-0131-c656-723c91aeae46\",\"url\":\"https://tim.blog/podcast\"\
+        ,\"title\":\"The Tim Ferriss Show\",\"description\":\"Tim Ferriss is a self-experimenter\
+        \ and bestselling author, best known for The 4-Hour Workweek, which has been\
+        \ translated into 40+ languages.  Newsweek calls him \\\"the world's best\
+        \ human guinea pig,\\\" and The New York Times calls him \\\"a cross between\
+        \ Jack Welch and a Buddhist monk.\\\"  In this show, he deconstructs world-class\
+        \ performers from eclectic areas (investing, chess, pro sports, etc.), digging\
+        \ deep to find the tools, tactics, and tricks that listeners can use.\",\"\
+        thumbnail_url\":\"https://content.production.cdn.art19.com/images/69/10/10/fb/691010fb-625e-4abe-993c-a57228b28dbe/91cb53ae0d5dbb379b9dffecf0a772593891d0d09bbe6d90ee746edbdb79e3ec75584f2ceb8260e9f675a90c05419b9b99842a76905b686f0f51c1a9d3e227ab.jpeg\"\
+        ,\"category\":\"Society \\u0026 Culture\\nPersonal Journals\",\"media_type\"\
+        :\"Audio\",\"language\":\"en\",\"author\":\"Tim Ferriss: Bestselling Author,\
+        \ Human Guinea Pig\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/046f9e00-a81a-0131-c656-723c91aeae46.jpg\"\
+        },{\"uuid\":\"6fd43fe0-9a3f-0133-2dbd-6dc413d6d41d\",\"url\":\"https://art19.com/shows/pivot-with-kara-swisher-and-scott-galloway\"\
+        ,\"title\":\"Pivot with Kara Swisher and Scott Galloway\",\"description\"\
+        :\"With great power comes great scrutiny. Every Friday, Kara Swisher and Scott\
+        \ Galloway offer sharp, unfiltered insights into how technology is shaping\
+        \ business and culture across media, marketing, politics, and more.\",\"thumbnail_url\"\
+        :\"https://content.production.cdn.art19.com/images/3b/15/76/b4/3b1576b4-7348-40f2-8d29-76fcb447da51/83646b6118f9b4b2a4b409eb4c8e7c6addf7c375b73555f34828f03be19cc02fcbe30f4719db30b7d3c014ef7386020b5c50780782d737e1c94ea0b987eb0a52.jpeg\"\
+        ,\"category\":\"Technology\\nGadgets\\nSoftware How-To\",\"media_type\":\"\
+        Audio\",\"language\":\"en\",\"author\":\"Recode\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/6fd43fe0-9a3f-0133-2dbd-6dc413d6d41d.jpg\"\
+        },{\"uuid\":\"6cd5f110-349a-0136-fa7b-0fe84b59566d\",\"url\":\"https://earwolf.com/show/unspooled\"\
+        ,\"title\":\"Unspooled\",\"description\":\"Paul Scheer is a lifelong movie\
+        \ buff, but he's never seen many of the all time greats. On Unspooled, his\
+        \ team-up with film critic Amy Nicholson, he's remedying that by watching\
+        \ the AFI's top 100 movies of all time, to find out what makes classics like\
+        \ Citizen Kane and Taxi Driver so special.\_Paul \\u0026 Amy will dissect\
+        \ iconic scenes, talk to artists and industry experts, and discover just how\
+        \ these films got made.\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/e9/e5/7c/9d/e9e57c9d-9a5d-4f7f-8860-a3f71a58fd2c/49a8df823859640b6d55121d6670c8e4ee76da28e4ac6ca59612517b23462b895fe787de9d0a703938462b7879b65e02f0ef56da121fc633274a9172533aa4bc.jpeg\"\
+        ,\"category\":\"TV \\u0026 Film\",\"media_type\":\"Audio\",\"language\":\"\
+        en-us\",\"author\":\"Earwolf, Paul Scheer \\u0026 Amy Nicholson\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/6cd5f110-349a-0136-fa7b-0fe84b59566d.jpg\"\
+        },{\"uuid\":\"5cda9490-4117-012e-1622-00163e1b201c\",\"url\":\"https://art19.com/shows/vergecast\"\
+        ,\"title\":\"The Vergecast\",\"description\":\"Hello! This is The Vergecast,\
+        \ the flagship podcast of The Verge... and your life. Every Friday, Nilay\
+        \ Patel, Dieter Bohn, and Paul Miller make sense of the week's tech news with\
+        \ help from our diverse and wide-ranging staff. And on Tuesdays, Nilay hosts\
+        \ in-depth, one-on-one interviews with major technology leaders. Join us every\
+        \ week for a fun, deeply nerdy, often off-the-rails conversation about what's\
+        \ happening now (and next) in the world of technology and gadgets. And, remember,\
+        \ promo code.\",\"thumbnail_url\":\"https://content.production.cdn.art19.com/images/9d/1f/43/48/9d1f4348-093d-4844-b0fd-542fcaf189b5/c33f88bcfe2f5a8b9dce1dd4c387101f0127c44abb74bc29423a695cfc02a181a7cd9a9cf9fecf12b8d70b55fd6a0450510db9233984ff3e4b2d3ae3c5bd960b.jpeg\"\
+        ,\"category\":\"Technology\\nTech News\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"The Verge\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/5cda9490-4117-012e-1622-00163e1b201c.jpg\"\
+        },{\"uuid\":\"39897570-6d94-0131-7809-723c91aeae46\",\"url\":\"http://thisiscriminal.com/\"\
+        ,\"title\":\"Criminal\",\"description\":\"Criminal is a podcast about crime.\
+        \ Not so much the \\\"if it bleeds, it leads,\\\" kind of crime. Something\
+        \ a little more complex. Stories of people who've done wrong, been wronged,\
+        \ and/or gotten caught somewhere in the middle. We are a proud member of Radiotopia,\
+        \ from PRX, a curated network of extraordinary, story-driven shows. Learn\
+        \ more at radiotopia.fm.\",\"thumbnail_url\":\"https://f.prxu.org/criminal/images/d0289e32-97a1-485d-a1e1-cd47119dbcf4/CRIMINAL_LOGOS_FINAL_wt_sq.png\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Criminal \\u0026 Radiotopia\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/39897570-6d94-0131-7809-723c91aeae46.jpg\"\
+        },{\"uuid\":\"170a7610-948e-0135-9d21-5bb073f92b78\",\"url\":\"https://darknetdiaries.com/\"\
+        ,\"title\":\"Darknet Diaries\",\"description\":\"Explore the dark side of\
+        \ the Internet with host Jack Rhysider as he takes you on a journey through\
+        \ the chilling world of privacy hacks, data breaches, and cyber crime. The\
+        \ masterful criminal hackers who dwell on the dark side show us just how vulnerable\
+        \ we all are.\",\"thumbnail_url\":\"https://darknetdiaries.com/imgs/darknet-diaries-rss.jpg\"\
+        ,\"category\":\"Technology\\nTech News\\nSociety \\u0026 Culture\\nHistory\"\
+        ,\"media_type\":\"Audio\",\"language\":\"en-us\",\"author\":\"Jack Rhysider\"\
+        ,\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/170a7610-948e-0135-9d21-5bb073f92b78.jpg\"\
+        },{\"uuid\":\"7be8e0e0-1e33-0135-52f8-452518e2d253\",\"url\":\"https://www.audible.com/ep/estherperel\"\
+        ,\"title\":\"Where Should We Begin? with Esther Perel\",\"description\":\"\
+        Step into iconic relationship therapist Esther Perel\u2019s office and listen\
+        \ as 10 anonymous couples in search of insight bare the raw, intimate, and\
+        \ profound details of their story. From infidelity, to sexlessness, to loss,\
+        \ it\u2019s a space for people to be heard and understood. It\u2019s also\
+        \ a place for us to listen and feel empowered in our own relationships. So..\
+        \ where should we begin? New episode every Friday, starting Oct. 20th. Season\
+        \ 2 drops on Audible Oct. 24th.\",\"thumbnail_url\":\"http://static.libsyn.com/p/assets/a/a/e/d/aaed8fc1dc13322c/Esther_Perel_Podcast_Art2.jpg\"\
+        ,\"category\":\"Society \\u0026 Culture\",\"media_type\":\"Audio\",\"language\"\
+        :\"en\",\"author\":\"Audible\",\"thumbnail_url_small\":\"https://static2.pocketcasts.com/discover/images/140/7be8e0e0-1e33-0135-52f8-452518e2d253.jpg\"\
+        },{\"uuid\":\"d4742620-76ed-0136-7b8e-27f978dac4db\",\"url\":\"https://twitter.com/Film4?lang=en\"\
+        ,\"title\":\"Ghibliotheque - A Podcast About Studio Ghibli\",\"description\"\
+        :\"Welcome to the Ghibliotheque, the podcast that leafs through the library\
+        \ of films from the world\u2019s greatest animation studio, Studio Ghibli.To\
+        \ coincide with UK broadcaster Film4's complete Studio Ghibli retrospective\
+        \ this summer, Michael Leader (Little White Lies, Sight \\u0026 Sound), an\
+        \ avowed Ghibli fanatic, is sitting down with Jake Cunningham (The Independent,\
+        \ BFI), who has never seen any of the Studio\u2019s work before. Together\
+        \ they'll be looking at the history behind Ghibli's films (including Spirited\
+        \ Away, My Neighbour Totoro and Princess Mononoke), getting a critical perspective\
+        \ from Jake as a first-time viewer and forcing Michael to rank some of his\
+        \ favourite ever films.Released on Fridays over the summer, subscribe now\
+        \ to get Ghibliotheque delivered straight to your feed.Follow Michael and\
+        \ Jake on Twitter:@MichaelJLeader \u2013 Michael@jakehcunningham \u2013 Jake\"\
+        ,\"thumbnail_url\":\"https://thumborcdn.acast.com/m_-FY2fKC30cGhef7uz4wlp7V9o=/1500x1500/https://mediacdn.acast.com/assets/9b41cd90-c759-4ccb-98b1-16a633915c57/-jkbbdd91-ghibilogo1.jpg\"\
+        ,\"category\":\"TV \\u0026 Film\\nArts\\nVisual Arts\\nSociety \\u0026 Culture\\\
+        nHistory\",\"media_type\":\"Audio\",\"language\":\"en\",\"author\":\"Michael\
+        \ Leader, Jake Cunningham \\u0026 Harold McShiel\",\"thumbnail_url_small\"\
+        :\"https://static2.pocketcasts.com/discover/images/140/d4742620-76ed-0136-7b8e-27f978dac4db.jpg\"\
+        }],\"updated_at\":\"2018-10-11 05:06:43 UTC\"}}"}
+    headers:
+      Accept-Ranges: [bytes]
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [max-age=1800]
+      Connection: [close]
+      Content-Length: ['93440']
+      Content-Type: [application/json]
+      Date: ['Thu, 11 Oct 2018 15:45:16 GMT']
+      ETag: ['"5bbef504-16d00"']
+      Expires: ['Thu, 11 Oct 2018 16:15:16 GMT']
+      Last-Modified: ['Thu, 11 Oct 2018 07:00:20 GMT']
+      Server: [nginx/1.14.0]
+    status: {code: 200, message: OK}
+version: 1

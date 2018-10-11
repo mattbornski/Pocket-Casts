@@ -1,0 +1,80 @@
+interactions:
+- request:
+    body: '%5Buser%5Demail=test&%5Buser%5Dpassword=INVALID'
+    headers:
+      Content-Length: ['47']
+      Content-Type: [application/x-www-form-urlencoded]
+    method: POST
+    uri: https://play.pocketcasts.com/users/sign_in
+  response:
+    body: {string: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"\
+        utf-8\">\n  <meta name=\"description\" content=\"Listen to your favorite podcasts\
+        \ in your browser. Start your 14 day trial here.\">\n  <meta http-equiv=\"\
+        X-UA-Compatible\" content=\"IE=Edge,chrome=1\">\n  <meta name=\"viewport\"\
+        \ content=\"width=device-width, initial-scale=1.0\">\n  <link rel=\"apple-touch-icon-precomposed\"\
+        \ sizes=\"76x76\" href=\"/assets/favicon-76-de30edd979b7827f9c99a26f8a2ab216a47f551a7f7d17fd5217be92f09dbd45.png\"\
+        \ />\n<link rel=\"apple-touch-icon-precomposed\" sizes=\"152x152\" href=\"\
+        /assets/favicon-152-cd0973f2271554c96bd75b6aea59fc97e39c6d61632e8d2be7f6447f4a0e7c38.png\"\
+        \ />\n<link rel=\"icon\" href=\"/favicon.ico\" type=\"image/x-icon\" />\n\
+        <link rel=\"shortcut icon\" href=\"/favicon.ico\" type=\"image/x-icon\" />\n\
+        <link rel=\"icon\" href=\"/assets/favicon-16-7769e4435e769f09418d01b4cbf69b4254e051d99774f2f9f21def8d3ff03d96.png\"\
+        \ type=\"image/png\" sizes=\"16x16\" />\n<link rel=\"icon\" href=\"/assets/favicon-32-08267f5f61d1e5fa04dd2eda2b615e2483a97642e1ee50bc489d00122ce32157.png\"\
+        \ type=\"image/png\" sizes=\"32x32\" />\n<link rel=\"icon\" href=\"/assets/favicon-96-8e7eacb5a6957b117116dcf7f428e8be82c4d93a43c4aab7dd5f398a5e1c4066.png\"\
+        \ type=\"image/png\" sizes=\"96x96\" />\n<link rel=\"icon\" href=\"/assets/favicon-128-e3d59ddc5117a7efa170693d9299c01883d102f1c62c81b08bcbb55bd7152b0b.png\"\
+        \ type=\"image/png\" sizes=\"128x128\" />\n<link rel=\"icon\" href=\"/assets/favicon-196-764eabc609dde7fb5e746b11ba934c5e3f21115e2fad01477f038b21d66b023b.png\"\
+        \ type=\"image/png\" sizes=\"196x196\" />\n<link rel=\"mask-icon\" href=\"\
+        /assets/safaripin-77e9d90e5b601140255b449546876dd4a9ff421ac23483b2d14536ba65b8b7b7.svg\"\
+        \ color=\"#F44336\" />\n  <title>Pocket Casts</title>\n\n  <script type=\"\
+        text/javascript\" src=\"//use.typekit.net/vyg1evw.js\"></script>\n  <script\
+        \ type=\"text/javascript\">try{Typekit.load();}catch(e){}</script>\n\n  <meta\
+        \ name=\"csrf-param\" content=\"authenticity_token\" />\n<meta name=\"csrf-token\"\
+        \ content=\"7/CCQzeXWXcOAz6ybwKnAMTEbVHHBqmExrLoa6paiN9DFxROXAo1Vx7napC3kejTaBOaRaNP0EvU3tkCGE6g3Q==\"\
+        \ />\n  <link rel=\"stylesheet\" media=\"screen\" href=\"/assets/application-d81bcd21e87689dde6eeff5e9bdc83d0cdf7cd126e16c70d689865707c315e47.css\"\
+        \ />\n  <script src=\"/assets/application-df746dd666ff7f87458ee54d1548a98e689b3d64c4fe1c4ed9c67561e37f215a.js\"\
+        ></script>\n\n</head>\n<body>\n\n<div class=\"container\">\n\n  <div id=\"\
+        sign_in_page\">\n    <a href=\"/\"><h1 class=\"logo\">Pocket Casts</h1></a>\n\
+        \    <p>Welcome to Pocket Casts. Please sign in with your Pocket Casts Account\
+        \ to continue.</p>\n\n    <form role=\"form\" class=\"new_user\" id=\"new_user\"\
+        \ action=\"/users/sign_in\" accept-charset=\"UTF-8\" method=\"post\"><input\
+        \ name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input type=\"hidden\"\
+        \ name=\"authenticity_token\" value=\"9i4CDzYP0xsXdYg9XVA4l+MFi4Mxpki5ki1modgQLohayZQCXZK/OweR3B+Fw3dET9J8l1XvMXaAQVfIagQGig==\"\
+        \ />\n        \n\n        \n        \n        <div id=\"flash_alert\" class=\"\
+        alert alert-danger\">Invalid email or password.</div>\n\n        <div class=\"\
+        form-group\">\n          <input autofocus=\"autofocus\" class=\"form-control\
+        \ form_text\" placeholder=\"Email\" type=\"email\" value=\"test\" name=\"\
+        user[email]\" id=\"user_email\" />\n        </div>\n\n        <div class=\"\
+        form-group\">\n          <input class=\"form-control form_text\" placeholder=\"\
+        Password\" type=\"password\" name=\"user[password]\" id=\"user_password\"\
+        \ />\n        </div>\n\n        <input type=\"hidden\" name=\"user[remember_me]\"\
+        \ id=\"user_remember_me\" value=\"1\" />\n\n        <div id=\"forgotten_password\"\
+        ><a href=\"/users/password/new\">I forgot my password</a></div>\n\n      \
+        \  <div class=\"button_container clear\"><input type=\"submit\" name=\"commit\"\
+        \ value=\"Sign In\" class=\"submit_button primary_button\" data-disable-with=\"\
+        Sign In\" /></div>\n</form>\n    <a href=\"/users/sign_up\">Don&#39;t have\
+        \ an account?</a>\n\n  </div>\n\n</div>\n\n\n<script>\n    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n\
+        \        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n\
+        \            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n\
+        \    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\
+        \n    ga('create', 'UA-44126141-2', 'auto');\n    ga('send', 'pageview');\n\
+        \n</script>\n\n\n</body>\n</html>\n\n"}
+    headers:
+      Cache-Control: ['max-age=0, private, must-revalidate']
+      Connection: [keep-alive]
+      Content-Type: [text/html; charset=utf-8]
+      Date: ['Thu, 11 Oct 2018 15:45:11 GMT']
+      ETag: [W/"df3d1fd3a9f7a13ec351a58d0d9e60e4"]
+      Server: [nginx/1.10.3 + Phusion Passenger 5.3.2]
+      Set-Cookie: [XSRF-TOKEN=2FSJZ%2Ft1NkPBnx5aIlE%2BeevbfyYetjyfMBqhOVpmlK90sx9qkOhaY9F7Snj6wnGqRwyIMnr%2FRVAidpBQ6HK8rQ%3D%3D;
+          path=/, _social_session=MTFrYVlpeCtFZGpvZTdyUWNuL3JhRkdpMmlZR2U4UjdYUzFPSEJ5TnBXN0Z0L2lSMWk2aFlqU1ZydVAzNTFWSkcvMDA3dWMwaEdhTXhQYTlzRmRLdG1FNm9zb05XVWIrRTZyMlE5T1JkanhGMi8yS1E2Nk9NUktpZE5uN2FBbXRFejNvdzJwb3A1UzB6TURLWmFGMWdaOVM1cWlFZkIraHU3c0dadWJ1bGY2bFJjUmJyQXNnZTZkZlpGV1lZYURTLS0vWm5OU3JaN1JIOTB4azk4NVlQMWRnPT0%3D--26148d2589abefe3e5fe5ebff3010a286268bb2b;
+          path=/; HttpOnly]
+      Status: [200 OK]
+      Strict-Transport-Security: [max-age=15768000]
+      Transfer-Encoding: [chunked]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Powered-By: [Phusion Passenger 5.3.2]
+      X-Request-Id: [0fa0b9af-a511-4531-843b-396bd821361f]
+      X-Runtime: ['0.100019']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 200, message: OK}
+version: 1

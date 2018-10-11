@@ -1,16 +1,15 @@
-import pocketcasts
 from setuptools import setup, find_packages
 
 setup(
     name="pocketcasts-api",
 
-    version=pocketcasts.api.__version__,
+    version='0.2.3',
 
-    description=pocketcasts.api.__doc__,
+    description='Unofficial API for pocketcasts.com',
 
-    url=pocketcasts.api.__url__,
+    url='https://github.com/furgoose/Pocket-Casts',
 
-    author=pocketcasts.api.__author__,
+    author='Fergus Longley',
     author_email='ferguslongley@live.com',
 
     license='MIT',
@@ -21,9 +20,12 @@ setup(
         'Programming Language :: Python :: 3.5',
     ],
 
-    packages=find_packages(exclude=['testing']),
+    packages=find_packages(exclude=['tests']),
 
     keywords='podcasts pocketcasts',
 
     install_requires=['requests'],
+    extras_require={
+        'test': ['pytest', 'vcrpy'],
+    }
 )

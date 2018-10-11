@@ -3,11 +3,6 @@ import requests
 from .podcast import Podcast
 from .episode import Episode
 
-__version__ = "0.2.3"
-__author__ = "Fergus Longley"
-__url__ = "https://github.com/exofudge/Pocket-Casts"
-
-
 class Pocketcasts(object):
     """The main class for making getting and setting information from the server"""
     def __init__(self, email, password):
@@ -59,7 +54,7 @@ class Pocketcasts(object):
         """
         login_url = "https://play.pocketcasts.com/users/sign_in"
         data = {"[user]email": self._username, "[user]password": self._password}
-        attempt = self._make_req(login_url, data=data)
+        attempt = self._make_req(login_url, method='POST', data=data)
 
         # TODO Find a more robust way to check if login failed
         if "Invalid email or password" in attempt.text:
